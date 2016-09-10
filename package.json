@@ -1,8 +1,10 @@
 {
     "name": "hexoblog",
-    "version": "2.0",
+    "version": "2.0.0",
     "private": true,
     "scripts": {
+        "start": "hexo g && hexo d && git add -A && git commit -m 'auto backup' && git push",
+        "git": "git add . && git commit -m\"auto backup\" && git push",
         "hexo": "hexo g && hexo d"
     },
     "hexo": {
