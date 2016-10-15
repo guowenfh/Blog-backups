@@ -1,6 +1,6 @@
 title: Node.js 模块系统
 date: 2016-10-15 11:18:41
-tags: [nodejs,module]
+tags: [nodejs]
 categories: [node]
 ---
 

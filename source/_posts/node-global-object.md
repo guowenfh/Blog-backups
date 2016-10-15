@@ -1,7 +1,7 @@
 title: process 对象与 Buffer 类
 date: 2016-10-15 11:40:29
-tags:
-categories:
+tags: [nodejs]
+categories: [node]
 ---
 
 >在上一篇博客中，我们一起对于 node 的模块机制有了一点点的了解，当时我们就知道了在 node 中的全局对象是 `global` 而不是浏览器中的 `window` 它们有一部分属性方法是相同的，
