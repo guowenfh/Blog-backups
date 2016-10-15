@@ -1,6 +1,6 @@
 title: Node.js 模块系统
 date: 2016-10-15 11:18:41
-tags: [Node.js]
+tags: [nodejs,module]
 categories: [node]
 ---
 
@@ -60,7 +60,7 @@ console.log(a); //ReferenceError: a is not defined
 ```
 至于去掉 var 之后会是怎么样,大家自己试试吧 ^ ^
 
-### 暴露模块API
+## 暴露模块API
 > module、module.exports、exports
 
 如同上面代码中所展示的，在 nodejs 中不能直接去拿到另一个模块中的变量函数等等。要让模块暴露一个API成为 `require`调用的返回值，我们就需要通过 `module.exports` 或者 `exports` 对外提供模块内部变量的访问。
@@ -115,3 +115,5 @@ a('ok');
 这样有一个需要注意的地方是：直接覆盖 `exports` 或者 `module.exports`让模块导出一个值，这样做会破坏 `exports` 和  `module.exports` 的引用关系。
 
 这是对于 node 的模块系统的学习，理解有限，如果有错误之处，请指出，谢谢！
+
+本文地址：[https://guowenfh.github.io/2016/10/15/node-module-system/](https://guowenfh.github.io/2016/10/15/node-module-system/)

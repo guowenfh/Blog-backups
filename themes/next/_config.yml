@@ -44,7 +44,7 @@ menu:
   tags: /tags
 
   #分类（需手动创建）
-  categories: /categories
+  # categories: /categories
 
   #关于页面（需手动创建）
   about: /about
