@@ -44,7 +44,7 @@ categories: [node]
 ### 更易用的方法
 
 1. `fs.writeFlie(filename, data, [options], callback)`:
-    异步的将数据写入一个文件,如果文件不存在则新建, 如果文件原先存在，会被替换。
+异步的将数据写入一个文件,如果文件不存在则新建, 如果文件原先存在，会被替换。
     - `filename` : 文件路径，
     - `data` : data 可以是一个string，也可以是一个原生buffer。
     - `options` : 选项
@@ -53,8 +53,7 @@ categories: [node]
         - `flag` : default = 'a'
     - `callback` : 回调函数
 2. `fs.writeFileSync(filename, data, [options])`：fs.writeFile的同步版本。
-3. `fs.appendFile(filename, data, [options], callback)`：
-    异步的将数据添加到一个文件的尾部，如果文件不存在，会创建一个新的文件。
+3. `fs.appendFile(filename, data, [options], callback)`：异步的将数据添加到一个文件的尾部，如果文件不存在，会创建一个新的文件。
     - `filename` : 文件路径，
     - `data` : data 可以是一个string，也可以是一个原生buffer。
     - `options` : 选项
@@ -90,3 +89,7 @@ categories: [node]
 3. `fs.readdir(path, callback)`:读取 path 路径所在文件夹的内容。
     回调函数 (callback) 接受两个参数 (err, files) 其中 files 是一个存储目录中所包含的文件名称的数组，数组中不包括 '.' 和 '..'
 4. `fs.readdirSync(path)`:同步版的 readdir(). 返回文件名数组，其中不包括 '.' 和 '..' 目录.
+
+这是对于 node 的文件系统 的学习，仅仅过了一遍api，了解了一下处理流程，理解有限，如果有错误之处，请指出，谢谢！
+
+本文地址：[https://guowenfh.github.io/2016/10/15/node-file-system/](https://guowenfh.github.io/2016/10/15/node-file-system/)
