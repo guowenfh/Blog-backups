@@ -8,17 +8,17 @@ const commonPath = './source/_posts/'
 
 let dir = fs.readdirSync(commonPath)
 
-function walkDir (dir, dirPath) {
-  dir.forEach(val => {
-    const stat = fs.statSync(`${dirPath}${val}`)
-    if (stat.isDirectory()) {
-      walkDir(fs.readdirSync(`${dirPath}${val}`), `${dirPath}${val}/`)
-    } else {
-      totalLength += fs.readFileSync(`${dirPath}${val}`, 'utf-8').length
-    }
-  })
+function walkDir(dir, dirPath) {
+    dir.forEach(val => {
+        const stat = fs.statSync(`${dirPath}${val}`)
+        if (stat.isDirectory()) {
+            walkDir(fs.readdirSync(`${dirPath}${val}`), `${dirPath}${val}/`)
+        } else {
+            totalLength += fs.readFileSync(`${dirPath}${val}`, 'utf-8').length
+        }
+    })
 }
 
-walkDir(dir, commonPath)
+walkDir(dir, commonPatnodeh)
 
 console.log(`博客总字数为：${totalLength}`)
