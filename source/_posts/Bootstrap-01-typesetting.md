@@ -10,7 +10,7 @@ categories: [Bootstrap]
 
 字体颜色与字体样式继承自父元素，字体粗细为500，且行高全部设为1.1（也就是font-size的1.1倍）
 
-```css
+```
 {
     font-family: inherit;
     font-weight: 500;
@@ -29,6 +29,7 @@ categories: [Bootstrap]
 除此之外在Bootstrap中为了**让非标题元素和标题使用相同的样式**，还特意定义了**.h1~.h6**六个类名。如下所示：
 
 在Bootstrap中，下面的代码，显示效果相同。
+
 ```html
 <!--Bootstrap中的标题-->
 <h1>Bootstrap标题一</h1>

@@ -163,18 +163,14 @@ oAjax.open("GET", url+"?"+param, true);
  
 5. 使用post请求数据，对**2.连接服务器、3.发送请求**部分进行处理
 
-
 #### 实现如下：
 
-
 原：
-
 
 ```javascript
 //2.连接服务器
 oAjax.open("GET", url+"?"+param, true);
 ```
-
 
 **现**：
 

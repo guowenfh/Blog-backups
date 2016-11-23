@@ -7,7 +7,7 @@ categories: [Bootstrap]
 我们接下来要学习的东西呢，是Bootstrap为我们提供的一些组件，这些组件的使用非常简单，可以方便快捷帮助我们搭建网站，并且能达到一个不错的显示效果。我们最需要注意的就是：**HTML的结构**和bootstrap提供**添加到结构上的类以及属性**。
 这些组件的交互功能是依赖于jQuery库实现的，所以还必须引入jQuery.js，且必须在Bootstrap.js之前。正式上线的话直接使用压缩版本就可以了如下：
 
-```javascript
+```html
 <script src="../js/jquery-min-1.11.3.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 ```

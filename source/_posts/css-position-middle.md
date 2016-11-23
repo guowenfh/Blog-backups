@@ -10,6 +10,7 @@ categories: [前端技术]
 在这些布局中的子元素，因为其属性设置，都默认为内容宽度。
 
 本博客所有居中的例子，只讨论css的实现，html代码统一如下：
+
 ```html
 <div class="parent">
     <div class="child">demo</div>
@@ -34,7 +35,7 @@ categories: [前端技术]
 
 > 优点：兼容性非常好，只需要添加只需要在子元素的css中添加`*display:inline`和`*zoom:1`就可兼容到IE6、7；缺点：内部文字也会水平居中，需消除影响。
 
-### 1.2  `table`配合`margin` 
+### 1.2  `table`配合`margin`
 
 
 ```css
@@ -78,7 +79,7 @@ categories: [前端技术]
 >优点：设置简单，只需对父元素进行设置，兼容到IE8+，需兼容地版本浏览器时，可更换`div`为表格结构。
 
 ### 2.2  `absolute`配合`tranform`
- 
+
 ```css
 .parent{
     position:relative;
@@ -142,8 +143,8 @@ css3新增布局属性，布局简单，强大，性能略差，只支持IE10+�
 }
 /* 在设置子元素为margin: 0 auto;时，可删除父元素的justify-content: center;同样可以达到居中效果*/
 /*  .child{
-        margin: 0 auto; 
-    }*/    
+        margin: 0 auto;
+    }*/
 ```
 
 ### 4.2  垂直居中
