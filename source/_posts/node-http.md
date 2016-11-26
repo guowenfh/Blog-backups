@@ -1,7 +1,7 @@
 title: http 模块
 date: 2016-10-15 12:38:52
-tags:
-categories:
+tags: [nodejs]
+categories: [node]
 ---
 
 一个网站的加载流程粗略的流程大概如下：
