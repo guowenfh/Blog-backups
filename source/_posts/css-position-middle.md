@@ -47,7 +47,7 @@ categories: [前端技术]
 
 > 优点：设置特别简单，只需对子元素进行设置，支持IE8+，需支持IE6，7时，可更换子元素为表格结构。
 
-### 1.3  `abasolute`配合`transform`
+### 1.3  `absolute`配合`transform`
 
 ```css
 .parent{
