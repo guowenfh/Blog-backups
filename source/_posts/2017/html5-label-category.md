@@ -1,7 +1,7 @@
 title: HTML5常用标签分类
 date: 2017-04-21 23:45:12
-tags:[HTML]
-categories:[前端技术]
+tags: [HTML]
+categories: [前端技术]
 ---
 
 > 文章是很早之前的笔记，做了一些属性上的补充，现发布到博客中来
