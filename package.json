@@ -5,7 +5,8 @@
   "scripts": {
     "start": "hexo g && hexo d && git add . && git commit -m\"auto backup\" && git push",
     "git": "git add . && git commit -m\"auto backup\" && git push",
-    "hexo": "hexo g && hexo d"
+    "hexo": "hexo g && hexo d",
+    "server": "hexo s"
   },
   "hexo": {
     "version": "3.2.2"
