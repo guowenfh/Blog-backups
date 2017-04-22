@@ -51,7 +51,7 @@ HTML5基本介绍
 
 ### 二. 布局标签&语义化
 
-![](./_image/2017-04-17-23-52-27.jpg)
+![](https://ws1.sinaimg.cn/large/82d12951gy1fevim1rbn6j20zq0tyjum.jpg)
 
 1. `<div>`:定义块级元素.
 2. `<span>`:定义行业元素.
@@ -59,7 +59,7 @@ HTML5基本介绍
 4. `<footer>`:定义区段或页面的页脚.(足部)
 5. `<section>`:定义文档中的区段.
 6. `<article>`:定义文章.（在`<article>`中也可以进行内容划分）
-    -   ![](./_image/2017-04-17-23-54-13.jpg)
+    -   ![](https://ws1.sinaimg.cn/large/82d12951gy1fevim24vmpj20n40lsgpn.jpg)
 7. `<aside>`:定义页面内容之外的内容.
 8. `<details>`:定义元素的细节.
 9. `<summary>`:定义 `<details>` 元素可见的标题.
