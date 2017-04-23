@@ -28,7 +28,7 @@ $('button').bind('click', function() {
 
 2. 执行普通函数式无须圆括号
 ```javascript
-$('button').bind('click', fn); 
+$('button').bind('click', fn);
 function fn() {//普通处理函数
     alert('点击！');
 }
@@ -36,7 +36,7 @@ function fn() {//普通处理函数
 
 3. 可以同时绑定多个事件
 ```javascript
-$('button').bind('mouseout mouseover', function() { 
+$('button').bind('mouseout mouseover', function() {
     $('div').html(function(index, value) {
         return value + '1';//移入和移出分别执行一次
     });
@@ -45,7 +45,7 @@ $('button').bind('mouseout mouseover', function() {
 
 4. 另一种方式：传递一个对象
 ```javascript
-$('button').bind({ 
+$('button').bind({
     'mouseout': function() { //事件名的引号可以省略
         alert('移出');
     },
@@ -101,9 +101,9 @@ $('button').unbind('click', fn1); //只删除click事件的fn1处理函数。
 1. `unload(fn)`、`resize(fn)`、`scroll(fn)`，使用`$(window)`对象触发。
 
 2. `change(fn)`：触发的条件是，输入框的值有改变，且失去焦点。
- 
+
 3. `submit(fn)`：必须在form中，并且使用`$("form")`作为事件触发元素，不然无效。
- 
+
 4. `.mouseover()`和`.mouseout()`表示鼠标移入和移出的时候触发。那么 jQuery 还封装了另外一组：`.mouseenter()`和`.mouseleave()`表示鼠标穿过和穿出的时候触发。那么这两组本质上有什么区别呢？
 手册上的说明是：`.mouseenter()`和`.mouseleave()`这组穿过子元素不会触发，而`.mouseover()`和`.mouseout()`则会触发。
 经过实验，代码如下：
@@ -146,7 +146,7 @@ $('input').keypress(function(e) {
         alert("激活"); //绑定的是 div 元素，子类input触发
     });
     $('div').focusout(function(e) {
-        alert("丢失"); 
+        alert("丢失");
     });
 </script>
 ```
@@ -234,10 +234,10 @@ $('input').bind('click', function (e) { //接受事件对象参数
     <p style="width:50px;height:50px;background:#333"></p>
 </div>
 <script>
-    $('div').bind('click', function (e) { 
+    $('div').bind('click', function (e) {
     alert(e.target);//点击p时返回p
     });
-    $('div').bind('click', function (e) { 
+    $('div').bind('click', function (e) {
         alert(e.currentTarget);//无论何时都返回div，等同this
     });
 </script>
@@ -297,7 +297,7 @@ $("div").click(function(e) {
 
 同时取消默认行为以及事件冒泡：
 ```html
-<a href="http://guowenfh.github.io">三省吾身丶丶</a>
+<a href="//guowenfh.github.io">三省吾身丶丶</a>
 <script >
     $("a").click(function(e) {
         // e.preventDefault();//阻止默认行为
@@ -398,7 +398,7 @@ $("button").unbind('click.abc' );//处理过后只弹出xyz。
 **注意：**也可以直接使用`('.abc')`，这样的话，可以移除**相同命名空间的不同事件**。对于模拟操作`.trigger()`和.`triggerHandler()`，用法也是一样的。`$('input').trigger('click.abc')`
 
 ### 三.事件委托
-> 事件委托也就是事件代理。我在[task0002（二）- DOM + 事件](http://guowenfh.github.io/2015/12/16/task0002-DOM&&event/)已经谈过了。而且也自己实现了一下事件代理，这里稍微再介绍一下:
+> 事件委托也就是事件代理。我在[task0002（二）- DOM + 事件](//guowenfh.github.io/2015/12/16/task0002-DOM&&event/)已经谈过了。而且也自己实现了一下事件代理，这里稍微再介绍一下:
 
 1. “事件代理” 的本质是利用了事件冒泡的特性。当一个元素上的事件被触发的时候，比如说鼠标点击了一个按钮，同样的事件将会在那个元素的所有祖先元素中被触发。这一过程被称为事件冒泡；
 2. 这个事件从原始元素开始一直冒泡到DOM树的最上层。任何一个事件的目标元素都是最开始的那个元素，在我们的这个例子中也就是按钮，并且它在我们的元素对象中以属性的形式出现。
@@ -427,7 +427,7 @@ $("button").unbind('click.abc' );//处理过后只弹出xyz。
 ## 强大的`on` 、`off` 和`one`
 >目前绑定事件和解绑的方法有三组共六个。由于这三组的共存可能会造成一定的混乱，为此 jQuery1.7 以后推出了.on()和.off()方法彻底摒弃前面三组。（暂时未移除）
 
-### 一. `on` 
+### 一. `on`
 
 1. 替代`.bind()`方式
 ```javascript

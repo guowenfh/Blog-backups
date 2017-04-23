@@ -125,7 +125,7 @@ Bootstrap框架中下拉菜单**默认是左对齐**也就是添加`.dropdown-me
 
 ## 按钮
 
-我们在[《Bootstrap入门笔记之（二）表单》](http://guowenfh.github.io/2016/01/18/Bootstrap-02-form/)中，已经了解过了Bootstrap中按钮的使用，在这里我们继续进行一些扩展！
+我们在[《Bootstrap入门笔记之（二）表单》](//guowenfh.github.io/2016/01/18/Bootstrap-02-form/)中，已经了解过了Bootstrap中按钮的使用，在这里我们继续进行一些扩展！
 
 ### 按钮组及工具栏
 

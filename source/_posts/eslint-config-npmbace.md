@@ -3,20 +3,20 @@ date: 2016-09-29 00:32:14
 tags: [js,代码风格]
 categories: [前端技术]
 ---
- 
-本文地址：[http://guowenfh.github.io/2016/08/07/eslint-config-npmbace/](http://guowenfh.github.io/2016/09/29/eslint-config-npmbace/)
 
-> 在上一篇博客[详解 ESLint 规则，规范你的代码](http://guowenfh.github.io/2016/08/07/ESLint-Rules/)中，经过对于 ESLint 规则的学习，当时就决定一定要将 ESLint 使用起来，进行语法校验，来减少我们在程序中可能出现的错误。
+本文地址：[//guowenfh.github.io/2016/08/07/eslint-config-npmbace/](//guowenfh.github.io/2016/09/29/eslint-config-npmbace/)
+
+> 在上一篇博客[详解 ESLint 规则，规范你的代码](//guowenfh.github.io/2016/08/07/ESLint-Rules/)中，经过对于 ESLint 规则的学习，当时就决定一定要将 ESLint 使用起来，进行语法校验，来减少我们在程序中可能出现的错误。
 但在当时，我们仅仅是把 eslint 的规则过了一遍，并没有把 eslint 的使用过程描述出来，而且要真正的在实际中使用，以及想要在团队中推广开来，需要有一个渐渐的过程，所以反响平平，这篇博客十一个补充，我把一些常见的错误和最佳实践集合到了一起（最最基础的）。为了方便大家使用，还将配置作为一个 npm包 来方便大家使用～顺便也学了一下怎怎么发布
- 
-### 发布一个 eslint 规则的 npm 包 
 
-1.确保本地已经安装node和npm 
+### 发布一个 eslint 规则的 npm 包
+
+1.确保本地已经安装node和npm
 
 2.申请npm帐号，直接上官网注册一下就好，在输入下面的命令添加把帐号加到本地之前之前，确保你npm的源地址是官方的地址（我把源切成了淘宝结果在发布包的时候发布不了）
 
 ```sh
-npm adduser   
+npm adduser
 
 Username: your name
 Password: your password
@@ -31,7 +31,7 @@ Email: yourmail@gmail.com
 准备工作都做好了就是发布了，很简单的一个命令：出现错误请自行网上查找把。。。
 
 ```
-npm publish 
+npm publish
 ```
 
 ### 下面简单的说一下使用：
@@ -119,11 +119,11 @@ sudo npm install eslint-config-3introspection -g
 2. 在你的 JavaScript 文件中，用注释指定全局变量，格式如下：
 
 ```js
-/* global var1, var2 */ 
+/* global var1, var2 */
 ```
 
 3. 可以在你的文件中使用以下格式的块注释来临时禁止规则出现警告：(禁用指定规则，空格后接规则名称，多个名称时逗号隔开)
- 
+
 ```js
 /* eslint-disable */
 

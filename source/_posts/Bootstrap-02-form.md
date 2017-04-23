@@ -208,8 +208,8 @@ Bootstrap按钮的活动状态主要包括按钮的悬浮状态(`:hover`)，点�
 2. 在元素标签中添加类名`.disabled`
 
 ```html
-<a href="http://guowenfh.github.io/" class="btn btn-danger disabled" type="button">添加disabled类</a>
-<a href="http://guowenfh.github.io/" class="btn btn-danger " type="button" disabled>添加disabled属性</a>
+<a href="//guowenfh.github.io/" class="btn btn-danger disabled" type="button">添加disabled类</a>
+<a href="//guowenfh.github.io/" class="btn btn-danger " type="button" disabled>添加disabled属性</a>
 ```
 
 这两个方式除了样式上的改变之外，还存在是否阻止默认行为上的区别。（此处有大坑，暂时不能跳，以后在详细了解吧。不同浏览器，对于实现阻止默认行为的方式不同，IE11：两个方式都阻止默认行为，IE10-通过属性可以阻止，FF、Chrome通过类可以阻止默认行为。。我已经醉了）

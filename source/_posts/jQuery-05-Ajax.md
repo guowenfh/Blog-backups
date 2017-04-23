@@ -5,9 +5,9 @@ categories: [jQuery]
 ---
 
 > 关于Ajax的概述就不说了，有兴趣自己去找一下吧，并且建议去我博客看关于原生js实现Ajax函数的实现，希望有所帮助。服务器的配置，那篇文章也给出了地址。
-> [Ajax入门（一）从0开始到一次成功的GET请求](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)
-> [Ajax入门（二）Ajax函数封装](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
-   
+> [Ajax入门（一）从0开始到一次成功的GET请求](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)
+> [Ajax入门（二）Ajax函数封装](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
+
 ## jQuery中的Ajax
 > jQuery 对 Ajax 做了大量的封装，我们使用起来也较为方便，不需要去考虑浏览器兼容性。对于封装的方式，jQuery采用了三层封装：最底层的封装方法为：$.ajax()，而通过这层封装了第二层有三种方法：.load()、$.get()和$.post()，最高层是$.getScript()和$.getJSON()方法。
 
@@ -37,7 +37,7 @@ $('button').click(function () {
 ```php
 <?php
 if ($_POST["url"] == "guowen") {//get请求把POST更改一下就好了
-    echo "<a href='http://guowenfh.github.io/'>三省吾身丶丶</a>";
+    echo "<a href='//guowenfh.github.io/'>三省吾身丶丶</a>";
 } else {
     echo "其他网站";
 }

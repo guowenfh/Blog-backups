@@ -4,7 +4,7 @@ tags: [JS,Ajax]
 categories: [前端技术]
 ---
 
-> 如果看了的我上一篇博客《[Ajax入门（一）从0开始到一次成功的GET请求](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)》的话，肯定知道我们已经完成了一个简单的get请求函数了。如下：
+> 如果看了的我上一篇博客《[Ajax入门（一）从0开始到一次成功的GET请求](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)》的话，肯定知道我们已经完成了一个简单的get请求函数了。如下：
 
 
 ```javascript
@@ -160,7 +160,7 @@ oAjax.open("GET", url+"?"+param, true);
 3. 在使用post请求提交数据时，请求参数不跟在url后面。
 4. 使用post请求数据必须添加在`open()`与`send()`直接添加头信息。
   - `xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");`
- 
+
 5. 使用post请求数据，对**2.连接服务器、3.发送请求**部分进行处理
 
 #### 实现如下：
@@ -217,7 +217,7 @@ function AJAX(url, options) {
     } else {
         oAjax = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    
+
     //2.连接服务器
     //open(方法,url,是否异步)
     var param = ""; //请求参数。

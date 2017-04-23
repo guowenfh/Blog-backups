@@ -47,7 +47,7 @@ function isIE() {
  - 同一个网站中所有页面共享一套cookie
  - 数量/大小有限
  - 过期时间
- 
+
 - JS中使用cookie
     - `document.cookie`
 
@@ -131,14 +131,14 @@ function removeCookie(cookieName) {
 学习Ajax，并尝试自己封装一个Ajax方法。实现如下方法：
 
 ```javascript
-// 
+//
 function ajax(url, options) {
     // your implement
 }
 
 // 使用示例：
 ajax(
-    'http://localhost:8080/server/ajaxtest', 
+    'http://localhost:8080/server/ajaxtest',
     {
         data: {
             name: 'simon',
@@ -160,8 +160,8 @@ options是一个对象，里面可以包括的参数为：
 
 ### 实现如下：
 > 专门用两篇博客来记录了一下AJAX的学习过程，以及该函数的完成过程
-> [Ajax入门（一）从0开始到一次成功的GET请求](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)
-> [Ajax入门（二）Ajax函数封装](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
+> [Ajax入门（一）从0开始到一次成功的GET请求](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)
+> [Ajax入门（二）Ajax函数封装](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
 
 
 ```javascript
@@ -189,7 +189,7 @@ function ajax(url, options) {
     } else {
         oAjax = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    
+
     //2.连接服务器
     //open(方法,url,是否异步)
     var param = ""; //请求参数。

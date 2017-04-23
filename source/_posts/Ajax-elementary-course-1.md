@@ -3,7 +3,7 @@ date: 2015-12-18 14:38:40
 tags: [JS,Ajax]
 categories: [前端技术]
 ---
-> 续作[Ajax入门（二）Ajax函数封装](http://guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
+> 续作[Ajax入门（二）Ajax函数封装](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
 > 传统表单在提交后整个页面都刷新
 
 ## 什么是服务器

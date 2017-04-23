@@ -157,7 +157,7 @@ jQuery 最大的优势，就是特别的方便。比如模仿 CSS 获取 DOM，�
 
 - [官网地址](http://code.jquery.com/)
 - [百度静态资源共享库 CDN](http://cdn.code.baidu.com/)，直接部署网上的地址
-- 当然你要是看了我写的[一个前端程序猿的Sublime Text3的自我修养](http://guowenfh.github.io/2015/12/26/SublimeText/)的话就更加简单了，直接就可以用编辑器下载
+- 当然你要是看了我写的[一个前端程序猿的Sublime Text3的自我修养](//guowenfh.github.io/2015/12/26/SublimeText/)的话就更加简单了，直接就可以用编辑器下载
 
 参考手册：
 

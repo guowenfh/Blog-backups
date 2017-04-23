@@ -95,7 +95,7 @@ $(".to").click(function() {
 
 ## 自定义动画
 >jQuery提供了上面几种简单常用的固定动画方面我们使用。但有些时候，这些简单动画无法满足我们更加复杂的需求。这个时候，jQuery 提供了一个`.animate()`方法来创建我们的自定义动画，满足更多复杂多变的要求。
-> 强烈建议先看我的[《JavaScript完美运动框架的进阶之旅》](http://guowenfh.github.io/2015/12/21/JS-Animated-Frames/)，使用JS基本实现了自定义动画，只不过jQuery的更加全面完善，当然也更加复杂。
+> 强烈建议先看我的[《JavaScript完美运动框架的进阶之旅》](//guowenfh.github.io/2015/12/21/JS-Animated-Frames/)，使用JS基本实现了自定义动画，只不过jQuery的更加全面完善，当然也更加复杂。
 
 必传参数只有一个，对象，实现动画：
 ```javascript

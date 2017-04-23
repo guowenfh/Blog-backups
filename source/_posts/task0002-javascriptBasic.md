@@ -45,7 +45,7 @@ categories: [前端技术]
 - 实践判断各种数据类型的方法，并在`util.js`中实现以下方法：
 
 ### 2.1 判断各种数据类型的方法
-这里比较简单，可以参考我的另一篇博客[JavaScript类型识别](http://guowenfh.github.io/2015/11/30/2015-12-01-javascript-type/).
+这里比较简单，可以参考我的另一篇博客[JavaScript类型识别](//guowenfh.github.io/2015/11/30/2015-12-01-javascript-type/).
 
 
 ```javascript
@@ -340,8 +340,8 @@ function isMobilePhone(phone) {
 **实现思路**
 >这里参考我对于正则表达式入门的两篇博客
 
->- [正则表达式-理论基础篇](http://guowenfh.github.io/2015/12/01/Regexp-basis/)
-- [正则表达式-基础实战篇](http://guowenfh.github.io/2015/12/14/Regexp-basisCombat/)
+>- [正则表达式-理论基础篇](//guowenfh.github.io/2015/12/01/Regexp-basis/)
+- [正则表达式-基础实战篇](//guowenfh.github.io/2015/12/14/Regexp-basisCombat/)
 
 - 手机号码的匹配
  1.  这里匹配的情况是最简单的情况，并没有特别完美，比如限制开头第二位数字的范围：188，158通过，而123,191，不通过等等。
