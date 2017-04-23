@@ -235,7 +235,7 @@ Bootstrap按钮的活动状态主要包括按钮的悬浮状态(`:hover`)，点�
 
 这里说的图标就是Web制作中常看到的小icon图标，包括250多个来自 Glyphicon Halflings 的字体图标，Bootstrap框架中图标都是**glyphicons.com**这个商业网站提供的，并且**免费授权**给Bootstrap框架使用。
 
-可以在[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)，看到全部图标的样式，您可以根据你的需求进行设置
+可以在[Glyphicons 字体图标](//v3.bootcss.com/components/#glyphicons)，看到全部图标的样式，您可以根据你的需求进行设置
 
 在网页中使用图标也非常的简单，在任何**内联元素**上应用所对应的样式即可：
 
@@ -268,4 +268,4 @@ Bootstrap按钮的活动状态主要包括按钮的悬浮状态(`:hover`)，点�
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](http://v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)

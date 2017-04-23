@@ -105,7 +105,7 @@ console.info(circle);//{x: 3, y: 2, r: 1}
 
 我们使用`Point`构造函数可以创建出一个点，在其原型上有一个`move`方法可以使这个点坐标移动。
 之后我们又创建`circle`对象，有x/y/r属性（把它想象成一个圆），之后我们的需求是：将这个圆的圆心移动，我们就使用了`apply`来借用`move`方法，最终将圆移动了位置，最终效果如下图：
-![apply使用圆示意图](http://ww4.sinaimg.cn/large/82d12951gw1f6emf8rigdj208l07tglm.jpg)
+![apply使用圆示意图](//ww4.sinaimg.cn/large/82d12951gw1f6emf8rigdj208l07tglm.jpg)
 
 - `function.prototype.apply/call`
 

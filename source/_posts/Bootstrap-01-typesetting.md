@@ -271,4 +271,4 @@ kbd风格：
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](http://v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)

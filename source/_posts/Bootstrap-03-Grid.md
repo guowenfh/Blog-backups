@@ -96,7 +96,7 @@ Bootstrap是通过`.rows`上的外边距（margin）取负`margin-left: -15px;ma
 
 ## 基本用法
 
-一图胜千言，通过下表可以详细查看 Bootstrap 的栅格系统是如何在多种屏幕设备上工作的。使用方法我想应该不用再多说了，已经有提到过，直接一起来看看区别吧。（图片扒自[Bootstrap中文官网](http://v3.bootcss.com/css/#grid-less)）
+一图胜千言，通过下表可以详细查看 Bootstrap 的栅格系统是如何在多种屏幕设备上工作的。使用方法我想应该不用再多说了，已经有提到过，直接一起来看看区别吧。（图片扒自[Bootstrap中文官网](//v3.bootcss.com/css/#grid-less)）
 
 ![栅格参数](//ws1.sinaimg.cn/large/82d12951gy1fewhvpnhn2j20oa0b9q3u.jpg)
 
@@ -377,4 +377,4 @@ Bootstrap框架的网格系统还支持列的嵌套。你可以在一个列中�
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](http://v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)

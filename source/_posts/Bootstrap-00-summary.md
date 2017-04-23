@@ -20,7 +20,7 @@ categories: [Bootstrap]
 
 ### Bootstrap下载
 
-可以在其[中文官网](http://v3.bootcss.com/getting-started/#download)中下载，可以很明显的看到一个大大的下载按钮，此外还可以通过CDN，git命令，以及npm等等方式进行下载。
+可以在其[中文官网](//v3.bootcss.com/getting-started/#download)中下载，可以很明显的看到一个大大的下载按钮，此外还可以通过CDN，git命令，以及npm等等方式进行下载。
 
 如果您恰好看了我写的[sublime Text](//guowenfh.github.io/2015/12/26/SublimeText/)的博客的话，肯定知道我们是可以直接通过插件进行安装的。只需要在`ctrl`+`shift`+`P`时,输入`fecth:manage`，进行如下设置：
 
@@ -86,5 +86,5 @@ Bootstrap保留和坚持部分浏览器的基础样式，解决部分潜在的�
 - 设置全局链接颜色，且当链接处于悬浮`:hover`状态时才会显示下划线样式
 
 
-Bootstrap简介部分到此就结束了，在Bootstrap的[中文官网](http://v3.bootcss.com/)中，有着层次清晰且详细的说明文档，下面就和我一起走进Bootstrap的世界吧！
+Bootstrap简介部分到此就结束了，在Bootstrap的[中文官网](//v3.bootcss.com/)中，有着层次清晰且详细的说明文档，下面就和我一起走进Bootstrap的世界吧！
 

@@ -51,7 +51,7 @@ sudo npm install eslint-config-3introspection -g
 ```
 
 成功效果如下：
-![](http://ww4.sinaimg.cn/large/801b780agw1f89ptaxh5wj20he035aaj.jpg)
+![](//ww4.sinaimg.cn/large/801b780agw1f89ptaxh5wj20he035aaj.jpg)
 
 依赖信息的错误不用去管，我们只是需要其中的配置文件而已。
 
@@ -75,20 +75,20 @@ sudo npm install eslint-config-3introspection -g
 
 打开`command+shift+p`，打开命令窗口，输入 `pcl` ，回车
 
-![pcl](http://ww1.sinaimg.cn/large/006y8mN6gw1f7aipmz6m4j30m503k0sx.jpg)
+![pcl](//ww1.sinaimg.cn/large/006y8mN6gw1f7aipmz6m4j30m503k0sx.jpg)
 
 再输入 `sublimeLinter`,查看是否如下，不对的话一一安装这两个插件：
 
-![sublimeLinter](http://ww4.sinaimg.cn/large/006y8mN6gw1f7aiqjjsnyj30kv0bdwfh.jpg)
+![sublimeLinter](//ww4.sinaimg.cn/large/006y8mN6gw1f7aiqjjsnyj30kv0bdwfh.jpg)
 
 若上面两步成功，重启编辑器，再打开文件，应该就能看到 eslint 规则已经生效了，如下：
 
-![错误](http://ww3.sinaimg.cn/large/006y8mN6gw1f7aiya10dxj30jt083754.jpg)
+![错误](//ws1.sinaimg.cn/large/82d12951gy1fewvpuw01hj20jt083754.jpg)
 
 这样就可以愉快的使用eslint进行语法校验拉😂😂😂
 
 **失败的情况：** 打开`command+shift+p`，打开命令窗口，输入 `sublimeLinter` 找到这一项，回车后,找到 eslint 开启选项，重启编辑器再查看是不是已经好了。
-![sublimeLinter](http://ww1.sinaimg.cn/large/006y8mN6gw1f7aizq6abzj30me0dk75y.jpg)
+![sublimeLinter](//ww1.sinaimg.cn/large/006y8mN6gw1f7aizq6abzj30me0dk75y.jpg)
 
 如果规则不不起效果又不知道是什么地方出了问题，参考附录1
 
@@ -96,11 +96,11 @@ sudo npm install eslint-config-3introspection -g
 
 附录1：vscode
 安装
-![](http://ww2.sinaimg.cn/large/006y8mN6gw1f7aj4ppwzej30cp0g6dgm.jpg)
+![](//ws1.sinaimg.cn/large/82d12951gy1fewvoy93juj20cp0g6dgm.jpg)
 .eslintrc将`{"extends": "3introspection"}`，引入，重启，不起效果的话，vscode会有很明显的报错信息
-![](http://ww4.sinaimg.cn/large/801b780agw1f89r0bv5zmj210o027aal.jpg)
+![](//ww4.sinaimg.cn/large/801b780agw1f89r0bv5zmj210o027aal.jpg)
 还是查找路径的问题，最简单的解决办法，在项目执行一次`npm i eslint-config-3introspection`，把配置按照到node_modul
-![](http://ww4.sinaimg.cn/large/801b780agw1f89qt0mzskj20pd06qjs9.jpg)
+![](//ww4.sinaimg.cn/large/801b780agw1f89qt0mzskj20pd06qjs9.jpg)
 其他编辑器都类似
 
 
@@ -140,7 +140,7 @@ eslint 模块名/文件名
 ```
 5. `.eslintignore`,如同`.gitignore`一样忽略对于某些文件，文件夹的检查
 
-![](http://ww2.sinaimg.cn/large/801b780agw1f89rimlemyj211a03p74v.jpg)
+![](//ww2.sinaimg.cn/large/801b780agw1f89rimlemyj211a03p74v.jpg)
 
 
 附录3:eslinrc.js 配置

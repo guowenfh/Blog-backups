@@ -51,7 +51,7 @@ Other more
 </div>
 ```
 
-当然也可以用来做logo，[中文官网描述](http://v3.bootcss.com/components/?#navbar-brand-image)，在此不进行详细描述。
+当然也可以用来做logo，[中文官网描述](//v3.bootcss.com/components/?#navbar-brand-image)，在此不进行详细描述。
 
 二级菜单自然不用多说，在上一篇博客中已经进行了详细说明，若还是不太了解的话，可以再去翻翻我的上一篇博客，我们一起来看看下面这段代码以及能实现的效果：（注意这里使用的是`navbar-inverse`反色的导航条）
 
@@ -286,4 +286,4 @@ Bootstrap 中的徽章会适配导航元素的激活状态。
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](http://v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)
