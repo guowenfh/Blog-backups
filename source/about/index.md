@@ -28,12 +28,12 @@ date: 2015-11-30 21:33:32
 
 ## 项目经历
 
-- [百度task0001](http://guowenfh.github.io/IFE/task0001/index.html),HTML+CSS
-- [网易前端微专业大作业](http://guowenfh.github.io/DEMO/EDU/index.html)，完整单页应用，可登陆，纯原生JS实现。
+- [百度task0001](//guowenfh.github.io/IFE/task0001/index.html),HTML+CSS
+- [网易前端微专业大作业](//guowenfh.github.io/DEMO/EDU/index.html)，完整单页应用，可登陆，纯原生JS实现。
  - 关键字`cookie`,`Ajax`,`响应式设计`。
  - 用户名：`studyOnline` 密码：`study.163.com`。
--  [百度task0002](http://guowenfh.github.io/IFE/task0002/index.html)，原生JS实践
- - 完成过程详细记录在了在线笔记中：[点击查看](http://guowenfh.github.io/tags/task0002/)
+-  [百度task0002](//guowenfh.github.io/IFE/task0002/index.html)，原生JS实践
+ - 完成过程详细记录在了在线笔记中：[点击查看](//guowenfh.github.io/tags/task0002/)
 
 
 
