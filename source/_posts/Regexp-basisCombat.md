@@ -33,7 +33,7 @@ categories: [前端技术]
 ```javascript
 /^http:/.test("http://www.163.com");//true
 /^http:/.test("ahttp://www.163.com");//false
-/^http:/.test("https://www.163.com");//false
+/^http:/.test("//www.163.com");//false
 ```
 
 - `$`匹配结尾位置
@@ -101,7 +101,7 @@ categories: [前端技术]
 - `\w`:`[A-Za-z0-9_]`。`\W`:`[^\w]`
 
 
-```javascript   
+```javascript
 /\d/.test("123");//true
 /\d/.test("1dsf");//true
 /\D/.test("1dsf");//true
@@ -130,7 +130,7 @@ categories: [前端技术]
 /\d+/.test("abc");//false
 /\d+/.test("1abc");//true
 /^https?:/.test("http://www.163.com");//true
-/^https?:/.test("https://www.163.com");//true
+/^https?:/.test("//www.163.com");//true
 /^https?:/.test("httpss://www.163.com");//false
 ```
 
@@ -196,7 +196,7 @@ categories: [前端技术]
 - 使用:
  - $1,$2,...
  - api参数或返回值
- 
+
 ### 获取匹配的字符串:`String.match(regexp)`
 
 ```javascript

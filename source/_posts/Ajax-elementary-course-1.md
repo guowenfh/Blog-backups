@@ -45,8 +45,8 @@ categories: [前端技术]
  2. 正在请求的URL,总得知道请求的地址是什么吧?
  3. 请求头,包含一些客户端环境信息,身份验证信息等
  4. 请求体,也就是请求正文,请求正文中可以包含客户端提交的查询字符串信息,表单信息等等.
- 
-![HTTP请求](https://ws1.sinaimg.cn/large/82d12951gy1feuqytyw96j20ez06fgn0.jpg)
+
+![HTTP请求](//ws1.sinaimg.cn/large/82d12951gy1feuqytyw96j20ez06fgn0.jpg)
 
 ### HTTP响应
 
@@ -55,8 +55,8 @@ categories: [前端技术]
  1. 一个**数字**和**文字**组成的状态码,用来显示请求是成功还是失败
  2. **响应头**,响应头和请求头一样包含许多有用的信息,例如服务器类型,日期时间,内容类型和长度等.
  3. **响应体**,也就是响应正文.
- 
-![HTTP响应](https://ws1.sinaimg.cn/large/82d12951gy1feuqytjxc1j20et076wfn.jpg)
+
+![HTTP响应](//ws1.sinaimg.cn/large/82d12951gy1feuqytjxc1j20et076wfn.jpg)
 
 ### HTTP请求方式
 
@@ -81,7 +81,7 @@ categories: [前端技术]
 
 ## 编写Ajax
 
-**类比打电话理解Ajax编写步骤** 
+**类比打电话理解Ajax编写步骤**
 
 
 |打电话|ajax请求|
@@ -94,11 +94,11 @@ categories: [前端技术]
 ### 1.创建Ajax对象
 
 - IE6:`ActiveXObject("Microsoft.XMLHTTP")`;//IE6已死,可以不考虑了
-- `XMLHttpRequest()`; 
+- `XMLHttpRequest()`;
 
 例:`var request = new XMLHttpRequest();`
 
-### 2.连接服务器 
+### 2.连接服务器
 
 - `open(method,url,async);`
 - open(发送请求方法"GET/POST" ,(请求地址"文件名") ,是否异步传输)
@@ -138,7 +138,7 @@ oAjax.send("name=陈二狗&sex=男");//发送给服务器的内容
 |`status`和`statusText`|以数字和文本方式返回HTTP状态码|
 |`getAllResponseHeader()`|获取所有的响应报头|
 |`getResponseheader()`|查询响应中的某个字段的值|
-   
+
 
 - **`onreadystatechange`事件**
 > 通过监听`onreadystatechange`事件,来判断请求的状态.
@@ -221,19 +221,19 @@ function get(url, fnSucc, fnFaild) {
 
 ### 动态数据:请求JS(或JSON)文件
 > 注：**并不推荐使用`eval`，并不推荐使用`eval`，并不推荐使用`eval`**。因为eval解析数据时会有一系列问题出现。这里是因为只是学习就随意点了。
-> 在需要解析请求数据时，推荐使用JSON的方法`JSON.parse()`可以将一个 JSON 字符串解析成为一个 JavaScript 值。参考[MDN-JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+> 在需要解析请求数据时，推荐使用JSON的方法`JSON.parse()`可以将一个 JSON 字符串解析成为一个 JavaScript 值。参考[MDN-JSON](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 
   - `eval`的使用
- 例: 
- 
- 
- 
+ 例:
+
+
+
 ```javascript
 var str = "54-8*6+4";
 alert(eval(str)); //10;
 
-var str1 = "[1,2,3]";   
+var str1 = "[1,2,3]";
 var arr = eval(str1);
 alert(arr[1]);//2
 

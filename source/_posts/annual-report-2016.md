@@ -9,7 +9,7 @@ categories: [生活]
 ## 博客
 先说说博客，从第一篇博客开始到现在一年零一个月了。一共 50 篇，博客总字数为：338202，产量不算高。不过值得高兴的是一年下来总流量量有 `15W`，应该还算不错吧。不仅是对自己学习的一个记录，应该也帮助到了不少人。终于把域名买了 [blog.guowenfh.com](http://blog.guowenfh.com)
 
-![博客访问统计](https://ww4.sinaimg.cn/large/006tKfTcgw1fbab295cyqj31kw1hah2h.jpg)
+![博客访问统计](//ww4.sinaimg.cn/large/006tKfTcgw1fbab295cyqj31kw1hah2h.jpg)
 
 下面自我分析一下：
 1. 内容：大多数是一些前端技术学习的笔记，也有寥寥几篇的摘抄和自我思考。在实际项目和代表编写过程中的积累根本没有，得好好加强。
@@ -19,7 +19,7 @@ categories: [生活]
 
 ## Github
 
-![GitHub](https://ww3.sinaimg.cn/large/006tKfTcgw1fbab18w6evj315w0tyjxl.jpg)
+![GitHub](//ww3.sinaimg.cn/large/006tKfTcgw1fbab18w6evj315w0tyjxl.jpg)
 
 今年在 GitHub 上并没有一个特别拿得出手的开源项目，不过之前写的 `vue-webapck` 基础介绍教程居然能拿到160星，让我很惊讶，也让我更加想去为社区贡献一点自己的东西。正好公司要跨入 `react` 技术栈了，第一步先用它写个小项目吧。之后尝试去给出一些 `Pull requests`
 

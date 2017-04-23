@@ -76,12 +76,12 @@ categories: [node]
 9. `fs.unlink(path, callback)`:删除一个文件,回调函数（callback）只接受一个参数：可能出现的异常信息.
 10. `fs.unlinkSync(path):fs.unlink()`: 的同步版本
 11. `fs.rename(oldPath, newPath, callback)`:异步版本的重命名函数.完成时的回调函数(callback)只接受一个参数:可能出现的异常信息.
-12. `fs.renameSync(oldPath, newPath)`:fs.rename() 的同步版本 
-13. `fs.stat(path, callback)`:读取文件的状态信息,callback,接收两个参数： (err, stats) ，其中 stats 是一个 fs.Stats 对象。 
+12. `fs.renameSync(oldPath, newPath)`:fs.rename() 的同步版本
+13. `fs.stat(path, callback)`:读取文件的状态信息,callback,接收两个参数： (err, stats) ，其中 stats 是一个 fs.Stats 对象。
 14. `fs.statSync(path, callback)`:fs.stat() 的同步版本,返回一个 fs.Stats 实例。
 15. `fs.watch(filename, [options], [callback])`:观察指定路径的改变，filename 路径可以是文件或者目录。
     回调函数得到两个参数 (event, filename)。其中 event 是 'rename'（重命名）或者 'change'（改变），而 filename 则是触发事件的文件名。
-    
+
 ### 文件夹处理
 
 1. `fs.mkdir(path, [mode], callback)` :创建文件夹，回调函数只接受一个参数：可能出现的异常信息。－－－》`fs.mkdirSync(path, [mode])`同步版
@@ -92,4 +92,4 @@ categories: [node]
 
 这是对于 node 的文件系统 的学习，仅仅过了一遍api，了解了一下处理流程，理解有限，如果有错误之处，请指出，谢谢！
 
-本文地址：[https://guowenfh.github.io/2016/10/15/node-file-system/](https://guowenfh.github.io/2016/10/15/node-file-system/)
+本文地址：[//guowenfh.github.io/2016/10/15/node-file-system/](//guowenfh.github.io/2016/10/15/node-file-system/)

@@ -12,7 +12,7 @@ categories: [前端技术]
 - 小练习5：界面拖拽交互
 
 
-[源码地址](https://github.com/guowenfh/IFE/tree/master/task0002)
+[源码地址](//github.com/guowenfh/IFE/tree/master/task0002)
 [task0002 在线Demo](http://guowenfh.github.io/IFE/task0002/index.html)
 
 
@@ -165,9 +165,9 @@ var birthday = new Date("1995-12-17T03:24:00");
 var birthday = new Date(1995,11,17);
 var birthday = new Date(1995,11,17,3,24,0);
 ```
-  - Date对象中处理时间和日期的常用方法：详细内容在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)上
+  - Date对象中处理时间和日期的常用方法：详细内容在[MDN](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)上
 
-![日期对象常用方法](https://ws1.sinaimg.cn/large/82d12951gy1fewio59lnrj20bm089jri.jpg)
+![日期对象常用方法](//ws1.sinaimg.cn/large/82d12951gy1fewio59lnrj20bm089jri.jpg)
 
 #### 正式开始：
 
@@ -407,7 +407,7 @@ delegateEvent(createSpan, "span", "click", function () {
     play(leftIndex);
 });
 ```
-至此，我们的轮播图组件就完成了！ 需要配合CSS使用。 通过这次封装，收益良多，感兴趣的话可以看看[源码](https://github.com/guowenfh/IFE/tree/master/task0002)
+至此，我们的轮播图组件就完成了！ 需要配合CSS使用。 通过这次封装，收益良多，感兴趣的话可以看看[源码](//github.com/guowenfh/IFE/tree/master/task0002)
 
 在线演示：**[小练习3：图片轮播组件](http://guowenfh.github.io/IFE/task0002/task0002_3.html)**
 
@@ -437,7 +437,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 
 示例：
 
-![示例](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_sug.png)
+![示例](//github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_sug.png)
 
 
 ### 实现思路
@@ -481,7 +481,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 - 拖拽到什么位置认为是可以添加到新容器的规则自己定
 - 注意交互中良好的用户体验和使用引导
 
-![示例](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_drag.png)
+![示例](//github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_drag.png)
 
 ### 实现思路：
 
@@ -593,7 +593,7 @@ delegateEvent(parentElement, "li", "mousedown", function (ev) {
 #### 第四步：碰撞检测函数
 
 先来看张图：
-![碰撞检测示意图](https://ws1.sinaimg.cn/large/82d12951gy1fewio5ne1oj20jg0bygm0.jpg)
+![碰撞检测示意图](//ws1.sinaimg.cn/large/82d12951gy1fewio5ne1oj20jg0bygm0.jpg)
 
 
 是不是有瞬间豁然开朗的感觉呢？

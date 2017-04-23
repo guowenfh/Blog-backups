@@ -12,7 +12,7 @@ categories: [前端技术]
 ### 1.1 了解JavaScript是什么
 > JavaScript，一种直译式脚本语言，是一种动态类型、基于原型的语言，内置支持类。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML网页上使用，用来给HTML网页增加动态功能。然而现在JavaScript也可被用于网络服务器，如Node.js。
 
-上面是维基百科上的解释。不过让JavaScript流行起来的原因应该是**JavaScript 是目前所有主流浏览器上唯一支持的脚本语言**。下面是[MDN对其核心功能的解释](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/JavaScript_Overview#What_is_JavaScript.3F)
+上面是维基百科上的解释。不过让JavaScript流行起来的原因应该是**JavaScript 是目前所有主流浏览器上唯一支持的脚本语言**。下面是[MDN对其核心功能的解释](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/JavaScript_Overview#What_is_JavaScript.3F)
 >核心的 JavaScript 中包含有一组核心的对象，包括 Array，Date 和 Math，以及一组核心的语言要素，包括操作符，控制结构和语句。出于多种目的，可以通过为其增补附加的对象，对核心 JavaScript 加以扩展；例如：
 - 客户端: JavaScript 提供了用于控制浏览器（Navigator 或者其它浏览器）以及其中的文档对象模型（DOM）的对象，从而扩展了核心 JavaScript。例如，客户端扩展允许应用程序在 HTML 的表单中加入元素，以便响应用户事件，比如鼠标点击，表单输入和页面导航。
 - 服务器端: JavaScript 提供了服务于在服务器上运行 JavaScript 的对象，从而扩展了核心 JavaScript。例如，服务器端扩展可以允许应用程序访问关系型数据库，在应用程序的不同调用间提供信息的连续性，甚至于处理服务器之上的文件。
@@ -31,13 +31,13 @@ categories: [前端技术]
  1. 浏览器在解释HTML页面时，是按照先后顺序的，所在放在前面的`JS`代码就会先被执行。正是因为这种特性，所以放在`<head>`中的`<script>`代码会阻塞页面的渲染。
  2. 其实有些JS代码可以放在`<head></head >`之间,比如IE9以下浏览器兼容HTML5标签的js代码，这是一个底层的兼容脚本，不涉及任何页面逻辑。那么它应该放在`<head></head >`间。
  3. 新版浏览器`<script>`标签可以使用`defer`属性来延迟加载。
- 
+
 最简单的不就是把能放在`body`中的代码放进去吗？扩展阅读中有详细介绍。
- 
+
 ### 1.3 扩展阅读：
  - [JavaScript语言的历史](http://javascript.ruanyifeng.com/introduction/history.html)
  - [JavaScript 的性能优化：加载和执行](http://www.ibm.com/developerworks/cn/web/1308_caiys_jsload/index.html)
- 
+
 
 ## 2. JavaScript数据类型及语言基础
 
@@ -70,7 +70,7 @@ Array.isArray(function(){}); //false
 ```
 
 
-### 2.2 值类型和引用类型的区别.各种对象的读取、遍历方式 
+### 2.2 值类型和引用类型的区别.各种对象的读取、遍历方式
 - 了解值类型和引用类型的区别，了解各种对象的读取、遍历方式，并在`util.js`中实现以下方法：
 
 #### 2.2.1 深度克隆
@@ -165,8 +165,8 @@ console.log(b); // [1, 3, 5, 7]
 1. 新建一下新数组
 2. 循环原数组
 3. 判断新数组内元素,原数组是否含有.含有则跳过
- - 这里使用了数组的`indexOf`方法，找到某个元素在数组中的索引。简化了查找过程，若使用最简单的遍历寻找的话需要嵌套循环，是这样的，先在循环中取原数组的值，再循环在新数组中查找，若有相等的情况就不添加。（这是我的第一想法，显然比现在复杂很多）. 
- - 参看来自MDN的[Array对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array).里面介绍了一下数组的方法.
+ - 这里使用了数组的`indexOf`方法，找到某个元素在数组中的索引。简化了查找过程，若使用最简单的遍历寻找的话需要嵌套循环，是这样的，先在循环中取原数组的值，再循环在新数组中查找，若有相等的情况就不添加。（这是我的第一想法，显然比现在复杂很多）.
+ - 参看来自MDN的[Array对象](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array).里面介绍了一下数组的方法.
 4. 返回新数组.
 
 **实现：**
@@ -345,12 +345,12 @@ function isMobilePhone(phone) {
 
 - 手机号码的匹配
  1.  这里匹配的情况是最简单的情况，并没有特别完美，比如限制开头第二位数字的范围：188，158通过，而123,191，不通过等等。
- 2. 可利用多选分支，例如：`/^1[3|5][0-9]{9}$|^18\d{9}$/`。不过现在虚拟运营商的加入，号码段变多了，所以直接用最简单的方法，也没事。 
+ 2. 可利用多选分支，例如：`/^1[3|5][0-9]{9}$|^18\d{9}$/`。不过现在虚拟运营商的加入，号码段变多了，所以直接用最简单的方法，也没事。
 - 邮箱的匹配
  1.  在@前能出现哪些东西？这里使用`(\w+\.)*`来匹配出现`.`的情况，表示出现0次或多次因为`.`后不能紧跟@，所以后面紧跟`\w+`匹配普通的字母数字情况。
  2.  @后出现的邮箱后缀并不固定所以使用`\w+`来匹配。
  3.  最后考虑域名结尾的级联情况所以用`(\.\w+)+`。
- 
+
 
 **实现如下:**
 
@@ -372,8 +372,8 @@ function isMobilePhone(phone) {
 ```
 ### 2.4 参考资料
 
-- [JavaScript 数据结构](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Data_structures)
-- [MDN Array](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [MDN String](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)
-- [MDN Number](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number)
-- [MDN 正则](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [JavaScript 数据结构](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Data_structures)
+- [MDN Array](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [MDN String](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [MDN Number](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number)
+- [MDN 正则](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp)

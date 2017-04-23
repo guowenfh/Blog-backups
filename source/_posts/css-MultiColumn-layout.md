@@ -23,10 +23,10 @@ categories: [前端技术]
 ```
 
 大家先来看看直接在左侧添加浮动是怎么样的吧：
-![一列定宽，文字环绕效果](https://ws1.sinaimg.cn/large/82d12951gy1fewi6htc4gj208c02iweg.jpg)
+![一列定宽，文字环绕效果](//ws1.sinaimg.cn/large/82d12951gy1fewi6htc4gj208c02iweg.jpg)
 
 不要觉得诧异！因为float最开始的出现就是为了实现这个文字环绕效果的，只不过被攻城师们玩坏了，用到了布局上；但这肯定不是我们想要的，来看看我们想要的是怎么样的吧！
-![一列定宽，一列自适应](https://ws1.sinaimg.cn/large/82d12951gy1fewi6hqtixj208c02i0sp.jpg)
+![一列定宽，一列自适应](//ws1.sinaimg.cn/large/82d12951gy1fewi6hqtixj208c02i0sp.jpg)
 
 这样才对嘛！是我们想要的！下面就来看看css的实现吧：
 
@@ -44,7 +44,7 @@ categories: [前端技术]
 优点：兼容IE7+，便于理解；缺点：不兼容IE6，在right内部第一个元素存在清除浮动时，会发生right掉下去的情况。
 
 一起来看看错误的例子：
-![一列定宽，错误](https://ws1.sinaimg.cn/large/82d12951gy1fewi6huurjj208c03rweh.jpg)
+![一列定宽，错误](//ws1.sinaimg.cn/large/82d12951gy1fewi6huurjj208c03rweh.jpg)
 怎么解决呢？
 
 ### 2. 改进版---`float`+`margin`+`fix`
@@ -137,7 +137,7 @@ HTML结构还是和第一个一样。
 ## 多列定宽一列自适应
 
 大家来看看想要达到的效果：
-![二列定宽，一列自适应](https://ws1.sinaimg.cn/large/82d12951gy1fewi6icb5rj20ci02iaa5.jpg)
+![二列定宽，一列自适应](//ws1.sinaimg.cn/large/82d12951gy1fewi6icb5rj20ci02iaa5.jpg)
 其实只是在上面的布局上，中间再加入一个center。
 html结构如下：
 ```html
@@ -247,7 +247,7 @@ html结构如下：
 </div>
 ```
 按照惯例，先来分析一下实现过程。可以看到下图：
-![等分布局分析](https://ws1.sinaimg.cn/large/82d12951gy1fewi6iwdq9j20h809qwg0.jpg)
+![等分布局分析](//ws1.sinaimg.cn/large/82d12951gy1fewi6iwdq9j20h809qwg0.jpg)
 
 其实我们只需要给父容器增加一个G，也就是一个负的margin就可以实现了，下面就来看看吧：
 
@@ -268,12 +268,12 @@ p{background:#666;}/*对div中的p标签设置才有间隔效果，所以在设�
 }
 ```
 实现效果如下：
-![等分布局存在左侧padding](https://ws1.sinaimg.cn/large/82d12951gy1fewi6iu7clj20hi08mwf6.jpg)
+![等分布局存在左侧padding](//ws1.sinaimg.cn/large/82d12951gy1fewi6iu7clj20hi08mwf6.jpg)
 
 效果不是就达到了呢？其实还不尽然，可以看到最左边还有一个宽度，我们不想要怎么办？
 
 这并不是一个bug，而是我们的设置导致的，现在来删除上面的` padding-left: 20px;`吧，可以看到成了这样子：
-![等分布局未设置padding](https://ws1.sinaimg.cn/large/82d12951gy1fewi6hu8grj20hi07it96.jpg)
+![等分布局未设置padding](//ws1.sinaimg.cn/large/82d12951gy1fewi6hu8grj20hi07it96.jpg)
 
 如果你需要有填充的话，自行设置吧
 
@@ -310,12 +310,12 @@ p{background:#666;}/*对div中的p标签设置才有间隔效果，所以在设�
 }
 ```
 实现效果如下：
-![等分布局FLex](https://ws1.sinaimg.cn/large/82d12951gy1fewi6hxdq0j20hn07sgm6.jpg)
+![等分布局FLex](//ws1.sinaimg.cn/large/82d12951gy1fewi6hxdq0j20hn07sgm6.jpg)
 **这里使用的是margin，因为flex自动分配剩余空间**
 
 ## 等高布局
 大家先来看看想要的效果：
-![等高布局](https://ws1.sinaimg.cn/large/82d12951gy1fewi6hsqgqj208c02idfu.jpg)
+![等高布局](//ws1.sinaimg.cn/large/82d12951gy1fewi6hsqgqj208c02idfu.jpg)
 
 是不是很熟悉？html和第一部分一样：
 但是两侧高度等同于高度最高的部分。

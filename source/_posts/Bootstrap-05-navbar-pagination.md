@@ -27,11 +27,11 @@ Other more
 可以达到的效果是这样的：
 
 宽屏：
-![基础导航条宽](https://ws1.sinaimg.cn/large/82d12951gy1fewh8apnmij20h202i0sk.jpg
+![基础导航条宽](//ws1.sinaimg.cn/large/82d12951gy1fewh8apnmij20h202i0sk.jpg
 )
 
 窄屏：
-![基础导航条窄](https://ws1.sinaimg.cn/large/82d12951gy1fewh8agocgj20ge05lwed.jpg
+![基础导航条窄](//ws1.sinaimg.cn/large/82d12951gy1fewh8agocgj20ge05lwed.jpg
 )
 
 
@@ -79,7 +79,7 @@ Other more
 
 效果如下：
 
-![标题-下拉](https://ws1.sinaimg.cn/large/82d12951gy1fewh8aqakqj20gw09zmx9.jpg
+![标题-下拉](//ws1.sinaimg.cn/large/82d12951gy1fewh8aqakqj20gw09zmx9.jpg
 )
 
 
@@ -130,7 +130,7 @@ Other more
 
 在上面的例子中，导航条就仅仅能大屏幕下有一个不错的效果，在屏幕变小的情况下，还**直接把所有的导航项直接展现出来就不适合了**。为了有一个更好的显示效果，响应式的导航条设计也就随之而来。我们先来看看效果，再一步一步分析它！
 
-![响应式导航条](https://ws1.sinaimg.cn/large/82d12951gy1fewh8agsr1j20i205kt91.jpg
+![响应式导航条](//ws1.sinaimg.cn/large/82d12951gy1fewh8agsr1j20i205kt91.jpg
 )
 
 窄屏时，点击右边的按钮图标可展开，效果与上面的展开效果除了`active`状态不再溢出容器外，其他基本相同。实现代码如下：
@@ -200,7 +200,7 @@ Other more
 
 实现效果如下：
 
-![分页码导航](https://ws1.sinaimg.cn/large/82d12951gy1fewh8ajxpyj20a20263yc.jpg
+![分页码导航](//ws1.sinaimg.cn/large/82d12951gy1fewh8ajxpyj20a20263yc.jpg
 )
 
 可以看到同样会有`hover`、`active`、`disabled`等等状态，当然它也可以调整大小：在外层容器中的`.pagination`类后，添加`.pagination-lg`让分页导航变大；`.pagination-sm`让分页导航变小：
@@ -234,7 +234,7 @@ Other more
 在一些Web页面中常常会添加一个标签用来告诉用户一些额外的信息，比如说在导航上添加了一个新导航项，可能就会加一个“new”标签，来告诉用户。这是新添加的导航项。
 在Bootstrap专门将这样的效果提取成为了单独的标签组件。可以使用`<span>`这样的行内标签添加`.label`类来控制大小，再使用情景类来控制高亮显示的颜色如：`label-default`、`label-danger`等等（在原来笔记中说到过这样的情景类，只不过这里需要加上不同的前缀）
 
-![导航条标签](https://ws1.sinaimg.cn/large/82d12951gy1fewh8arfqzj20ad0173yc.jpg
+![导航条标签](//ws1.sinaimg.cn/large/82d12951gy1fewh8arfqzj20ad0173yc.jpg
 )
 
 ### 徽章（角标）
@@ -250,7 +250,7 @@ Other more
 </button>
 ```
 
-![导航条角标](https://ws1.sinaimg.cn/large/82d12951gy1fewh8auhbbj204i02n3yb.jpg
+![导航条角标](//ws1.sinaimg.cn/large/82d12951gy1fewh8auhbbj204i02n3yb.jpg
 )
 
 
@@ -274,7 +274,7 @@ Bootstrap 中的徽章会适配导航元素的激活状态。
 </ul>
 ```
 
-![导航条角标-适应激活](https://ws1.sinaimg.cn/large/82d12951gy1fewh8bh3urj208r01ua9v.jpg
+![导航条角标-适应激活](//ws1.sinaimg.cn/large/82d12951gy1fewh8bh3urj208r01ua9v.jpg
 )
 
 

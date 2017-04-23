@@ -4,7 +4,7 @@ tags: [vue,webpack]
 categories: [前端框架]
 ---
 
-这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](https://github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
+这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](//github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
 
 - [webpack入坑之旅（一）不是开始的开始](http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
 - [webpack入坑之旅（二）loader入门](http://guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
@@ -15,7 +15,7 @@ categories: [前端框架]
 
 在上面的练习当中我们已经成功的加载了一个`.vue`格式的单文件组件，并且实现了在使用vue情况下的自动刷新。
 
-但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](https://github.com/vuejs/vue-router)，并且配有对应的[中文文档](http://vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
+但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](//github.com/vuejs/vue-router)，并且配有对应的[中文文档](http://vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
 
 
 ## vue组件
@@ -170,7 +170,7 @@ router.start(App, '#app')
 
 首先来看我们的文件目录结构：
 
-![01-webpack-vuerouter](https://ws1.sinaimg.cn/large/82d12951gy1fewippeybej205u0e2weg.jpg)
+![01-webpack-vuerouter](//ws1.sinaimg.cn/large/82d12951gy1fewippeybej205u0e2weg.jpg)
 
 ### 定义路由规则
 

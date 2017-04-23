@@ -44,7 +44,7 @@ process对象是一个全局对象，可以在任何地方都能访问到他，�
     - `stdin`：标准输入http://baike.baidu.com/view/632680.htm
     - `stdout`标准输出http://baike.baidu.com/view/632676.htm
 
-这里主要是对于标准输入/输出流（IO）的理解，放上一个中文维基百科的解释：[标准输入/输出流](https://zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E4%B8%B2%E6%B5%81)，在这里关于 `stdout`就简单举例 `console.log`实现：
+这里主要是对于标准输入/输出流（IO）的理解，放上一个中文维基百科的解释：[标准输入/输出流](//zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E4%B8%B2%E6%B5%81)，在这里关于 `stdout`就简单举例 `console.log`实现：
 ```js
 console.log = function(d) {
   process.stdout.write(d + '\n');
@@ -76,7 +76,7 @@ process.stdin.on('data', function(chunk) {
 - `new Buffer(str, [encoding])`:分配一个新的 buffer ，其中包含着给定的 `str` 字符串. `encoding` 编码方式默认是：`'utf8'`.
     - `str` : String类型 - 需要存入buffer的string字符串.
     - `encoding` : String类型 - 使用什么编码方式，参数可选.
-    
+
 ### Buffer 方法学习
 
 1. `buf.length`:这个buffer的bytes大小。注意这未必是这buffer里面内容的大小。length 的依据是buffer对象所分配的内存数值，它不会随着这个buffer对象内容的改变而改变。
@@ -85,7 +85,7 @@ process.stdin.on('data', function(chunk) {
     - `offset` : Number类型, 可选参数, 默认: 0
     - `length` : Number类型, 可选参数, 默认: buffer.length - offset
     - `encoding` : String类型, 可选参数, 默认: 'utf8'
-    
+
 ```js
 var str = 'buffer';
 console.log(new Buffer(str));
@@ -130,7 +130,7 @@ console.log(bf2.toString('utf8',1));
     - `targetStart`: Number类型, 可选参数, 默认: 0
     - `sourceStart`: Number类型, 可选参数, 默认: 0
     - `sourceEnd`: Number类型, 可选参数, 默认: buffer.length
-    
+
 ### 类/静态方法
 
 1. `Buffer.isEncoding(encoding)`:用来测试给定的编码字符串,如果给定的编码 encoding 是有效的，返回 true，否则返回 false :`Buffer.isEncoding('utf8')`
@@ -139,7 +139,7 @@ console.log(bf2.toString('utf8',1));
 4. `Buffer.concat(list, [totalLength])`: 返回一个保存着将传入 buffer 数组中所有 buffer 对象拼接在一起的 buffer 对象。其实就是将数组中所有的 buffer 实例通过复制拼接在一起
     - `list `: {Array}数组类型，Buffer 数组，用于被连接。
     - `totalLength `: {Number}类型 上述 Buffer 数组的所有Buffer的总大小。（数组里 Buffer 实例的大小总和）
-    
+
 这里我们再回头来看看，在上半部分中的介绍`process` 对象，说的标准输入输出流的时候，我们有这样一个例子：
 
 ```js
@@ -169,4 +169,4 @@ process.stdin.on('data', function(chunk) {
 
 这是对于 process 对象与 Buffer 类的简单学习，理解较为粗浅，如有错误之处请指出，谢谢！
 
-本文地址:[https://guowenfh.github.io/2016/10/15/node-global-object/](https://guowenfh.github.io/2016/10/15/node-global-object/)
+本文地址:[//guowenfh.github.io/2016/10/15/node-global-object/](//guowenfh.github.io/2016/10/15/node-global-object/)

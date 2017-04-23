@@ -58,7 +58,7 @@ console.log('Server is running at http://127.0.0.1:8888/');
 看完了创建与监听的方法，我们再看看看，我们在监听到客户端连接的回调函数 `server.on('request', function(req, res) {// do ....})` 中看到有两个参数 request 和 response ，
 在这两个参数中，我们可以去获得用户的当前请求一些信息,比如头信息,数据等待，还可以向该次请求的客户端输出返回响应，下面我们一起看看它里面的内容
 
-### request 对象 
+### request 对象
 
 参数`request`对象是 `http.IncomingMessage` 的一个实例,通过它 ，我们可以获取到这次请求的一些信息,比如头信息,数据，`url`参数等等
 这里简单的列一下最常见的:
@@ -183,4 +183,4 @@ console.log('Server is running at http://127.0.0.1:8888/');
 
 这是对于 node 的 http模块 的学习，理解有限，如果有错误之处，请指出，谢谢！
 
-本文地址：[https://guowenfh.github.io/2016/10/15/node-http/](https://guowenfh.github.io/2016/10/15/node-http/)
+本文地址：[//guowenfh.github.io/2016/10/15/node-http/](//guowenfh.github.io/2016/10/15/node-http/)
