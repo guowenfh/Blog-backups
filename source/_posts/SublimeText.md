@@ -7,10 +7,10 @@ categories: [前端技术]
 **详细设置 && 20+插件**
 
 > 本文章会在本人有插件或者设置更新时，进行不定时更新
-> 
+>
 > 2015-12-31更新：NO. 21 侧边栏同步编辑窗口底色插件。
 > 2016-04-06更新：代码片段：`better-completions`；主题：`Material`,`Seti_UI`；代码格式化：`HTML-CSS-JS Prettify`；vue语法高亮：`Vue Syntax Highlight`；`Terminal`与`MarkdownEditing`个性化定制
-> GitSavvy 、 
+> GitSavvy 、
 > 2016-07-03更新：自定义代码片段；`livereload`：保存自动刷新浏览器；`WakaTime`:记录你的编程时间
 
 
@@ -26,7 +26,7 @@ categories: [前端技术]
 
 ## 菜单栏基础功能介绍
 
-![菜单栏介绍](/images/SublimeText/Menu_Bar.jpg)
+![菜单栏介绍](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk6y6pj20hi07qaae.jpg)
 
 1. `File`：文档相关，新建文件,打开文件或文件夹等。
 2. `Edit`：文件编辑相关，复制，剪切等（CVS大法好）。除此之外还有一些强大的功能。
@@ -197,7 +197,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 使用`Ctrl+Shift+P`,打开控制面板，输入`PC`，效果如下：说明安装成功了。
 
-![package control](/images/SublimeText/package_control.jpg)
+![package control](https://ws1.sinaimg.cn/large/82d12951gy1fewiql1jepj20c50arwf8.jpg)
 
 
 ### 安装主题
@@ -207,7 +207,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 - 以`Theme - Spacegray`为例：
 
 
-![Theme - Spacegray](/images/SublimeText/Theme_Spacegray.jpg)
+![Theme - Spacegray](https://ws1.sinaimg.cn/large/82d12951gy1fewitm4cmpj20cb09dgm8.jpg)
 先使用`Ctrl+Shift+P` 输入PCI，回车选择 `Install Package` 。需要等待一会加载时间，输入`Theme-Spacegray`。其实不输入完也会模糊匹配出来的。
 - 回车等待安装就好，成功后会弹出一个使用设置的页面，把其中的如下代码拷贝到`Settings-User`，保存，你会发现，默认的主题已经变成了刚刚我们查看过的主题了。
 
@@ -225,11 +225,11 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 1. Material：
 
-![Theme_Material](/images/SublimeText/Theme_Material.jpg)
+![Theme_Material](https://ws1.sinaimg.cn/large/82d12951gy1fewiqlbwh4j210o0u20ty.jpg)
 
 2. Seti_UI：
 
-![Theme_Seti_UI](/images/SublimeText/Theme_Seti_UI.png)
+![Theme_Seti_UI](https://ws1.sinaimg.cn/large/82d12951gy1fewiql87qij21ao0r93ze.jpg)
 
 安装方法还是和上面一样，最好是根据它的`README`描述来进行设置。
 
@@ -241,7 +241,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 - 但是有了该插件之后，事情就变得简单了许多，只需要按下`Ctrl+Shift+N`，输入文件夹以及文件名，你就会看到如下效果:（回车，你会发现已经子目录下的文件已经新建完成了！）
 
 
-![AdvancedNewFile](/images/SublimeText/AdvancedNewFile.jpg)
+![AdvancedNewFile](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk9cn6j20aq023jrn.jpg)
 
 
 ### NO.2 `Nettuts+ Fetch`：管理类库。
@@ -249,7 +249,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 安装成功后输入`Ctrl+Shift+P`打开命令面板，输入`Fetch`，可以看到以下：
 
 
-![Nettuts+ Fetch](/images/SublimeText/Nettuts_Fetch.jpg)
+![Nettuts+ Fetch](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk901oj209s03ydfw.jpg)
 选择`file`可以看到设置的文件。选择下载
 配合刚刚上面的插件使用，简直完美..
 
@@ -377,7 +377,7 @@ $.ajax({
 ### NO.10 `BracketHighlighter`:符号高亮
 该插件提供行数列高亮的各种配对的语法符号，显示在行号上。效果如下：
 
-![BracketHighlighter](/images/SublimeText/BracketHighlighter.jpg)
+![BracketHighlighter](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkjlk4j20dy09hdga.jpg)
 
 配置方法参考[sublime text3下BracketHighlighter的配置方法](http://www.cnblogs.com/liu-l/p/3866458.html)
 
@@ -411,13 +411,13 @@ $.ajax({
 效果如下：
 
 
-![Color Highlighter](/images/SublimeText/Color_Highlighter.jpg)
+![Color Highlighter](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkkc1ij20bj049aaw.jpg)
 
 ### NO.14`Colorpicker`：使用一个取色器改变颜色
 
 使用方法: `ctrl + shift + c`，快捷键有冲突，需修改。可以通过`ctrl+shift+p`：搜索`Colorpicker`调用
 
-![Colorpicker](/images/SublimeText/Colorpicker.jpg)
+![Colorpicker](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkqweij20ht0aywf1.jpg)
 
 
 ### NO.15 `Markdown Editing` 和 `Markdown Preview`，实现预览MD
@@ -434,7 +434,7 @@ $.ajax({
     "browser" : "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 }
 //打开Preferences->Key Binding User，添加下面一句话。
-{ 
+{
     "keys": ["f6"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}
 },
 //keys的值是以上面浏览器预览markdown文件。
@@ -525,7 +525,7 @@ $.ajax({
 
 ### NO.23 `liveReload`：文件保存浏览器即时刷新！
 > 该插件在window下，有很多问题会导致不能使用，mac下可以正常使用
- 
+
 - 需安装对应的chrome插件：[chrome商店下载](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)，完成后需勾选允许访问文件网址
 - 为了避免每一次启动实时刷新在sulime里面启动一遍插件，可在插件设置中增加如下字段：
 
@@ -552,7 +552,7 @@ $.ajax({
 - `Vue Syntax Highlight`：`vue`文件的语法高亮
 - `WakaTime`：记录你的编程时间
 - `rem-unit`：px单位自动转rem，移动端开发必备
- 
+
 
 
 > 参考如下：

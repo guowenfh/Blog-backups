@@ -10,7 +10,7 @@ categories: [前端框架]
 - [webpack入坑之旅（二）loader入门](http://guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
 - [webpack入坑之旅（三）webpack.config入门](http://guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
 - [webpack入坑之旅（四）扬帆起航](http://guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
-- [webpack入坑之旅（五）加载vue单文件组件](http://guowenfh.github.io/2016/03/25/vue-webpack-05-vue/) 
+- [webpack入坑之旅（五）加载vue单文件组件](http://guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
 - [webpack入坑之旅（六）配合vue-router实现SPA](http://guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
 
 在上面的练习当中我们已经成功的加载了一个`.vue`格式的单文件组件，并且实现了在使用vue情况下的自动刷新。
@@ -99,7 +99,7 @@ categories: [前端框架]
 ```
 
 
-组件的基础介绍就到这，更多详细内容请移步[官网](http://cn.vuejs.org/guide/) 
+组件的基础介绍就到这，更多详细内容请移步[官网](http://cn.vuejs.org/guide/)
 
 ## vue-router
 
@@ -163,14 +163,14 @@ router.map({
 // 路由器会创建一个 App 实例，并且挂载到选择符 #app 匹配的元素上。
 router.start(App, '#app')
 ```
- 
+
 我个人感觉这部分还是很好理解的，官方也给了一个[在线示例应用](http://jsfiddle.net/yyx990803/xyu276sa/)。很好的展现了它的路由切换。
 
 简单的介绍到这，下面最重要的部分到了，看看如何结合我们定义的`.vue`单文件组件。
 
 首先来看我们的文件目录结构：
 
-![01-webpack-vuerouter](/images/vue-webpack/01-webpack-vuerouter.jpg)
+![01-webpack-vuerouter](https://ws1.sinaimg.cn/large/82d12951gy1fewippeybej205u0e2weg.jpg)
 
 ### 定义路由规则
 
@@ -299,7 +299,7 @@ router.map({
         name:'index',
         component:index,
         // 在/index下设置一个子路由
-        subRoutes:{ 
+        subRoutes:{
             // 当匹配到/index/hello时，会在index的<router-view>内渲染
             '/hello':{
                 name:'hello',//可有可无，主要是为了方便使用

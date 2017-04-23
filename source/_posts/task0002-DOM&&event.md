@@ -109,7 +109,7 @@ function getPosition(element) {
 ```javascript
 // 实现一个简单的Query
 function $(selector) {
-    
+
 }
 
 // 可以通过id获取DOM对象，通过#标示，例如
@@ -167,7 +167,7 @@ function VQuery(selector, root) {
         }
         break;
     case "[": //属性选择器
-    
+
         if (selector.indexOf("=") === -1) {
         //只有属性没有值的情况
             allChildren = root.getElementsByTagName("*");
@@ -392,7 +392,7 @@ $.delegate($("#list"), "li", "click", clickHandle);
 
 -  这里就不细说事件冒泡与事件捕获了（阻止默认行为也会用到，有兴趣去网上找找看），但是要理解事件代理就必须先知道它们。下面这张图可以先看看。（图片来自网络，侵删）
 
-![事件捕获与事件冒泡原型图](/images/ife/JavaScirpt-Event-capture-Bubble.jpg)
+![事件捕获与事件冒泡原型图](https://ws1.sinaimg.cn/large/82d12951gy1fewio65xc0j20f00dimzj.jpg)
 
 - 理解了这个之后就没那么难了，只需要进行一点兼容性处理。
 - 参考资料

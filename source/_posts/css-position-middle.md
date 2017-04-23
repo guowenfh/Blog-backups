@@ -19,7 +19,7 @@ categories: [前端技术]
 
 ##  1. 水平居中
 
-![水平居中](/images/css/position/HorizontalCenter.jpg)
+![水平居中](https://ws1.sinaimg.cn/large/82d12951gy1fewin03e5wj20fi03u0so.jpg)
 
 
 ### 1.1 `inline-block`配合`text-align`
@@ -64,7 +64,7 @@ categories: [前端技术]
 
 ## 2. 垂直居中
 
-![垂直居中](/images/css/position/VerticalCenter.jpg)
+![垂直居中](https://ws1.sinaimg.cn/large/82d12951gy1fewin0i911j203u0caa9z.jpg)
 
 
 ### 2.1  `table-cell`配合`vertical-align`
@@ -95,7 +95,7 @@ categories: [前端技术]
 
 ## 3.  水平+垂直居中
 
-![水平垂直居中](/images/css/position/middle.jpg)
+![水平垂直居中](https://ws1.sinaimg.cn/large/82d12951gy1fewin0bwwcj208d08d748.jpg)
 
 ### 3.1  `inline-block`配合`text-align`加上`table-cell`配合`vertical-align`
 

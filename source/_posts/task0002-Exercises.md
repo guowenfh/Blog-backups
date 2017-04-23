@@ -167,7 +167,7 @@ var birthday = new Date(1995,11,17,3,24,0);
 ```
   - Date对象中处理时间和日期的常用方法：详细内容在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)上
 
-![日期对象常用方法](/images/ife/DateObject.jpg)
+![日期对象常用方法](https://ws1.sinaimg.cn/large/82d12951gy1fewio59lnrj20bm089jri.jpg)
 
 #### 正式开始：
 
@@ -181,7 +181,7 @@ var birthday = new Date(1995,11,17,3,24,0);
  - 取消计时器:`clearTimeout()`停止计时器。
 5. 给按钮添加点击事件，在点击时，调用刚刚编写的的时间处理函数。
 
- 
+
 在线演示：**[小练习2：倒计时](http://guowenfh.github.io/IFE/task0002/task0002_2.html)**
 
 ## 小练习3：轮播图组件
@@ -207,7 +207,7 @@ var birthday = new Date(1995,11,17,3,24,0);
 
 - 选择器函数`$(class)`;
 - 运动框架`startMove`。
- - 同时在该函数引入时，还依赖于获取实际样式函数`getStyle`。 
+ - 同时在该函数引入时，还依赖于获取实际样式函数`getStyle`。
 - 获取当前元素在同级元素的索引`getIndex`;
 - 事件代理函数：`delegateEvent`。
 - 添加class与删除class元素`addClass、romoveClass`。
@@ -241,8 +241,8 @@ function Slideshow(element) {
     element.parentNode.appendChild(createUl); //插入导航
     addClass(createUl, "Slideshow-nav"); //添加导航样式
     addClass(createUl.getElementsByTagName("li")[0], "active"); //默认设置第一个为第当前活动的li
-    
-    //编写点击函数clickLi： 
+
+    //编写点击函数clickLi：
     clickLi();
     /**
      * 点击导航
@@ -257,7 +257,7 @@ function Slideshow(element) {
             });
         });
     }
-    
+
     /**
     * 用于移除所有的Li的选中状态：active
     */
@@ -271,7 +271,7 @@ function Slideshow(element) {
 
 ```
 
-#### 第二步：实现自动播放 
+#### 第二步：实现自动播放
 > 为了方便后续的封装，暂时只考虑：**正序**，**不循环**的情况！
 
 1. 创建自动播放函数`paly（）`,获取当前为选中状态`active`的li.
@@ -290,7 +290,7 @@ function Slideshow(element) {
 ```javascript
 var iSpeed = 4000;//定时器间隔。
 
-hoverElement(); 
+hoverElement();
 /*
 * 移入图片容器暂停，移除继续播放。
 */
@@ -455,7 +455,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 
 
 3. 需要注意的地方：
- - 在移除高亮状态时，最好是遍历一遍。因为键盘与鼠标划过有可能同时触发，导致有多个高亮。 
+ - 在移除高亮状态时，最好是遍历一遍。因为键盘与鼠标划过有可能同时触发，导致有多个高亮。
  - 错误处理
 
 #### 第二阶段
@@ -468,7 +468,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 5. 改造第一阶段的函数：
 - 因为是使用的事件代理，直接对`ul`添加事件，所以需要修改的部分不是很多。
 - `click`和`enter`部分获取的值，因为`span`标签的存在，需要使用正则进行处理，输出删除`span`后的值。
- 
+
 
 在线演示：**[小练习4：输入框即时提示](http://guowenfh.github.io/IFE/task0002/task0002_4.html)**
 
@@ -497,7 +497,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
  1. 直接获取鼠标的位置并设置给`div`行不行呢？试试吧！显然，会出现问题，点击鼠标就到`div`左上角去了。
  2. 那么怎么改变呢？获取鼠标在`div`中的位置？对。就这样，在鼠标按下时记录鼠标在`div`中的位置.
  3. 在鼠标移动时，用当前的位置，减去刚刚的位置，这就是应该的值！
-4. 别忘了鼠标抬起时，需要清除事件，不然鼠标就粘住了。 
+4. 别忘了鼠标抬起时，需要清除事件，不然鼠标就粘住了。
  > 这里用到了event,事件对象的相关概念，推荐观看慕课网的视频。[DOM事件探秘](http://www.imooc.com/learn/138)
 5. 善用this。
 **扩展**
@@ -593,7 +593,7 @@ delegateEvent(parentElement, "li", "mousedown", function (ev) {
 #### 第四步：碰撞检测函数
 
 先来看张图：
-![碰撞检测示意图](/images/ife/hitDetection.jpg)
+![碰撞检测示意图](https://ws1.sinaimg.cn/large/82d12951gy1fewio5ne1oj20jg0bygm0.jpg)
 
 
 是不是有瞬间豁然开朗的感觉呢？
