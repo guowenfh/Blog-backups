@@ -32,7 +32,7 @@ categories: [Bootstrap]
 ```
 之后就可以直接通过sublime Text进行下载了，还是刚刚的步骤，但是这一次输入的是`fetch:package`。找到`Bootstrap`，如果下载成功在您的文件夹中应该可以看到主要包括三个文件夹`css`，`fonts`和`js`，如下：
 
-![下载文件夹](/images/Bootstrap/downloadFolder.jpg)
+![下载文件夹](https://ws1.sinaimg.cn/large/82d12951gy1fewhun5wsfj20fk0b90tc.jpg)
 
 可以看到除去字体文件夹外的其他文件夹中每一分文件都有两个不同的版本，一个完整版的文件，方便查看源码如：`bootstrap.js`和一个用于实际生产情况的压缩文件如`bottstrap.min.js`；
 

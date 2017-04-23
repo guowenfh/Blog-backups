@@ -6,7 +6,7 @@ categories: [Bootstrap]
 
 
 > 博客之外
-> 
+>
 > 只剩最后一天，二月份就结束了。距离上一篇博客已经有着整整一个月的时间，这一个月的时间，感觉技术上的成长又被搁置了，没有了之前闭关学习的心无旁骛，那段时间成长真的飞快。
 > 在家喝酒，玩耍，到现在实习入职了一个星期，整整一个月时间，学习效率都十分的低，也可以说基本没学到什么新东西。今天是2月最后一天，不能再这样下去，好了懊恼的时间，不能太多，应该着眼当下，现在是2016-02-29 21:40，开始把bootstrap入门理论基础部分完结了吧，下一步就该进入一个新的阶段了！我将一直前行，加油！
 
@@ -54,20 +54,20 @@ categories: [Bootstrap]
 
 看看效果吧：
 
-![缩略图展示](/images/Bootstrap/06-thumbnail.jpg)
+![缩略图展示](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5ylynj20860b4dg3.jpg)
 
 ## 警示框
 
 其实在我们的网页中，总是避免不了各种的提示信息，比如我们的登陆界面中，总是避免不了输入错误的情况，就需要使用警示框来提示用户错误信息。Bootstrap为我们提供了一组这样的样式类。
 
-Bootstrap使用`.alert`来控制警示框的大小边距等样式，然后再用：成功：`.alert-success`、信息：`.alert-info`、警告：`.alert-warning`和错误：`.alert-danger`、这样的一组样式类,来表示不同的情景颜色。   
+Bootstrap使用`.alert`来控制警示框的大小边距等样式，然后再用：成功：`.alert-success`、信息：`.alert-info`、警告：`.alert-warning`和错误：`.alert-danger`、这样的一组样式类,来表示不同的情景颜色。
 
 ```html
 <div class="alert alert-success" role="alert">恭喜您操作成功！</div>
 <!-- ...等等 -->
 ```
 
-![缩略图展示](/images/Bootstrap/06-alert.jpg)
+![缩略图展示](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5oacij20cm08bwek.jpg)
 
 关闭
 
@@ -84,7 +84,8 @@ Bootstrap使用`.alert`来控制警示框的大小边距等样式，然后再用
 
 可以看到效果如下：（点击后面的icon便可以关闭该提示信息）
 
-![缩略图交互](/images/Bootstrap/06-alert-close.jpg)
+![缩略图交互](https://ws1.sinaimg.cn/large/82d12951gy1fewhs64kpmj20bu028a9v.jpg
+)
 
 
 那么好的效果，在实现的时候需要注意一些什么呢？主要有三个步骤：
@@ -123,7 +124,7 @@ Bootstrap也是这样实现的，外层容器使用`.progress`类，子容器使
 <!-- .... -->
 ```
 
-![条纹进度条](/images/Bootstrap/06-progress-striped.jpg)
+![条纹进度条](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5osr8j208404kjra.jpg)
 
 我们还可以在一个进度条内，将不同状态的进度条放置在一起，水平排列，形成叠加进度条，这个就自己试试吧！^_^
 
@@ -164,7 +165,7 @@ Bootstrap也是这样实现的，外层容器使用`.progress`类，子容器使
 我们在论坛中常常能看到和Bootstrap中文官网媒体对象组模块类似的阶梯状媒体对象，它是怎么实现的呢？
 其实很简单，我们只需要在上一级的`.media-body`容器最后添加新的额媒体对象容器`.media`就可以实现这样的阶梯效果
 
-![媒体对象](/images/Bootstrap/06-media.jpg)
+![媒体对象](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5tpnqj20im065jrv.jpg)
 
 除了这样的阶梯形式，我们还可以在论坛评论系统中看到，评论是平铺着下来的，也就是媒体对象列表。
 
@@ -202,7 +203,7 @@ Bootstrap同样帮我们清除了，媒体对象列表中的ul>li的默认样式
 
 可以实现笑效果如下：
 
-![带徽章的列表](/images/Bootstrap/06-list-badge.jpg)
+![带徽章的列表](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5qlhxj208502zjr9.jpg)
 
 如果在列表组中，我们希望列表项是链接的话，Bootstrap为我们提供了两种方案：
 
@@ -296,7 +297,7 @@ Bootstrap同样帮我们清除了，媒体对象列表中的ul>li的默认样式
 **在面板中嵌套列表组时，同样是这样的两个差异**
 
 
---- 
+---
 
 到这里我们的Bootstrap基础理论入门就结束了，实际上花了很多时间都是在理论上，并且中间还停歇了很长的时间。下一步我们需要做的就是在实战中去不断掌握它，了解它的细节，帮助我们能够缩短搭建时间、快速的搭建网站，并且让其在不同的终端下达到一个非常好的显示效果。
 

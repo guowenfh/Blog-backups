@@ -94,11 +94,11 @@ Bootstrap的基础CSS代码**默认从小屏幕设备**（比如移动设备、�
 Bootstrap是通过`.rows`上的外边距（margin）取负`margin-left: -15px;margin-right: -15px;`，表示第一列和最后一列的行偏移，用来抵消第一个列的左内距和最后一列的右内距。
 
 
-## 基本用法 
+## 基本用法
 
 一图胜千言，通过下表可以详细查看 Bootstrap 的栅格系统是如何在多种屏幕设备上工作的。使用方法我想应该不用再多说了，已经有提到过，直接一起来看看区别吧。（图片扒自[Bootstrap中文官网](http://v3.bootcss.com/css/#grid-less)）
 
-![栅格参数](/images/Bootstrap/Grid-parameter.jpg)
+![栅格参数](https://ws1.sinaimg.cn/large/82d12951gy1fewhvpnhn2j20oa0b9q3u.jpg)
 
 通过源码可以发现，如下：
 ```css
@@ -150,7 +150,7 @@ Bootstrap是通过`.rows`上的外边距（margin）取负`margin-left: -15px;ma
 ```
 实现的效果如下：
 
-![网格基本用法](/images/Bootstrap/Grid-base.jpg)
+![网格基本用法](https://ws1.sinaimg.cn/large/82d12951gy1fewhvotkb7j20re02ddfu.jpg)
 
 Bootstrap作为一个响应式框架当然不会只有那么简单的功能，我们继续往下走吧！
 
@@ -181,7 +181,7 @@ Bootstrap作为一个响应式框架当然不会只有那么简单的功能，�
 
 可以实现的效果如下：
 
-![网格基本用法](/images/Bootstrap/Grid-offset.jpg)
+![网格基本用法](https://ws1.sinaimg.cn/large/82d12951gy1fewhvpk4whj20rd035q30.jpg)
 
 从实现的效果我们就能发现一些东西，注意**第二段的显示效果与代码**，从那里我们可以发现：使用`col-md-offset-*`对列进行向右偏移时，要保证列与偏移列的总数不超过12，不然会致列断行显示。
 其实原因也很简单：因为该类是对于列设置`margin-left`，并且我们在上面的源码展示中，也可以看有每一列都有着`float:left`的属性，从这些地方我们就不难发现在（偏移+列宽）超过12时，为何会换行显示了
@@ -221,7 +221,7 @@ Bootstrap仅通过设置left和right来实现定位效果。通过查看源码�
 </div>
 ```
 
-![网格基本用法](/images/Bootstrap/Grid-push-pull.jpg)
+![网格基本用法](https://ws1.sinaimg.cn/large/82d12951gy1fewhvpivx0j20wy01ojrf.jpg)
 
 我们可以发现列的位置已经发生了改变
 
@@ -240,7 +240,7 @@ Bootstrap框架的网格系统还支持列的嵌套。你可以在一个列中�
 
 效果如下：
 
-![网格基本用法](/images/Bootstrap/Grid-nesting.jpg)
+![网格基本用法](https://ws1.sinaimg.cn/large/82d12951gy1fewhvpmvnqj20wy01pwep.jpg)
 
 该如何实现呢？
 
@@ -269,7 +269,7 @@ Bootstrap框架的网格系统还支持列的嵌套。你可以在一个列中�
 
 ```css
 [class *= col-] [class *= col-] {
-    background-color: #f36;      
+    background-color: #f36;
     border:1px dashed #fff;
     color: #fff;
 }
@@ -311,9 +311,9 @@ Bootstrap框架的网格系统还支持列的嵌套。你可以在一个列中�
 ```
 
 宽屏显示效果如下：
-![移动设备和桌面屏幕-桌面](/images/Bootstrap/Grid-mobile-desktop-1.jpg)
+![移动设备和桌面屏幕-桌面](/images/Boohttps://ws1.sinaimg.cn/large/82d12951gy1fewhvp57zgj20rd02dglo.jpg)
 窄屏显示效果如下：
-![移动设备和桌面屏幕-移动](/images/Bootstrap/Grid-mobile-desktop-2.jpg)
+![移动设备和桌面屏幕-移动](https://ws1.sinaimg.cn/large/82d12951gy1fewhvovi4xj20lf03gmx9.jpg)
 
 其实从上面代码和实际的显示效果，我们就可以看出一些问题来：
 
@@ -347,11 +347,11 @@ Bootstrap框架的网格系统还支持列的嵌套。你可以在一个列中�
 这一次会比原来的情况更加复杂，一个会有3种情况出现：
 
 宽屏：
-![桌面](/images/Bootstrap/Grid-mobile-pad-desktop-1.jpg)
+![桌面](https://ws1.sinaimg.cn/large/82d12951gy1fewhvovi4xj20lf03gmx9.jpg)
 中屏：
-![平板](/images/Bootstrap/Grid-mobile-pad-desktop-2.jpg)
+![平板](https://ws1.sinaimg.cn/large/82d12951gy1fewhvoxn1mj20rf01l3yj.jpg)
 窄屏：
-![手机](/images/Bootstrap/Grid-mobile-pad-desktop-3.jpg)
+![手机](https://ws1.sinaimg.cn/large/82d12951gy1fewhvoxnbqj20kl02laa3.jpg)
 
 
 然后我们从这一部分代码与实际效果，再加上上面做的一点小总结，对比之后又能发现一些问题：
