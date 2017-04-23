@@ -77,7 +77,7 @@ categories: [Bootstrap]
 
 ### 全局样式
 Bootstrap框架的核心是轻量的CSS基础代码库，他并没有一味的重置样式，而是注重各浏览器基础表现，降低开发难度。
-为了增强跨浏览器表现的一致性，Bootstrap使用了 [Normalize.css](http://necolas.github.io/normalize.css/)。但没有一味全部使用该重置样式，而是在此基础之上进行了一些改良，让其更加符合Bootstrap的设计思想。
+为了增强跨浏览器表现的一致性，Bootstrap使用了 [Normalize.css](//necolas.github.io/normalize.css/)。但没有一味全部使用该重置样式，而是在此基础之上进行了一些改良，让其更加符合Bootstrap的设计思想。
 Bootstrap保留和坚持部分浏览器的基础样式，解决部分潜在的问题，提升一些细节的体验，在排版、链接样式设置了基本的全局样式。具体说明如下：
 
 - 移除body的margin声明

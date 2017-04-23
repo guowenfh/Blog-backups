@@ -340,7 +340,7 @@ Sublime Text 有了 Git 插件之后，GitGutter 更好的帮助开发者查看�
 
 ### NO.7 `Emmet`：不解释。
 
-中文文档：[地址](http://yanxyz.github.io/emmet-docs/css-abbreviations/vendor-prefixes/)
+中文文档：[地址](//yanxyz.github.io/emmet-docs/css-abbreviations/vendor-prefixes/)
 
 [前端开发必备！Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 

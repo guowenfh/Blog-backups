@@ -151,10 +151,10 @@ bundle.js  1.82 kB       0  [emitted]  main
 - [Webpack傻瓜式指南（一）](//github.com/vikingmute/webpack-for-fools/blob/master/entries/chapter-1.md)
 - [Webpack傻瓜式指南（二）](//github.com/vikingmute/webpack-for-fools/blob/master/entries/chapter-2.md)
 - [Vue + webpack 项目实践](http://jiongks.name/blog/just-vue/)
-- [webpack 入门及实践](http://www.w3ctech.com/topic/1557)
+- [webpack 入门及实践](//www.w3ctech.com/topic/1557)
 - [JavaScript 标准参考教程（alpha）--Node.js](http://javascript.ruanyifeng.com/#nodejs)
 - [应该是最好懂的Webpack教程---阮一峰](//github.com/ruanyf/webpack-demos) 还没敲呢，应该全部敲一遍的。
 - [webpack常用配置总结](http://www.h-simon.com/42/)
 - [Express结合Webpack的全栈自动刷新](//segmentfault.com/a/1190000004505747)
-- [Vue.js官方教程](http://cn.vuejs.org/guide/)
-- [vue-router文档](http://vuejs.github.io/vue-router/zh-cn/)
+- [Vue.js官方教程](//cn.vuejs.org/guide/)
+- [vue-router文档](//vuejs.github.io/vue-router/zh-cn/)

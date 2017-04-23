@@ -15,12 +15,12 @@ categories: [前端框架]
 
 在上面的练习当中我们已经成功的加载了一个`.vue`格式的单文件组件，并且实现了在使用vue情况下的自动刷新。
 
-但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](//github.com/vuejs/vue-router)，并且配有对应的[中文文档](http://vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
+但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](//github.com/vuejs/vue-router)，并且配有对应的[中文文档](//vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
 
 
 ## vue组件
 
-> [官网对于组件讲解](http://cn.vuejs.org/guide/components.html)
+> [官网对于组件讲解](//cn.vuejs.org/guide/components.html)
 
 
 在`Vue`中定义一个组件非常简单，只需要一对**自定义标签**，在其中填入内容就可以进行我们的组件编写了，然后使用`Vue.component()`去注册我们的组件下面来看一个例子，来直观的看看vue的组件。
@@ -99,7 +99,7 @@ categories: [前端框架]
 ```
 
 
-组件的基础介绍就到这，更多详细内容请移步[官网](http://cn.vuejs.org/guide/)
+组件的基础介绍就到这，更多详细内容请移步[官网](//cn.vuejs.org/guide/)
 
 ## vue-router
 
@@ -115,7 +115,7 @@ Vue.use(VueRouter);
 
 ### 起步
 
-其实这一部分`vue-router`的[中文文档](http://vuejs.github.io/vue-router/zh-cn/basic.html)中已经讲的非常详细了。。在这里与它不同的是它用的`CommonJS`的规范来进行模块安装，而我使用ES6的import，有兴趣自己去看- -。其他的内容我就直接扒下来了。
+其实这一部分`vue-router`的[中文文档](//vuejs.github.io/vue-router/zh-cn/basic.html)中已经讲的非常详细了。。在这里与它不同的是它用的`CommonJS`的规范来进行模块安装，而我使用ES6的import，有兴趣自己去看- -。其他的内容我就直接扒下来了。
 
 html:
 
