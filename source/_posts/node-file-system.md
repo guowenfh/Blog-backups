@@ -92,4 +92,4 @@ categories: [node]
 
 这是对于 node 的文件系统 的学习，仅仅过了一遍api，了解了一下处理流程，理解有限，如果有错误之处，请指出，谢谢！
 
-本文地址：[//guowenfh.github.io/2016/10/15/node-file-system/](//guowenfh.github.io/2016/10/15/node-file-system/)
+本文地址：[//guowenfh.github.io/2016/10/15/node-file-system/](https://guowenfh.github.io/2016/10/15/node-file-system/)

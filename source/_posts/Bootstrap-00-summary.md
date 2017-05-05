@@ -20,9 +20,9 @@ categories: [Bootstrap]
 
 ### Bootstrap下载
 
-可以在其[中文官网](//v3.bootcss.com/getting-started/#download)中下载，可以很明显的看到一个大大的下载按钮，此外还可以通过CDN，git命令，以及npm等等方式进行下载。
+可以在其[中文官网](https://v3.bootcss.com/getting-started/#download)中下载，可以很明显的看到一个大大的下载按钮，此外还可以通过CDN，git命令，以及npm等等方式进行下载。
 
-如果您恰好看了我写的[sublime Text](//guowenfh.github.io/2015/12/26/SublimeText/)的博客的话，肯定知道我们是可以直接通过插件进行安装的。只需要在`ctrl`+`shift`+`P`时,输入`fecth:manage`，进行如下设置：
+如果您恰好看了我写的[sublime Text](https://guowenfh.github.io/2015/12/26/SublimeText/)的博客的话，肯定知道我们是可以直接通过插件进行安装的。只需要在`ctrl`+`shift`+`P`时,输入`fecth:manage`，进行如下设置：
 
 ```javascript
 "packages":
@@ -32,7 +32,7 @@ categories: [Bootstrap]
 ```
 之后就可以直接通过sublime Text进行下载了，还是刚刚的步骤，但是这一次输入的是`fetch:package`。找到`Bootstrap`，如果下载成功在您的文件夹中应该可以看到主要包括三个文件夹`css`，`fonts`和`js`，如下：
 
-![下载文件夹](//ws1.sinaimg.cn/large/82d12951gy1fewhun5wsfj20fk0b90tc.jpg)
+![下载文件夹](https://ws1.sinaimg.cn/large/82d12951gy1fewhun5wsfj20fk0b90tc.jpg)
 
 可以看到除去字体文件夹外的其他文件夹中每一分文件都有两个不同的版本，一个完整版的文件，方便查看源码如：`bootstrap.js`和一个用于实际生产情况的压缩文件如`bottstrap.min.js`；
 
@@ -77,7 +77,7 @@ categories: [Bootstrap]
 
 ### 全局样式
 Bootstrap框架的核心是轻量的CSS基础代码库，他并没有一味的重置样式，而是注重各浏览器基础表现，降低开发难度。
-为了增强跨浏览器表现的一致性，Bootstrap使用了 [Normalize.css](//necolas.github.io/normalize.css/)。但没有一味全部使用该重置样式，而是在此基础之上进行了一些改良，让其更加符合Bootstrap的设计思想。
+为了增强跨浏览器表现的一致性，Bootstrap使用了 [Normalize.css](https://necolas.github.io/normalize.css/)。但没有一味全部使用该重置样式，而是在此基础之上进行了一些改良，让其更加符合Bootstrap的设计思想。
 Bootstrap保留和坚持部分浏览器的基础样式，解决部分潜在的问题，提升一些细节的体验，在排版、链接样式设置了基本的全局样式。具体说明如下：
 
 - 移除body的margin声明
@@ -86,5 +86,5 @@ Bootstrap保留和坚持部分浏览器的基础样式，解决部分潜在的�
 - 设置全局链接颜色，且当链接处于悬浮`:hover`状态时才会显示下划线样式
 
 
-Bootstrap简介部分到此就结束了，在Bootstrap的[中文官网](//v3.bootcss.com/)中，有着层次清晰且详细的说明文档，下面就和我一起走进Bootstrap的世界吧！
+Bootstrap简介部分到此就结束了，在Bootstrap的[中文官网](https://v3.bootcss.com/)中，有着层次清晰且详细的说明文档，下面就和我一起走进Bootstrap的世界吧！
 

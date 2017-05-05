@@ -183,4 +183,4 @@ console.log('Server is running at http://127.0.0.1:8888/');
 
 这是对于 node 的 http模块 的学习，理解有限，如果有错误之处，请指出，谢谢！
 
-本文地址：[//guowenfh.github.io/2016/10/15/node-http/](//guowenfh.github.io/2016/10/15/node-http/)
+本文地址：[//guowenfh.github.io/2016/10/15/node-http/](https://guowenfh.github.io/2016/10/15/node-http/)

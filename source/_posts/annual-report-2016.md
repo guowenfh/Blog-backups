@@ -9,7 +9,7 @@ categories: [生活]
 ## 博客
 先说说博客，从第一篇博客开始到现在一年零一个月了。一共 50 篇，博客总字数为：338202，产量不算高。不过值得高兴的是一年下来总流量量有 `15W`，应该还算不错吧。不仅是对自己学习的一个记录，应该也帮助到了不少人。终于把域名买了 [blog.guowenfh.com](http://blog.guowenfh.com)
 
-![博客访问统计](//ww4.sinaimg.cn/large/006tKfTcgw1fbab295cyqj31kw1hah2h.jpg)
+![博客访问统计](https://ww4.sinaimg.cn/large/006tKfTcgw1fbab295cyqj31kw1hah2h.jpg)
 
 下面自我分析一下：
 1. 内容：大多数是一些前端技术学习的笔记，也有寥寥几篇的摘抄和自我思考。在实际项目和代表编写过程中的积累根本没有，得好好加强。
@@ -19,13 +19,13 @@ categories: [生活]
 
 ## Github
 
-![GitHub](//ww3.sinaimg.cn/large/006tKfTcgw1fbab18w6evj315w0tyjxl.jpg)
+![GitHub](https://ww3.sinaimg.cn/large/006tKfTcgw1fbab18w6evj315w0tyjxl.jpg)
 
 今年在 GitHub 上并没有一个特别拿得出手的开源项目，不过之前写的 `vue-webapck` 基础介绍教程居然能拿到160星，让我很惊讶，也让我更加想去为社区贡献一点自己的东西。正好公司要跨入 `react` 技术栈了，第一步先用它写个小项目吧。之后尝试去给出一些 `Pull requests`
 
 ## 关于计划
 
-在今年年初，自己给自己定了几个小目标，内容之前在 [思想汇报](//bolg.guowenfh.com/2016/07/03/thoughtReport-2016-07-03/)中也有提到，除了书只读了10多本之外，其他都算是实现了吧，至少来说不后悔。
+在今年年初，自己给自己定了几个小目标，内容之前在 [思想汇报](https://bolg.guowenfh.com/2016/07/03/thoughtReport-2016-07-03/)中也有提到，除了书只读了10多本之外，其他都算是实现了吧，至少来说不后悔。
 2017 年的具体规划没想好，但也就那些吧，多沟通，多看书，去年一年30本的量没达到，今年需要努力把阅读习惯培养出来！
 保持这种饥饿感，保持一种初学者的心态，坚持去坚持。
 

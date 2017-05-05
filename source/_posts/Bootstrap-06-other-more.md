@@ -54,7 +54,7 @@ categories: [Bootstrap]
 
 看看效果吧：
 
-![缩略图展示](//ws1.sinaimg.cn/large/82d12951gy1fewhs5ylynj20860b4dg3.jpg)
+![缩略图展示](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5ylynj20860b4dg3.jpg)
 
 ## 警示框
 
@@ -67,7 +67,7 @@ Bootstrap使用`.alert`来控制警示框的大小边距等样式，然后再用
 <!-- ...等等 -->
 ```
 
-![缩略图展示](//ws1.sinaimg.cn/large/82d12951gy1fewhs5oacij20cm08bwek.jpg)
+![缩略图展示](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5oacij20cm08bwek.jpg)
 
 关闭
 
@@ -84,7 +84,7 @@ Bootstrap使用`.alert`来控制警示框的大小边距等样式，然后再用
 
 可以看到效果如下：（点击后面的icon便可以关闭该提示信息）
 
-![缩略图交互](//ws1.sinaimg.cn/large/82d12951gy1fewhs64kpmj20bu028a9v.jpg
+![缩略图交互](https://ws1.sinaimg.cn/large/82d12951gy1fewhs64kpmj20bu028a9v.jpg
 )
 
 
@@ -124,7 +124,7 @@ Bootstrap也是这样实现的，外层容器使用`.progress`类，子容器使
 <!-- .... -->
 ```
 
-![条纹进度条](//ws1.sinaimg.cn/large/82d12951gy1fewhs5osr8j208404kjra.jpg)
+![条纹进度条](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5osr8j208404kjra.jpg)
 
 我们还可以在一个进度条内，将不同状态的进度条放置在一起，水平排列，形成叠加进度条，这个就自己试试吧！^_^
 
@@ -165,7 +165,7 @@ Bootstrap也是这样实现的，外层容器使用`.progress`类，子容器使
 我们在论坛中常常能看到和Bootstrap中文官网媒体对象组模块类似的阶梯状媒体对象，它是怎么实现的呢？
 其实很简单，我们只需要在上一级的`.media-body`容器最后添加新的额媒体对象容器`.media`就可以实现这样的阶梯效果
 
-![媒体对象](//ws1.sinaimg.cn/large/82d12951gy1fewhs5tpnqj20im065jrv.jpg)
+![媒体对象](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5tpnqj20im065jrv.jpg)
 
 除了这样的阶梯形式，我们还可以在论坛评论系统中看到，评论是平铺着下来的，也就是媒体对象列表。
 
@@ -203,7 +203,7 @@ Bootstrap同样帮我们清除了，媒体对象列表中的ul>li的默认样式
 
 可以实现笑效果如下：
 
-![带徽章的列表](//ws1.sinaimg.cn/large/82d12951gy1fewhs5qlhxj208502zjr9.jpg)
+![带徽章的列表](https://ws1.sinaimg.cn/large/82d12951gy1fewhs5qlhxj208502zjr9.jpg)
 
 如果在列表组中，我们希望列表项是链接的话，Bootstrap为我们提供了两种方案：
 

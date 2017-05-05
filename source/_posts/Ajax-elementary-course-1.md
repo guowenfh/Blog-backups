@@ -3,7 +3,7 @@ date: 2015-12-18 14:38:40
 tags: [JS,Ajax]
 categories: [前端技术]
 ---
-> 续作[Ajax入门（二）Ajax函数封装](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
+> 续作[Ajax入门（二）Ajax函数封装](https://guowenfh.github.io/2015/12/18/Ajax-elementary-course-2-fn/)
 > 传统表单在提交后整个页面都刷新
 
 ## 什么是服务器
@@ -46,7 +46,7 @@ categories: [前端技术]
  3. 请求头,包含一些客户端环境信息,身份验证信息等
  4. 请求体,也就是请求正文,请求正文中可以包含客户端提交的查询字符串信息,表单信息等等.
 
-![HTTP请求](//ws1.sinaimg.cn/large/82d12951gy1feuqytyw96j20ez06fgn0.jpg)
+![HTTP请求](https://ws1.sinaimg.cn/large/82d12951gy1feuqytyw96j20ez06fgn0.jpg)
 
 ### HTTP响应
 
@@ -56,7 +56,7 @@ categories: [前端技术]
  2. **响应头**,响应头和请求头一样包含许多有用的信息,例如服务器类型,日期时间,内容类型和长度等.
  3. **响应体**,也就是响应正文.
 
-![HTTP响应](//ws1.sinaimg.cn/large/82d12951gy1feuqytjxc1j20et076wfn.jpg)
+![HTTP响应](https://ws1.sinaimg.cn/large/82d12951gy1feuqytjxc1j20et076wfn.jpg)
 
 ### HTTP请求方式
 
@@ -221,7 +221,7 @@ function get(url, fnSucc, fnFaild) {
 
 ### 动态数据:请求JS(或JSON)文件
 > 注：**并不推荐使用`eval`，并不推荐使用`eval`，并不推荐使用`eval`**。因为eval解析数据时会有一系列问题出现。这里是因为只是学习就随意点了。
-> 在需要解析请求数据时，推荐使用JSON的方法`JSON.parse()`可以将一个 JSON 字符串解析成为一个 JavaScript 值。参考[MDN-JSON](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+> 在需要解析请求数据时，推荐使用JSON的方法`JSON.parse()`可以将一个 JSON 字符串解析成为一个 JavaScript 值。参考[MDN-JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 
   - `eval`的使用

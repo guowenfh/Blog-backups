@@ -8,7 +8,7 @@ categories: [前端技术]
 
 > javascript 类型系统可以分为标准类型和对象类型，进一步标准类型又可以分为原始类型和引用类型，而对象类型又可以分为内置对象类型、普通对象类型、自定义对象类型。
 
-![JS数据类型](//ws1.sinaimg.cn/large/82d12951gy1feuqvmu3hgj20ie0dw75f.jpg).
+![JS数据类型](https://ws1.sinaimg.cn/large/82d12951gy1feuqvmu3hgj20ie0dw75f.jpg).
 
 ### 类型转化表
 
@@ -157,4 +157,4 @@ getConstructorName(12);//"Number"
 ## 类型判断对比表
 - 其中红色的单元格表示该判断方式不支持的类型。
 
-![类型判断对比表](//ws1.sinaimg.cn/large/82d12951gy1feuqvmmxcpj20z80mkwkg.jpg)
+![类型判断对比表](https://ws1.sinaimg.cn/large/82d12951gy1feuqvmmxcpj20z80mkwkg.jpg)

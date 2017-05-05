@@ -4,23 +4,23 @@ tags: [vue,webpack]
 categories: [前端框架]
 ---
 
-这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](//github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
+这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](https://github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
 
-- [webpack入坑之旅（一）不是开始的开始](//guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
-- [webpack入坑之旅（二）loader入门](//guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
-- [webpack入坑之旅（三）webpack.config入门](//guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
-- [webpack入坑之旅（四）扬帆起航](//guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
-- [webpack入坑之旅（五）加载vue单文件组件](//guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
-- [webpack入坑之旅（六）配合vue-router实现SPA](//guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
+- [webpack入坑之旅（一）不是开始的开始](https://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
+- [webpack入坑之旅（二）loader入门](https://guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
+- [webpack入坑之旅（三）webpack.config入门](https://guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
+- [webpack入坑之旅（四）扬帆起航](https://guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
+- [webpack入坑之旅（五）加载vue单文件组件](https://guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
+- [webpack入坑之旅（六）配合vue-router实现SPA](https://guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
 
 在上面的练习当中我们已经成功的加载了一个`.vue`格式的单文件组件，并且实现了在使用vue情况下的自动刷新。
 
-但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](//github.com/vuejs/vue-router)，并且配有对应的[中文文档](//vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
+但是我们最终的目的还是要实现单页面应用程序，这个时候我们就必不可少的需要使用到路由管理器来进行SPA的开发，vue官方为我们提供了一个官方库[vue-router](https://github.com/vuejs/vue-router)，并且配有对应的[中文文档](https://vuejs.github.io/vue-router/zh-cn/index.html)。关于里面的内容大家自行前去观看。在这里，只会把我们需要的东西拿出来讲。
 
 
 ## vue组件
 
-> [官网对于组件讲解](//cn.vuejs.org/guide/components.html)
+> [官网对于组件讲解](https://cn.vuejs.org/guide/components.html)
 
 
 在`Vue`中定义一个组件非常简单，只需要一对**自定义标签**，在其中填入内容就可以进行我们的组件编写了，然后使用`Vue.component()`去注册我们的组件下面来看一个例子，来直观的看看vue的组件。
@@ -99,7 +99,7 @@ categories: [前端框架]
 ```
 
 
-组件的基础介绍就到这，更多详细内容请移步[官网](//cn.vuejs.org/guide/)
+组件的基础介绍就到这，更多详细内容请移步[官网](https://cn.vuejs.org/guide/)
 
 ## vue-router
 
@@ -115,7 +115,7 @@ Vue.use(VueRouter);
 
 ### 起步
 
-其实这一部分`vue-router`的[中文文档](//vuejs.github.io/vue-router/zh-cn/basic.html)中已经讲的非常详细了。。在这里与它不同的是它用的`CommonJS`的规范来进行模块安装，而我使用ES6的import，有兴趣自己去看- -。其他的内容我就直接扒下来了。
+其实这一部分`vue-router`的[中文文档](https://vuejs.github.io/vue-router/zh-cn/basic.html)中已经讲的非常详细了。。在这里与它不同的是它用的`CommonJS`的规范来进行模块安装，而我使用ES6的import，有兴趣自己去看- -。其他的内容我就直接扒下来了。
 
 html:
 
@@ -170,7 +170,7 @@ router.start(App, '#app')
 
 首先来看我们的文件目录结构：
 
-![01-webpack-vuerouter](//ws1.sinaimg.cn/large/82d12951gy1fewippeybej205u0e2weg.jpg)
+![01-webpack-vuerouter](https://ws1.sinaimg.cn/large/82d12951gy1fewippeybej205u0e2weg.jpg)
 
 ### 定义路由规则
 

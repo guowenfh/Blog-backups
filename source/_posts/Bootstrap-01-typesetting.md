@@ -162,11 +162,11 @@ Bootstrap当然不会就这么简单做一点点修改，它定义了一些关�
 
 在浏览器全屏显示中可以看到效果如下：
 
-![自定义水平列表大屏](//ws1.sinaimg.cn/large/82d12951gy1fewi1y8bjyj20l5029wf2.jpg)
+![自定义水平列表大屏](https://ws1.sinaimg.cn/large/82d12951gy1fewi1y8bjyj20l5029wf2.jpg)
 
 我们来把屏幕大小进行改变，在遇到一个临界值时（小屏），水平定义列表将回复到原始的状态，如下改变：
 
-![自定义水平列表小屏](//ws1.sinaimg.cn/large/82d12951gy1fewi1ye0cej20gc03fmxw.jpg)
+![自定义水平列表小屏](https://ws1.sinaimg.cn/large/82d12951gy1fewi1ye0cej20gc03fmxw.jpg)
 
 这是为什么呢？我们去看看源码吧！
 原来在这里添加了一个媒体查询，只有**屏幕大于768px**的时候，添加类名`.dl-horizontal`才具有水平定义列表效果。其实现主要方式：
@@ -187,7 +187,7 @@ Bootstrap当然不会就这么简单做一点点修改，它定义了一些关�
 
 直接来看效果吧!
 
-![code风格](//ws1.sinaimg.cn/large/82d12951gy1fewi1yb2gcj20by05tjs4.jpg)
+![code风格](https://ws1.sinaimg.cn/large/82d12951gy1fewi1yb2gcj20by05tjs4.jpg)
 
 代码如下：（需要注意的是，**不管使用哪种代码风格，在代码中碰到小于号（`<`）和大于号（`>`）都需要使用转义字符来替代）
 
@@ -248,16 +248,16 @@ kbd风格：
 
 下面是宽屏的效果（和普通的表格无区别）：
 
-![表格行的类](//ws1.sinaimg.cn/large/82d12951gy1fewi1ycevpj20fe03mjrr.jpg)
+![表格行的类](https://ws1.sinaimg.cn/large/82d12951gy1fewi1ycevpj20fe03mjrr.jpg)
 
 此处是窄屏的效果（可以看到滚动条的出现）：
-![表格行的类](//ws1.sinaimg.cn/large/82d12951gy1fewi1y68ufj206q05h3yl.jpg)
+![表格行的类](https://ws1.sinaimg.cn/large/82d12951gy1fewi1y68ufj206q05h3yl.jpg)
 
 ### 表格行的类，表格情景
 
 在上面已经说到了在Bootstrap中，为不同的情景做了不一样的颜色，用于不同的信息展示。只是在类名上做了一些小小的改变。下面就可以看到：（图片来自[慕课网](http://www.imooc.com)）
 
-![表格行的类](//ws1.sinaimg.cn/large/82d12951gy1fewi1y4xzcj20ke0e4mx8.jpg)
+![表格行的类](https://ws1.sinaimg.cn/large/82d12951gy1fewi1y4xzcj20ke0e4mx8.jpg)
 
 只需要在**`<tr>`**标签添加上这些类就可以使用了。
 除此之外，通过源码可以看到，在这些颜色设置之外，Bootstrap还单独设置了**hover效果（悬浮状态）**的**颜色加深**效果（它对于不同的情况单独进行了颜色设置）。
@@ -271,4 +271,4 @@ kbd风格：
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](https://v3.bootcss.com/css/)

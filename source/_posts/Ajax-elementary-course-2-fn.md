@@ -4,7 +4,7 @@ tags: [JS,Ajax]
 categories: [前端技术]
 ---
 
-> 如果看了的我上一篇博客《[Ajax入门（一）从0开始到一次成功的GET请求](//guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)》的话，肯定知道我们已经完成了一个简单的get请求函数了。如下：
+> 如果看了的我上一篇博客《[Ajax入门（一）从0开始到一次成功的GET请求](https://guowenfh.github.io/2015/12/18/Ajax-elementary-course-1/)》的话，肯定知道我们已经完成了一个简单的get请求函数了。如下：
 
 
 ```javascript

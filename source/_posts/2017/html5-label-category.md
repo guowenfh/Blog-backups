@@ -27,8 +27,8 @@ HTML5基本介绍
 ## HTML5常用标签分类
 
 如何选择标签：
- ![如何选择标签](//p3.ssl.qhimg.com/t01d712cd34f492117d.png)
-图片来自：[十年踪迹的博客](//www.h5jun.com/post/html5-element-flowchart.html?utm_source=tuicool&utm_medium=referral)
+ ![如何选择标签](https://p3.ssl.qhimg.com/t01d712cd34f492117d.png)
+图片来自：[十年踪迹的博客](https://www.h5jun.com/post/html5-element-flowchart.html?utm_source=tuicool&utm_medium=referral)
 
 ### 一. HTML文档标签
 
@@ -36,7 +36,7 @@ HTML5基本介绍
 2. `<html>`: 定义HTML文档.
 3. `<head>`: 定义文档的头部.(头部内包含)
 4. `<meta>`: 定义元素可提供有关页面的元信息，比如针对搜索引擎和更新频度的描述和关键词(由于规范没有规定关于 mete 中各种属性的强制定义，所以不同的浏览器都都可以通过 mete 来声明一些规则)
-    - 参考：[移动端的头部标签](//github.com/yisibl/blog/issues/1)
+    - 参考：[移动端的头部标签](https://github.com/yisibl/blog/issues/1)
     - `<meta charset ="UtF-8">`
     - `<meta name ="keywords" conten="关键词">`
     - `<meta name ="description" conten="页面介绍">`
@@ -51,7 +51,7 @@ HTML5基本介绍
 
 ### 二. 布局标签&语义化
 
-![](//ws1.sinaimg.cn/large/82d12951gy1fevim1rbn6j20zq0tyjum.jpg)
+![](https://ws1.sinaimg.cn/large/82d12951gy1fevim1rbn6j20zq0tyjum.jpg)
 
 1. `<div>`:定义块级元素.
 2. `<span>`:定义行业元素.
@@ -59,7 +59,7 @@ HTML5基本介绍
 4. `<footer>`:定义区段或页面的页脚.(足部)
 5. `<section>`:定义文档中的区段.
 6. `<article>`:定义文章.（在`<article>`中也可以进行内容划分）
-    -   ![](//ws1.sinaimg.cn/large/82d12951gy1fevim24vmpj20n40lsgpn.jpg)
+    -   ![](https://ws1.sinaimg.cn/large/82d12951gy1fevim24vmpj20n40lsgpn.jpg)
 7. `<aside>`:定义页面内容之外的内容.
 8. `<details>`:定义元素的细节.
 9. `<summary>`:定义 `<details>` 元素可见的标题.

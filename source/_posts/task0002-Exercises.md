@@ -12,8 +12,8 @@ categories: [前端技术]
 - 小练习5：界面拖拽交互
 
 
-[源码地址](//github.com/guowenfh/IFE/tree/master/task0002)
-[task0002 在线Demo](//guowenfh.github.io/IFE/task0002/index.html)
+[源码地址](https://github.com/guowenfh/IFE/tree/master/task0002)
+[task0002 在线Demo](https://guowenfh.github.io/IFE/task0002/index.html)
 
 
 ## 小练习1：处理用户输入
@@ -135,7 +135,7 @@ js:
 ```
 
 
-在线演示：**[小练习1：处理兴趣列表](//guowenfh.github.io/IFE/task0002/task0002_1.html)**
+在线演示：**[小练习1：处理兴趣列表](https://guowenfh.github.io/IFE/task0002/task0002_1.html)**
 
 ## 小练习2：日期对象的使用
 
@@ -165,9 +165,9 @@ var birthday = new Date("1995-12-17T03:24:00");
 var birthday = new Date(1995,11,17);
 var birthday = new Date(1995,11,17,3,24,0);
 ```
-  - Date对象中处理时间和日期的常用方法：详细内容在[MDN](//developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)上
+  - Date对象中处理时间和日期的常用方法：详细内容在[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)上
 
-![日期对象常用方法](//ws1.sinaimg.cn/large/82d12951gy1fewio59lnrj20bm089jri.jpg)
+![日期对象常用方法](https://ws1.sinaimg.cn/large/82d12951gy1fewio59lnrj20bm089jri.jpg)
 
 #### 正式开始：
 
@@ -182,7 +182,7 @@ var birthday = new Date(1995,11,17,3,24,0);
 5. 给按钮添加点击事件，在点击时，调用刚刚编写的的时间处理函数。
 
 
-在线演示：**[小练习2：倒计时](//guowenfh.github.io/IFE/task0002/task0002_2.html)**
+在线演示：**[小练习2：倒计时](https://guowenfh.github.io/IFE/task0002/task0002_2.html)**
 
 ## 小练习3：轮播图组件
 
@@ -198,7 +198,7 @@ var birthday = new Date(1995,11,17,3,24,0);
 效果示例：[http://echarts.baidu.com/](http://echarts.baidu.com/) 上面的轮播图（不需要做左右两个箭头）
 
 ### 实现思路:
-> 主要是对于考察对于定时器，以及事件绑定的处理，以及动画效果，为此我专门写了一篇博客《[JS完美运动框架的封装过程](//guowenfh.github.io/2015/12/21/JS-Animated-Frames/)》。 这里就直接使用里面封装好的函数了。
+> 主要是对于考察对于定时器，以及事件绑定的处理，以及动画效果，为此我专门写了一篇博客《[JS完美运动框架的封装过程](https://guowenfh.github.io/2015/12/21/JS-Animated-Frames/)》。 这里就直接使用里面封装好的函数了。
 >
 > 本来都要放弃组件的编写了，只想按照常规方法来写个轮播图就好，但是在先把小练习4完成的情况下，就发现了一种新方法，可以帮助我完成这个任务（强烈建议先看小练习四！）使用`nextElementNode`,图片向左切换。（不涉及任何css，我假设css都会了，也没有用到特别难css属性）
 
@@ -407,9 +407,9 @@ delegateEvent(createSpan, "span", "click", function () {
     play(leftIndex);
 });
 ```
-至此，我们的轮播图组件就完成了！ 需要配合CSS使用。 通过这次封装，收益良多，感兴趣的话可以看看[源码](//github.com/guowenfh/IFE/tree/master/task0002)
+至此，我们的轮播图组件就完成了！ 需要配合CSS使用。 通过这次封装，收益良多，感兴趣的话可以看看[源码](https://github.com/guowenfh/IFE/tree/master/task0002)
 
-在线演示：**[小练习3：图片轮播组件](//guowenfh.github.io/IFE/task0002/task0002_3.html)**
+在线演示：**[小练习3：图片轮播组件](https://guowenfh.github.io/IFE/task0002/task0002_3.html)**
 
 ## 小练习4：输入提示框
 
@@ -437,7 +437,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 
 示例：
 
-![示例](//github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_sug.png)
+![示例](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_sug.png)
 
 
 ### 实现思路
@@ -470,7 +470,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 - `click`和`enter`部分获取的值，因为`span`标签的存在，需要使用正则进行处理，输出删除`span`后的值。
 
 
-在线演示：**[小练习4：输入框即时提示](//guowenfh.github.io/IFE/task0002/task0002_4.html)**
+在线演示：**[小练习4：输入框即时提示](https://guowenfh.github.io/IFE/task0002/task0002_4.html)**
 
 ## 小练习5：界面拖拽交互
 
@@ -481,7 +481,7 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 - 拖拽到什么位置认为是可以添加到新容器的规则自己定
 - 注意交互中良好的用户体验和使用引导
 
-![示例](//github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_drag.png)
+![示例](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0002/img/task0002_drag.png)
 
 ### 实现思路：
 
@@ -573,7 +573,7 @@ function toPosition(element, childEle) {
 }
 ```
 
-在线演示：**[小练习5：拖拽交互](//guowenfh.github.io/IFE/task0002/task0002_5.html)**
+在线演示：**[小练习5：拖拽交互](https://guowenfh.github.io/IFE/task0002/task0002_5.html)**
 
 #### 第三步：实现拖拽
 > 前面我们已经实现了`setDrag(element)`函数，常规方法就是直使用循环，然后传入`element`。
@@ -593,7 +593,7 @@ delegateEvent(parentElement, "li", "mousedown", function (ev) {
 #### 第四步：碰撞检测函数
 
 先来看张图：
-![碰撞检测示意图](//ws1.sinaimg.cn/large/82d12951gy1fewio5ne1oj20jg0bygm0.jpg)
+![碰撞检测示意图](https://ws1.sinaimg.cn/large/82d12951gy1fewio5ne1oj20jg0bygm0.jpg)
 
 
 是不是有瞬间豁然开朗的感觉呢？

@@ -36,13 +36,13 @@ categories: [Bootstrap]
 </form>
 ```
 一般来说效果是这样的：
-![基础表单](//ws1.sinaimg.cn/large/82d12951gy1fewhzpflvuj20c6043glk.jpg)
+![基础表单](https://ws1.sinaimg.cn/large/82d12951gy1fewhzpflvuj20c6043glk.jpg)
 
 ### 内联表单
 
 还是上面那一段代码：我们只需要给**form**加上下面`.form-inline`这个类就可以实现表单元素在一行排列：
 
-![内联表单](//ws1.sinaimg.cn/large/82d12951gy1fewhzpj8kmj20dz01oq2t.jpg)
+![内联表单](https://ws1.sinaimg.cn/large/82d12951gy1fewhzpj8kmj20dz01oq2t.jpg)
 
 它的实现原理很简单，其实就是在添加了这个类后，将内部的表单元素设置为了内联块（inline-block）。
 
@@ -62,7 +62,7 @@ Bootstrap框架默认的表单是**垂直显示风格**，除了上面的内联�
 - 例如：使用`<div class="col-sm-6"></div>`将我们的input进行包裹，具体情况到栅格布局的时候再说
 
 可以实现下面的效果，（同样处于媒体查询中）
-![水平表单](//ws1.sinaimg.cn/large/82d12951gy1fewhzpjlxdj20e3030t8n.jpg)
+![水平表单](https://ws1.sinaimg.cn/large/82d12951gy1fewhzpjlxdj20e3030t8n.jpg)
 
 ## 二. 表单控件
 
@@ -124,7 +124,7 @@ Bootstrap对于这两个按钮进行了一些优化，要想达到最佳显示�
 
 Bootstrap实现禁用和普通的表单禁用状态的实现方法一样的，就是在相应的表单控件上添加属性`disabled`，只不过Bootstrap做了一些样式风格的处理：
 
-![禁用状态](//ws1.sinaimg.cn/large/82d12951gy1fewi0x6wg8j208r032mwz.jpg)
+![禁用状态](https://ws1.sinaimg.cn/large/82d12951gy1fewi0x6wg8j208r032mwz.jpg)
 
 其次，除了单独给相应的表单控件添加disabled外，还可以直接添加到域中`<fieldset disabled></fieldset>`，在这种情况，整个域中的表单全部都将会被禁用，此外还有一个**小bug**：如果该域中存在`<legend>`(域标题)，在其内的表单控件，虽然有禁用的样式，但是实际上可以进行输入，点击等操作！
 
@@ -152,7 +152,7 @@ Bootstrap实现禁用和普通的表单禁用状态的实现方法一样的，�
 
 显示效果如下：
 
-![禁用状态](//ws1.sinaimg.cn/large/82d12951gy1fewi0xhp8wj20d106edfw.jpg)
+![禁用状态](https://ws1.sinaimg.cn/large/82d12951gy1fewi0xhp8wj20d106edfw.jpg)
 
 #### 表单提示信息
 在表单验证的过程，未免会要提供不同的提示信息。在Bootstrap框架中也提供了这样的效果。提供了一个`help-block`类，例如：`<span class="help-block">您输入的信息是错误的</span>`只要将其插入到input之后，提示信息将以块状显示，并且显示在控件底部。
@@ -174,8 +174,8 @@ Bootstrap实现禁用和普通的表单禁用状态的实现方法一样的，�
 
 也正如我们前面所说，Bootstrop对于按钮也做了不同情景下的类，用不同的颜色展示很好的描述了当前的状态。一下图片来自[慕课网](http://www.imooc.com)
 
-![默认状态](//ws1.sinaimg.cn/large/82d12951gy1fewi0x857dj20kx08oq3s.jpg)
-![多种状态](//ws1.sinaimg.cn/large/82d12951gy1fewi0xmc7aj20ma0mimzp.jpg)
+![默认状态](https://ws1.sinaimg.cn/large/82d12951gy1fewi0x857dj20kx08oq3s.jpg)
+![多种状态](https://ws1.sinaimg.cn/large/82d12951gy1fewi0xmc7aj20ma0mimzp.jpg)
 
 
 记住一点！Bootstrap中的按钮，**第一前提是必须添加`btn`这个类**，其他的各种类，都只能添加到其后。所以一个按钮应该是这个样子的：`<button class="btn btn-info" >信息按钮</button> `，若还有其他的样式，往`btn-info`后添加，充分利用css的层叠特性。
@@ -184,7 +184,7 @@ Bootstrap实现禁用和普通的表单禁用状态的实现方法一样的，�
 
 Bootstrap有着很对相似的类（学习完后总结一下吧颜色，大小等等），比如现在要说的，改变按钮的大小，当然你可以自定义，但是Bootstrap默认为我们提供了一些，添加到`btn`类后就行！
 
-![按钮大小](//ws1.sinaimg.cn/large/82d12951gy1fewi0xbir3j20j70gtmy9.jpg)
+![按钮大小](https://ws1.sinaimg.cn/large/82d12951gy1fewi0xbir3j20j70gtmy9.jpg)
 
 ### 3. 块状按钮
 
@@ -235,7 +235,7 @@ Bootstrap按钮的活动状态主要包括按钮的悬浮状态(`:hover`)，点�
 
 这里说的图标就是Web制作中常看到的小icon图标，包括250多个来自 Glyphicon Halflings 的字体图标，Bootstrap框架中图标都是**glyphicons.com**这个商业网站提供的，并且**免费授权**给Bootstrap框架使用。
 
-可以在[Glyphicons 字体图标](//v3.bootcss.com/components/#glyphicons)，看到全部图标的样式，您可以根据你的需求进行设置
+可以在[Glyphicons 字体图标](https://v3.bootcss.com/components/#glyphicons)，看到全部图标的样式，您可以根据你的需求进行设置
 
 在网页中使用图标也非常的简单，在任何**内联元素**上应用所对应的样式即可：
 
@@ -268,4 +268,4 @@ Bootstrap按钮的活动状态主要包括按钮的悬浮状态(`:hover`)，点�
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](https://v3.bootcss.com/css/)

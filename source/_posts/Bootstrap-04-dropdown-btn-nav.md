@@ -46,7 +46,7 @@ categories: [Bootstrap]
 
 我们来看看简化前后的对比图：
 
-![下拉菜单（基本用法）](//ws1.sinaimg.cn/large/82d12951gy1fewh4tam3pj20b406oq35.jpg)
+![下拉菜单（基本用法）](https://ws1.sinaimg.cn/large/82d12951gy1fewh4tam3pj20b406oq35.jpg)
 
 在使用Bootstrap框架中的下拉菜单组件时，其结构运用的正确与否非常的重要，如果结构和类名未使用正确，直接影响组件是否能正常运用。经过我们上面的简化，最终可以看到核心要求有以下几点：
 
@@ -108,7 +108,7 @@ Bootstrap框架中下拉菜单**默认是左对齐**也就是添加`.dropdown-me
 }
 ```
 
-![下拉菜单（右对齐）](//ws1.sinaimg.cn/large/82d12951gy1fewh4tmwxwj20al0azdg1.jpg)
+![下拉菜单（右对齐）](https://ws1.sinaimg.cn/large/82d12951gy1fewh4tmwxwj20al0azdg1.jpg)
 
 
 #### 菜单项状态
@@ -119,13 +119,13 @@ Bootstrap框架中下拉菜单**默认是左对齐**也就是添加`.dropdown-me
 
 我们可以实现下面这样的效果：
 
-![下拉菜单（右对齐）](//ws1.sinaimg.cn/large/82d12951gy1fewh4t7z1rj208j052dfw.jpg)
+![下拉菜单（右对齐）](https://ws1.sinaimg.cn/large/82d12951gy1fewh4t7z1rj208j052dfw.jpg)
 
 
 
 ## 按钮
 
-我们在[《Bootstrap入门笔记之（二）表单》](//guowenfh.github.io/2016/01/18/Bootstrap-02-form/)中，已经了解过了Bootstrap中按钮的使用，在这里我们继续进行一些扩展！
+我们在[《Bootstrap入门笔记之（二）表单》](https://guowenfh.github.io/2016/01/18/Bootstrap-02-form/)中，已经了解过了Bootstrap中按钮的使用，在这里我们继续进行一些扩展！
 
 ### 按钮组及工具栏
 
@@ -162,7 +162,7 @@ Bootstrap框架中下拉菜单**默认是左对齐**也就是添加`.dropdown-me
 
 上面两段代码效果如下：
 
-![按钮组及工具栏](//ws1.sinaimg.cn/large/82d12951gy1fewh4t9v13j20hw0403yo.jpg)
+![按钮组及工具栏](https://ws1.sinaimg.cn/large/82d12951gy1fewh4t9v13j20hw0403yo.jpg)
 
 ### 嵌套分组
 
@@ -216,7 +216,7 @@ Bootstrap框架中下拉菜单**默认是左对齐**也就是添加`.dropdown-me
 那么现在就来对比一下，上面代码以及类的添加可以达到的不同效果：
 
 
-![嵌套分组、垂直、向上展开](//ws1.sinaimg.cn/large/82d12951gy1fewh4tck8ej20le06t3yy.jpg)
+![嵌套分组、垂直、向上展开](https://ws1.sinaimg.cn/large/82d12951gy1fewh4tck8ej20le06t3yy.jpg)
 
 
 
@@ -239,7 +239,7 @@ Bootstrap框架中制作导航条主要通过`.nav`样式。默认的`.nav`样�
 当然他们同样也有**当前状态**（`.active`）和**禁用状态**（`.disabled`），我们给第一个导航添加当前状态，最后一个导航添加禁用状态，实现效果如下：
 
 
-![导航-基础样式](//ws1.sinaimg.cn/large/82d12951gy1fewh4tcyc7j208w06oq38.jpg)
+![导航-基础样式](https://ws1.sinaimg.cn/large/82d12951gy1fewh4tcyc7j208w06oq38.jpg)
 
 ### 修饰
 
@@ -300,7 +300,7 @@ Bootstrap框架中制作导航条主要通过`.nav`样式。默认的`.nav`样�
 
 可以实现的效果：
 
-![导航-面包屑](//ws1.sinaimg.cn/large/82d12951gy1fewh6ziqq9j208102hq2q.jpg)
+![导航-面包屑](https://ws1.sinaimg.cn/large/82d12951gy1fewh6ziqq9j208102hq2q.jpg)
 
 是不是很简洁明了呢？
 
@@ -312,4 +312,4 @@ Bootstrap框架中制作导航条主要通过`.nav`样式。默认的`.nav`样�
 参考：
 
 - [慕课网：玩转Bootstrap](http://www.imooc.com/learn/141)
-- [Bootstrap中文官网：全局 CSS 样式](//v3.bootcss.com/css/)
+- [Bootstrap中文官网：全局 CSS 样式](https://v3.bootcss.com/css/)

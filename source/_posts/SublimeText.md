@@ -26,7 +26,7 @@ categories: [前端技术]
 
 ## 菜单栏基础功能介绍
 
-![菜单栏介绍](//ws1.sinaimg.cn/large/82d12951gy1fewiqk6y6pj20hi07qaae.jpg)
+![菜单栏介绍](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk6y6pj20hi07qaae.jpg)
 
 1. `File`：文档相关，新建文件,打开文件或文件夹等。
 2. `Edit`：文件编辑相关，复制，剪切等（CVS大法好）。除此之外还有一些强大的功能。
@@ -186,7 +186,7 @@ categories: [${4:分类}]
 
 ### 安装`package control`。
 这里我使用的是`sublimeText 3`，2 的话上官网查询代码。
-首先打开`package control`的[官方网站](//packagecontrol.io/installation)。
+首先打开`package control`的[官方网站](https://packagecontrol.io/installation)。
 复制下面这一段代码:
 
 ```
@@ -197,17 +197,17 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 使用`Ctrl+Shift+P`,打开控制面板，输入`PC`，效果如下：说明安装成功了。
 
-![package control](//ws1.sinaimg.cn/large/82d12951gy1fewiql1jepj20c50arwf8.jpg)
+![package control](https://ws1.sinaimg.cn/large/82d12951gy1fewiql1jepj20c50arwf8.jpg)
 
 
 ### 安装主题
 
 - 按照上面的步骤，打开图片中的安装插件就行了，其实默认配色真的挺好看的
-- 推荐在安装前，先去[官方网站查看样式](//packagecontrol.io)。的样式，以及设置方法,说明文档。一般安装成功后，会自动弹出。
+- 推荐在安装前，先去[官方网站查看样式](https://packagecontrol.io)。的样式，以及设置方法,说明文档。一般安装成功后，会自动弹出。
 - 以`Theme - Spacegray`为例：
 
 
-![Theme - Spacegray](//ws1.sinaimg.cn/large/82d12951gy1fewitm4cmpj20cb09dgm8.jpg)
+![Theme - Spacegray](https://ws1.sinaimg.cn/large/82d12951gy1fewitm4cmpj20cb09dgm8.jpg)
 先使用`Ctrl+Shift+P` 输入PCI，回车选择 `Install Package` 。需要等待一会加载时间，输入`Theme-Spacegray`。其实不输入完也会模糊匹配出来的。
 - 回车等待安装就好，成功后会弹出一个使用设置的页面，把其中的如下代码拷贝到`Settings-User`，保存，你会发现，默认的主题已经变成了刚刚我们查看过的主题了。
 
@@ -225,11 +225,11 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 1. Material：
 
-![Theme_Material](//ws1.sinaimg.cn/large/82d12951gy1fewiqlbwh4j210o0u20ty.jpg)
+![Theme_Material](https://ws1.sinaimg.cn/large/82d12951gy1fewiqlbwh4j210o0u20ty.jpg)
 
 2. Seti_UI：
 
-![Theme_Seti_UI](//ws1.sinaimg.cn/large/82d12951gy1fewiql87qij21ao0r93ze.jpg)
+![Theme_Seti_UI](https://ws1.sinaimg.cn/large/82d12951gy1fewiql87qij21ao0r93ze.jpg)
 
 安装方法还是和上面一样，最好是根据它的`README`描述来进行设置。
 
@@ -241,7 +241,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 - 但是有了该插件之后，事情就变得简单了许多，只需要按下`Ctrl+Shift+N`，输入文件夹以及文件名，你就会看到如下效果:（回车，你会发现已经子目录下的文件已经新建完成了！）
 
 
-![AdvancedNewFile](//ws1.sinaimg.cn/large/82d12951gy1fewiqk9cn6j20aq023jrn.jpg)
+![AdvancedNewFile](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk9cn6j20aq023jrn.jpg)
 
 
 ### NO.2 `Nettuts+ Fetch`：管理类库。
@@ -249,7 +249,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 安装成功后输入`Ctrl+Shift+P`打开命令面板，输入`Fetch`，可以看到以下：
 
 
-![Nettuts+ Fetch](//ws1.sinaimg.cn/large/82d12951gy1fewiqk901oj209s03ydfw.jpg)
+![Nettuts+ Fetch](https://ws1.sinaimg.cn/large/82d12951gy1fewiqk901oj209s03ydfw.jpg)
 选择`file`可以看到设置的文件。选择下载
 配合刚刚上面的插件使用，简直完美..
 
@@ -332,7 +332,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 ### NO.6 `Git` :版本控制
 
 可视化的操作：帮助你与你的Git repo协议进行交互。它支持很多命令像`init`,` push`, `pull`, `branch`, `stash`,等等。了解更多关于你在`Sublime Text`里面究竟能使用哪些Git功能，以提高您的工作流程。
-[使用参考](//scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow)
+[使用参考](https://scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow)
 
 - `GitGutter`:
 Sublime Text 有了 Git 插件之后，GitGutter 更好的帮助开发者查看文件之前的改动和差异，提升开发效率。（其实我是冲着这个来的）
@@ -340,7 +340,7 @@ Sublime Text 有了 Git 插件之后，GitGutter 更好的帮助开发者查看�
 
 ### NO.7 `Emmet`：不解释。
 
-中文文档：[地址](//yanxyz.github.io/emmet-docs/css-abbreviations/vendor-prefixes/)
+中文文档：[地址](https://yanxyz.github.io/emmet-docs/css-abbreviations/vendor-prefixes/)
 
 [前端开发必备！Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 
@@ -377,7 +377,7 @@ $.ajax({
 ### NO.10 `BracketHighlighter`:符号高亮
 该插件提供行数列高亮的各种配对的语法符号，显示在行号上。效果如下：
 
-![BracketHighlighter](//ws1.sinaimg.cn/large/82d12951gy1fewiqkjlk4j20dy09hdga.jpg)
+![BracketHighlighter](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkjlk4j20dy09hdga.jpg)
 
 配置方法参考[sublime text3下BracketHighlighter的配置方法](http://www.cnblogs.com/liu-l/p/3866458.html)
 
@@ -411,13 +411,13 @@ $.ajax({
 效果如下：
 
 
-![Color Highlighter](//ws1.sinaimg.cn/large/82d12951gy1fewiqkkc1ij20bj049aaw.jpg)
+![Color Highlighter](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkkc1ij20bj049aaw.jpg)
 
 ### NO.14`Colorpicker`：使用一个取色器改变颜色
 
 使用方法: `ctrl + shift + c`，快捷键有冲突，需修改。可以通过`ctrl+shift+p`：搜索`Colorpicker`调用
 
-![Colorpicker](//ws1.sinaimg.cn/large/82d12951gy1fewiqkqweij20ht0aywf1.jpg)
+![Colorpicker](https://ws1.sinaimg.cn/large/82d12951gy1fewiqkqweij20ht0aywf1.jpg)
 
 
 ### NO.15 `Markdown Editing` 和 `Markdown Preview`，实现预览MD
@@ -504,7 +504,7 @@ $.ajax({
 
 其实有了这个代码格式化插件，就可以删除上面的代码格式化插件了。因为功能确实强大！
 
-- [官网插件配置](//packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
+- [官网插件配置](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
 - [FED社区：sublime text 3 插件：HTML-CSS-JS Prettify](http://frontenddev.org/article/sublime-does-text-three-plug-ins-html-and-css-js-prettify.html)
 
 其实我把官网的配置趴下来之后就改了两个地方：
@@ -517,7 +517,7 @@ $.ajax({
 
 ### NO.22 `better-completions`: 涵盖了`html`, `jquery`，`javascript`，`Bootstrap`的代码片段。
 
-- [官网详细配置](//packagecontrol.io/packages/Better%20Completion);
+- [官网详细配置](https://packagecontrol.io/packages/Better%20Completion);
 
 官网介绍的很详细。
 这个插件要是包含的类型多，当然在每一种语言上的匹配肯定是不如上面介绍。不过为了少按几个插件，还是用了它，把上面的几个代码片段插件删了。
@@ -526,7 +526,7 @@ $.ajax({
 ### NO.23 `liveReload`：文件保存浏览器即时刷新！
 > 该插件在window下，有很多问题会导致不能使用，mac下可以正常使用
 
-- 需安装对应的chrome插件：[chrome商店下载](//chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)，完成后需勾选允许访问文件网址
+- 需安装对应的chrome插件：[chrome商店下载](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)，完成后需勾选允许访问文件网址
 - 为了避免每一次启动实时刷新在sulime里面启动一遍插件，可在插件设置中增加如下字段：
 
 ```javascript
@@ -559,5 +559,5 @@ $.ajax({
 - 慕课网视频：[前端开发工具技巧介绍—Sublime篇](http://www.imooc.com/learn/40)
 - 慕课网视频：[快乐的sublime编辑器](http://www.imooc.com/learn/333)
 - Sublime Text手冊：[点击查看](http://docs.sublimetext.tw/)
-- Github资源合集[jikeytang/sublime-text](//github.com/jikeytang/sublime-text)
-- 知乎Sublime Text专题[点击查看](//www.zhihu.com/topic/19668076)
+- Github资源合集[jikeytang/sublime-text](https://github.com/jikeytang/sublime-text)
+- 知乎Sublime Text专题[点击查看](https://www.zhihu.com/topic/19668076)

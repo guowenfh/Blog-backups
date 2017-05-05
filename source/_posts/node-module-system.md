@@ -116,4 +116,4 @@ a('ok');
 
 这是对于 node 的模块系统的学习，理解有限，如果有错误之处，请指出，谢谢！
 
-本文地址：[//guowenfh.github.io/2016/10/15/node-module-system/](//guowenfh.github.io/2016/10/15/node-module-system/)
+本文地址：[//guowenfh.github.io/2016/10/15/node-module-system/](https://guowenfh.github.io/2016/10/15/node-module-system/)

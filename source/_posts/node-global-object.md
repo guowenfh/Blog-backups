@@ -44,7 +44,7 @@ process对象是一个全局对象，可以在任何地方都能访问到他，�
     - `stdin`：标准输入http://baike.baidu.com/view/632680.htm
     - `stdout`标准输出http://baike.baidu.com/view/632676.htm
 
-这里主要是对于标准输入/输出流（IO）的理解，放上一个中文维基百科的解释：[标准输入/输出流](//zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E4%B8%B2%E6%B5%81)，在这里关于 `stdout`就简单举例 `console.log`实现：
+这里主要是对于标准输入/输出流（IO）的理解，放上一个中文维基百科的解释：[标准输入/输出流](https://zh.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E4%B8%B2%E6%B5%81)，在这里关于 `stdout`就简单举例 `console.log`实现：
 ```js
 console.log = function(d) {
   process.stdout.write(d + '\n');
@@ -169,4 +169,4 @@ process.stdin.on('data', function(chunk) {
 
 这是对于 process 对象与 Buffer 类的简单学习，理解较为粗浅，如有错误之处请指出，谢谢！
 
-本文地址:[//guowenfh.github.io/2016/10/15/node-global-object/](//guowenfh.github.io/2016/10/15/node-global-object/)
+本文地址:[//guowenfh.github.io/2016/10/15/node-global-object/](https://guowenfh.github.io/2016/10/15/node-global-object/)
