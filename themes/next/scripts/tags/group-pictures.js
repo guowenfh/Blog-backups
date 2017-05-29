@@ -20,7 +20,7 @@ var templates = {
 
   dispatch: function (pictures, group, layout) {
     var fn = 'group' + group + 'Layout' + layout;
-    fn = templates[fn] || xtemplates.defaults;
+    fn = templates[fn] || templates.defaults;
     return fn.call(templates, pictures);
   },
 
