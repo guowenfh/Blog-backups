@@ -6,6 +6,12 @@ categories: [前端技术]
 
 ## 类型系统
 
+关于 JS 类型的几点说明
+- JavaScript 是动态类型 ＋ 弱类型的语言
+- JavaScript 的变量。属性在运行期决定类型
+- JavaScript 存在隐式类型转换
+- JavaScript 有一系列识别类型的反射方法
+
 > javascript 类型系统可以分为标准类型和对象类型，进一步标准类型又可以分为原始类型和引用类型，而对象类型又可以分为内置对象类型、普通对象类型、自定义对象类型。
 
 ![JS数据类型](https://ws1.sinaimg.cn/large/82d12951gy1feuqvmu3hgj20ie0dw75f.jpg).
