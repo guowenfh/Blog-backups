@@ -6,6 +6,11 @@ categories: [前端技术]
 
 > 文章是很早之前的笔记，做了一些属性上的补充，现发布到博客中来
 
+HTML5 元素选择流程图
+<img src="https://p3.ssl.qhimg.com/t01d712cd34f492117d.png" class="full-image" art="如何选择标签"/>
+
+<!--more-->
+
 HTML5基本介绍
 
 **HTML5 设计思想**
@@ -24,11 +29,9 @@ HTML5基本介绍
 
 -----
 
-## HTML5常用标签分类
+HTML5常用标签分类
 
-如何选择标签：
- ![如何选择标签](https://p3.ssl.qhimg.com/t01d712cd34f492117d.png)
-图片来自：[十年踪迹的博客](https://www.h5jun.com/post/html5-element-flowchart.html?utm_source=tuicool&utm_medium=referral)
+上图来自[十年踪迹的博客：HTML5 元素选择流程图](https://www.h5jun.com/post/html5-element-flowchart.html?utm_source=tuicool&utm_medium=referral)
 
 ### 一. HTML文档标签
 

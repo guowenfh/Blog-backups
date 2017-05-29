@@ -199,7 +199,7 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 # 控制博客跳转的脚本
-blog_migration_new_url: true
+# blog_migration_new_url: true
 
 sidebar:
   # Sidebar Position, available value: left | right
@@ -358,6 +358,7 @@ changyan:
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
+JiaThis: true
 
 # Share
 #jiathis:
@@ -513,9 +514,9 @@ use_motion: true
 # Fancybox
 fancybox: true
 
+#  这两个点用来控制背景，只能开启一个，不能同时开启
 # Canvas-nest
-canvas_nest: false
-
+canvas_nest: true
 # three_waves
 three_waves: false
 
