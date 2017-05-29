@@ -199,7 +199,7 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 # 控制博客跳转的脚本
-# blog_migration_new_url: true
+blog_migration_new_url: true
 
 sidebar:
   # Sidebar Position, available value: left | right
@@ -321,7 +321,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 23a157b5fe12ea1f925808de31def828
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -356,9 +356,8 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+baidushare: true
 ##  type: button
-JiaThis: true
 
 # Share
 #jiathis:
