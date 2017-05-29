@@ -2,7 +2,6 @@
 {% include 'vkontakte-api.swig' %}
 {% include 'google-analytics.swig' %}
 {% include 'baidu-analytics.swig' %}
-{% include 'blog-migration-new-url.swig' %}
 {% include 'tencent-analytics.swig' %}
 {% include 'tencent-mta.swig' %}
 {% include 'cnzz-analytics.swig' %}
