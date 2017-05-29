@@ -86,7 +86,7 @@ theme: next
 baidu_analytics: 23a157b5fe12ea1f925808de31def828
 
 # 这里是控制博客跳转的
-blog_migration_new_url: true
+# blog_migration_new_url: true
 
 # Swiftype Search Key站内搜索
 # Swiftype_key: hgLic_uJPFsSQxKjp8sA
