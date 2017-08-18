@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------
+@# ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
 
@@ -25,6 +25,7 @@ authoricon: heart
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
 
+
 # ---------------------------------------------------------------
 # SEO Settings
 # ---------------------------------------------------------------
@@ -41,6 +42,7 @@ seo: false
 # subtitle: Subtitle
 index_with_subtitle: false
 
+
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -49,6 +51,7 @@ index_with_subtitle: false
 menu:
   #主页，若你的站点运行在子目录中，请将链接前缀的 / 去掉
   home: /
+<<<<<<< HEAD
   #归档页
   archives: /archives
   #标签（需手动创建）
@@ -60,6 +63,22 @@ menu:
   #公益404（需手动创建）
   #commonweal: /404.html
 
+||||||| merged common ancestors
+  #categories: /categories
+  #about: /about
+  archives: /archives
+  tags: /tags
+  #sitemap: /sitemap.xml
+  #commonweal: /404.html
+
+=======
+  #categories: /categories/
+  #about: /about/
+  archives: /archives/
+  tags: /tags/
+  #sitemap: /sitemap.xml
+  #commonweal: /404/
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -79,8 +98,6 @@ menu_icons:
   commonweal: heartbeat
 
 
-
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -88,6 +105,7 @@ menu_icons:
 # Schemes
 # scheme: Muse
 #scheme: Mist
+<<<<<<< HEAD
 scheme: Pisces
 
 
@@ -138,6 +156,61 @@ font:
     size:
 
 
+||||||| merged common ancestors
+#scheme: Pisces
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal italic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  host:
+
+  # Global font settings used on <body> element.
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Lato
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Fallback to `global` font settings.
+  headings:
+    external: true
+    family:
+
+  # Font settings for posts
+  # Fallback to `global` font settings.
+  posts:
+    external: true
+    family:
+
+  # Font settings for Logo
+  # Fallback to `global` font settings.
+  # The `size` option use `px` as unit
+  logo:
+    external: true
+    family:
+    size:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family:
+    size:
+
+
+=======
+#scheme: Pisces
+#scheme: Gemini
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 
 
 # ---------------------------------------------------------------
@@ -149,6 +222,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+<<<<<<< HEAD
 social:
   GitHub: https://github.com/guowenfh
   #twitter: https://twitter.com/your-user-name
@@ -158,6 +232,12 @@ social:
   S F : http://segmentfault.com/u/guowenfh
   #Others:
 
+||||||| merged common ancestors
+
+
+=======
+
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -165,12 +245,28 @@ social:
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
+  icons_only: false
+  transition: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
+  E-Mail: envelope
+  Google: google
   Twitter: twitter
+  FB Page: facebook
+  VK Group: vk
+  Skype: skype
+  YouTube: youtube
+  Instagram: instagram
+  StackOverflow: stack-overflow
   Weibo: weibo
 
+# Blog rolls
+#links_title: Links
+#links_layout: block
+#links_layout: inline
+#links:
+  #Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -179,12 +275,17 @@ social_icons:
 # 头像
 avatar: https://ws1.sinaimg.cn/large/82d12951gy1fewv9toa2xj206y06ygnp.jpg
 
+<<<<<<< HEAD
 
 # 打赏功能
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: https://ws1.sinaimg.cn/large/82d12951gy1fewv9a4ry8j20bn0bngmo.jpg
 alipay: https://ws1.sinaimg.cn/large/82d12951gy1fewv8ifdbjj20ee0eldh0.jpg
 
+||||||| merged common ancestors
+
+=======
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 # Table Of Contents in the Sidebar
 toc:
   enable: true
@@ -192,15 +293,24 @@ toc:
   # Automatically add list number to toc.
   number: true
 
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: false
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
 #creative_commons:
+<<<<<<< HEAD
 # 控制博客跳转的脚本
 blog_migration_new_url: true
 
+||||||| merged common ancestors
+
+
+=======
+
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 sidebar:
   # Sidebar Position, available value: left | right
   # position: left
@@ -218,13 +328,23 @@ sidebar:
 
   # Sidebar offset from top menubar in pixels.
   offset: 12
-  offset_float: 0
+  offset_float: 12
 
   # Back to top in sidebar
   b2t: false
 
   # Scroll percent label in b2t button
   scrollpercent: false
+<<<<<<< HEAD
+
+
+# Blog rolls
+#links_title: Links洋洋
+#links_layout: block
+#links_layout: inline
+#links:
+  #Title: http://example.com/
+||||||| merged common ancestors
 
 
 # Blog rolls
@@ -233,6 +353,11 @@ sidebar:
 #links_layout: inline
 #links:
   #Title: http://example.com/
+=======
+  
+  # Enable sidebar on narrow view
+  onmobile: false
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 
 
 # ---------------------------------------------------------------
@@ -267,12 +392,20 @@ post_wordcount:
   item_text: true
   wordcount: false
   min2read: false
+  totalcount: false
+  separated_meta: true
 
 # Wechat Subscriber
 #wechat_subscriber:
   #enabled: true
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
+
+# Reward
+#reward_comment: Donate comment here
+#wechatpay: /images/wechatpay.jpg
+#alipay: /images/alipay.jpg
+#bitcoin: /images/bitcoin.png
 
 # Declare license on posts
 post_copyright:
@@ -281,10 +414,15 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
+
+# Reduce padding / margin indents on devices with narrow width.
+mobile_layout_economy: false
+
+# Android Chrome header panel color ($black-deep).
+android_chrome_color: "#222"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -295,12 +433,58 @@ custom_logo:
   enabled: false
   image:
 
-
 # Code Highlight theme
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: night
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal italic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
+  host:
+
+  # Global font settings used on <body> element.
+  global:
+    # external: true will load this font family from host.
+    external: true
+    family: Lato
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
+  # Fallback to `global` font settings.
+  headings:
+    external: true
+    family:
+
+  # Font settings for posts
+  # Fallback to `global` font settings.
+  posts:
+    external: true
+    family:
+
+  # Font settings for Logo
+  # Fallback to `global` font settings.
+  # The `size` option use `px` as unit
+  logo:
+    external: true
+    family:
+    size:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family:
+    size:
 
 
 # ---------------------------------------------------------------
@@ -311,8 +495,7 @@ highlight_theme: night
 mathjax:
   enable: false
   per_page: false
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
@@ -335,14 +518,33 @@ disqus:
 # Hypercomments
 #hypercomments_id:
 
+<<<<<<< HEAD
 # Gentie productKey
 gentie_productKey: c500c0eb4c10453886b4c541529f172f
 
+||||||| merged common ancestors
+# Gentie productKey
+#gentie_productKey:
+
+=======
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 # changyan
 changyan:
   enable: false
   appid:
   appkey:
+
+    
+# Valine. 
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://github.com/xCss/Valine
+valine:
+  enable: false
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: Comment input placeholder
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -360,8 +562,11 @@ baidushare:
  type: button
 
 # Share
-#jiathis:
+# This plugin is more useful in China, make sure you known how to use it.
+# And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
+#jiathis:
+  ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
@@ -395,6 +600,7 @@ baidushare:
 #   #admin_nickname: Author
 
 
+
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
@@ -421,6 +627,13 @@ vkontakte_api:
   like:         true
   comments:     true
   num_of_posts: 10
+
+# Star rating support to each article.
+# To get your ID visit https://widgetpack.com
+rating:
+  enable: false
+  id:     #<app_id>
+  color:  fc6423
 
 
 # Show number of visitors to each article.
@@ -486,8 +699,8 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
-
 # Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
   enable: false
   # if auto, trigger search by changing input
@@ -496,10 +709,40 @@ local_search:
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 
-# External URL with BASE64 encrypt & decrypt
+
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+
+# External URL with BASE64 encrypt & decrypt.
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
 exturl: false
+
+# Note tag (bs-callout).
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# Label tag.
+label: true
+
+# Tabs tag.
+tabs:
+  enable: true
+  transition:
+    tabs: false
+    labels: true
+  border_radius: 0
 
 
 #! ---------------------------------------------------------------
@@ -513,7 +756,31 @@ use_motion: true
 # Fancybox
 fancybox: true
 
+<<<<<<< HEAD
 #  这两个点用来控制背景，只能开启一个，不能同时开启
+||||||| merged common ancestors
+=======
+# Progress bar in the top during page loading.
+pace: false
+# Themes list:
+#pace-theme-big-counter
+#pace-theme-bounce
+#pace-theme-barber-shop
+#pace-theme-center-atom
+#pace-theme-center-circle
+#pace-theme-center-radar
+#pace-theme-center-simple
+#pace-theme-corner-indicator
+#pace-theme-fill-left
+#pace-theme-flash
+#pace-theme-loading-bar
+#pace-theme-mac-osx
+#pace-theme-minimal
+# For example
+# pace_theme: pace-theme-center-simple
+pace_theme: pace-theme-minimal
+
+>>>>>>> 25452962de4f4223bfe39b3feafd65d46f5fd75d
 # Canvas-nest
 canvas_nest: true
 # three_waves
@@ -572,6 +839,14 @@ vendors:
   algolia_instant_js:
   algolia_instant_css:
 
+  # Internal version: 1.0.2
+  # See: https://github.com/HubSpot/pace
+  # Or use direct links below:
+  # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
+  # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
+  pace:
+  pace_css:
+
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
@@ -600,7 +875,6 @@ vendors:
   han:
 
 
-
 # Assets
 css: css
 js: js
@@ -610,4 +884,4 @@ images: images
 since: 2015
 
 # Theme version
-version: 5.1.1
+version: 5.1.2

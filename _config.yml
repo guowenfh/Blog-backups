@@ -114,12 +114,11 @@ theme: next
 links_title: 友情链接
 # links
 links:
-  Lxxyx: http://www.lxxyx.win/
+  Lxxyx: https://www.lxxyx.win/
   uhey: https://u-hey.github.io/
-  天桥: http://indexof.site/
+  天桥: https://indexof.site/
   老军医: http://iwuly.com/
-  小强: http://tostring.site/
-  洋洋: http://html-js.site/
+  洋洋: https://html-js.site/
   兔耳日记: http://www.tuer.me/
 
 # Deployment
