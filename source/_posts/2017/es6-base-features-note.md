@@ -11,6 +11,8 @@ categories: [JS深度学习]
 2. 没有变量提升（预解析）
 3. 块级作用域（一对 `{}` 包括的区域称为一个代码块，`let` 声明的变量只在该代码块起作用）
 
+
+
 例子1 ：简单的打印数据
 
 使用 `var`:
@@ -35,6 +37,7 @@ for(var i = 0; i<10;i++){
     })(i)
 }
 ```
+<!--more-->
 
 例子二：在网页中常常会有切换 tab ，展示对应的信息的需求，我们使用 `var` 来处理时，常常使用的自定义属性，来保存点击的索引。`btns[i].index=i`。用于找到对应的元素。：
 
@@ -155,7 +158,7 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
 
 ## 扩展
 
-`Array.from(arrayLike[, mapFn[, thisArg]])` 
+`Array.from(arrayLike[, mapFn[, thisArg]])`
 - `arrayLike` : 想要转换成真实数组的类数组对象或可遍历对象。
 - `mapFn` : 可选参数，如果指定了该参数，则最后生成的数组会经过该函数的加工处理后再返回。
 - `thisArg` : 可选参数，执行 mapFn 函数时 this 的值。方法用于将两类对象转为真正的数组：类似数组的对象和可遍历的对象（包括 ES6 新增的数据结构 Set 和 Map ）
@@ -183,7 +186,7 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
 （`Set`,`String`,`Array`,`NodeList`等等）
 
 ```js
-{    
+{
     // NodeList对象
     let ps = document.querySelectorAll('p');
     for (let v of ps){
@@ -272,11 +275,11 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
 
 ```js
 {
-    // 我们都知道数组的 sort 并不是根据数值大小来排序的，需要排序时，要通过回调函数的形式来确定排序方式 
+    // 我们都知道数组的 sort 并不是根据数值大小来排序的，需要排序时，要通过回调函数的形式来确定排序方式
     var arr = [7,8,9,10]
     arr.sort() // [10, 7, 8, 9]
     arr.sort(function(a,b){return a-b}) // [7, 8, 9, 10]
-    arr.sort((a,b)=> a - b ) // 箭头函数简化。当仅有一条语句时，有一个隐式的 return 
+    arr.sort((a,b)=> a - b ) // 箭头函数简化。当仅有一条语句时，有一个隐式的 return
 }
 ```
 
@@ -292,7 +295,7 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
     };
     foo(1,2,3)
     // 1 2 3
-    // Uncaught ReferenceError: arguments is not defined      
+    // Uncaught ReferenceError: arguments is not defined
 }
 ```
 
@@ -304,7 +307,7 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
 {
     window.name='window';
     var obj = {
-        name:'obj',     
+        name:'obj',
         getName: function(){
             console.log(this.name)
         }
@@ -314,7 +317,7 @@ ES6 允许按照一定的模式，从数组和对象中提取值，这样就称�
     getName() // window， this 总是指向调用者
     //-----------------
     var obj = {
-        name:'obj',     
+        name:'obj',
         getName: () =>{
             console.log(this.name)
         }
