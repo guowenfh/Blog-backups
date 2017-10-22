@@ -22,3 +22,10 @@ function walkDir (dir, dirPath) {
 walkDir(dir, commonPath)
 
 console.log(`博客总字数为：${totalLength}`)
+
+// 读取文件，为之后的图片上传到七牛做准备
+// fs.readFile('./source/_posts/2017/flexLayout.md', function (err, data) {
+//     if (err) throw err;
+//     var markdownContent = data.toString();
+//     console.log( markdownContent );
+// });
