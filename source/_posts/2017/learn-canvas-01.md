@@ -4,7 +4,7 @@ tags: [canvas]
 categories: [前端技术]
 ---
 
-> 由于上一篇描述的原因。有图像处理的需求，于是我就开始学习 canvas 啦，和以前的一样，这一篇也是一边学一边写,敲出来的。有不正确的地方，欢迎指出😊
+> 由于上一篇描述的原因。有图像处理的需求，于是我就开始学习 canvas 啦，和以前的一样，这一篇也是一边学一边写，敲出来的。有不正确的地方，欢迎指出。
 > canvas 本身的 api 描述是比较简单，但是衍生出来的东西，操作，图像处理，动画，性能，还是非常的多的。所以对于 canvas 的学习不出意外的话，将会是一个系列。这就是第一篇了。下面就开始吧
 
 ## 前言
@@ -13,12 +13,13 @@ categories: [前端技术]
 <canvas id="canvas" style="background:blue;">浏览器不支持canvas</canvas>
 ```
 
-在不支持 canvas 的浏览器中，显示标签中的内容.绘图区域 默认是 300 x 150。
-canvas 中的宽高是实际的宽高，css 中的 宽高会等比缩放。
+在不支持 canvas 的浏览器中，显示标签中的内容。
+绘图区域 默认是 300 x 150。
+canvas 中的宽高是实际的宽高，css 中的宽高会等比缩放。
 在开始绘图之前需要先，获取绘图环境。
 
 ```js
-const  canvas = document.querySelector('#canvas');
+const canvas = document.querySelector('#canvas');
 if(canvas.getContext){
     const context = canvas.getContext('2d');
     // .... 绘制
@@ -40,7 +41,7 @@ if(canvas.getContext){
 // 边框实际上被加粗了
 context.strokeRect(100,100,50,50);
 // 正常边框 1px
-context.strokeRect(160.5,160.5,50,50)
+context.strokeRect(160.5,160.5,50,50); 
 }
 ```
 
@@ -55,8 +56,8 @@ context.strokeRect(160.5,160.5,50,50)
 context.strokeStyle='rgba(0,0,255,0.5)';
 context.lineWidth=5;
 // 调整 fillRect／ strokeRect 的顺序将有不一样的表现
-context.strokeRect(160.5,160.5,50,50)
-context.fillRect(160.5,160.5,50,50)
+context.strokeRect(160.5,160.5,50,50);
+context.fillRect(160.5,160.5,50,50);
 }
 ```
 
@@ -79,11 +80,11 @@ context.fillRect(160.5,160.5,50,50)
 
 ```js
 {
-context.beginPath()
+context.beginPath();
 context.moveTo(100,100);
 context.lineTo(150,100);
 context.lineTo(100,150);
-context.closePath()
+context.closePath();
 // 填充
 context.fill();
 // 边框
@@ -106,13 +107,13 @@ context.stroke();
 
 ```js
 {
-context.moveTo(200,200)
-context.arc(200,200,150,0,90 * Math.PI / 180, true)
+context.moveTo(200,200);
+context.arc(200,200,150,0,90 * Math.PI / 180, true);
 // context.closePath();
 context.stroke();
 
 context.moveTo(100,150);
-context.arcTo(100,100,200,100,50)
+context.arcTo(100,100,200,100,50);
 context.stroke();
 
 // 贝塞尔曲线
@@ -142,10 +143,10 @@ context.stroke();
 - `transform(m11, m12, m21, m22, dx, dy)`
 
 ```js
-context.translate(200,100)
-context.rotate(Math.PI / 180 * 30)
-context.scale(1.6,1)
-context.fillRect(10,10,50,50)
+context.translate(200,100);
+context.rotate(Math.PI / 180 * 30);
+context.scale(1.6,1);
+context.fillRect(10,10,50,50);
 ```
 
 ## 实例
@@ -157,7 +158,7 @@ context.fillRect(10,10,50,50)
 
 ```js
 (function(){
-    document.body.innerHTML='<canvas id="canvas" width="1000" height="1000">浏览器不支持</canvas>'
+    document.body.innerHTML='<canvas id="canvas" width="1000" height="1000">浏览器不支持</canvas>';
     var canvas = document.querySelector('#canvas');
     if(!canvas.getContext) return;
     var context = canvas.getContext('2d');
@@ -171,10 +172,10 @@ context.fillRect(10,10,50,50)
         const left = ev.clientX - canvas.offsetLeft;
         const top = ev.clientY - canvas.offsetTop;
         context.moveTo(left,top);
-        document.addEventListener('mousemove',move)
+        document.addEventListener('mousemove',move);
     })
     document.addEventListener('mouseup',()=>{
-        document.removeEventListener('mousemove',move)
+        document.removeEventListener('mousemove',move);
     })
 })();
 ```
@@ -185,7 +186,7 @@ context.fillRect(10,10,50,50)
 
 ```js
 (function(){
-    document.body.innerHTML='<canvas id="canvas" width="1000" height="1000">浏览器不支持</canvas>'
+    document.body.innerHTML='<canvas id="canvas" width="1000" height="1000">浏览器不支持</canvas>';
     var canvas = document.querySelector('#canvas');
     if(!canvas.getContext) return;
     var context = canvas.getContext('2d');
@@ -200,18 +201,18 @@ context.fillRect(10,10,50,50)
         context.fillStyle="#fff";
         context.fillRect(-200, -200, canvas.width, canvas.height);
         if(num2===100){
-            value = -1
+            value = -1;
         }else if(num2===0){
-            value= 1
+            value = 1;
         }
         num2 += value;
-        context.scale(num2 / 50,num2 / 50)
+        context.scale(num2 / 50,num2 / 50);
         context.rotate(num * Math.PI / 180);
         context.translate(-50,-50);
         context.fillStyle="#000";
         context.fillRect(0,0,100,100);
         context.restore();
-        requestAnimationFrame(start)
+        requestAnimationFrame(start);
     }
     start();
 })();
