@@ -19,9 +19,12 @@ categories: [前端技术]
 [electron-中文文档](https://wizardforcel.gitbooks.io/electron-doc/content/faq/electron-faq.html)
 
 <!--more-->
+
+
 在我加入项目之前，壳就已经搭好了，我只是在之上去开发。然而我接触时间太短，然后就撤离了，只能说一些我看到的和用到的部分。（ 其它存在的问题, 比如：安全，目前没有更多的精力去解决）
 
 了解之后，最开始的项目搭建是使用的 [electron-quick-start](https://github.com/electron/electron-quick-start) 来快速的构建出 一个 electron 客户端的项目。
+
 
 由于项目需要快速迭代和试错。也没有使用大多数客户端项目将所有资源存在本地，然后再去更新本地资源的形式，而是在客户端暴露 sdk 的情况下 直接 load 了一个 远程地址
 
