@@ -1,7 +1,7 @@
 title: 一次canvas中文字转化成图片后清晰度丢失的探索
 date: 2018-03-05 22:56:53
-tags:
-categories:
+tags: [canvas]
+categories: [前端技术]
 ---
 
 > 本文最初记录在 2017 年 D2 期间。知乎问题为：参加第12届D2前端技术论坛，你有什么收获？
