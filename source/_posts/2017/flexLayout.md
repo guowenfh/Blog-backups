@@ -25,6 +25,7 @@ FlexBox 可控制子元素:
 ## 方向相关属性
 
 ### `flex-direction`
+
 - 设置子元素排列方向 (其实也就是主轴的排列方向)
 - 取值 `row` | `row-reverse` | `column` | `column-reverse`
 - 默认 `row`: 
@@ -33,11 +34,12 @@ FlexBox 可控制子元素:
 ![](https://ws1.sinaimg.cn/large/82d12951gy1fg4x85yqm6j21dc0fs761.jpg)
 
 ###  `flex-wrap`
+
 - 元素在主轴方向排放时，能否换行
 - 取值:`nowrap` | `wrap` | `wrap-reverse`
 - 默认 `nowrap`，不换行
 
-```css
+```less
 /*base css*/
 .container{
     width: 400px;

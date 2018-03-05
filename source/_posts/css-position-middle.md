@@ -128,6 +128,22 @@ categories: [前端技术]
 ```
 > 优点：居中元素不对其他元素产生影响。缺点：CSS3新属性支持IE9+，低版本浏览器不支持。
 
+### 3.2  `absolute`配合`margin:auto`
+
+```css
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+```
+
+> 优点：居中元素不对其他元素产生影响。缺点：CSS3新属性支持IE9+，低版本浏览器不支持。
 
 ## 4. 全能的`flex`
 
