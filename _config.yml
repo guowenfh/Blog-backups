@@ -78,8 +78,8 @@ tag_generator:
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 ##主题
-# theme: next
-theme: new-next
+theme: next
+# theme: new-next
 # theme: next-pisces
 
 
@@ -112,15 +112,15 @@ theme: new-next
 
 #友情链接
 # title, chinese available
-# links_title: 友情链接
+links_title: 友情链接
 # links
-# links:
-#   Lxxyx: https://www.lxxyx.win/
-#   uhey: https://u-hey.github.io/
-#   天桥: https://indexof.site/
-#   老军医: http://iwuly.com/
-#   洋洋: https://html-js.site/
-#   兔耳日记: http://www.tuer.me/
+links:
+  Lxxyx: https://www.lxxyx.win/
+  uhey: https://u-hey.github.io/
+  天桥: https://indexof.site/
+  老军医: http://iwuly.com/
+  洋洋: https://html-js.site/
+  兔耳日记: http://www.tuer.me/
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
