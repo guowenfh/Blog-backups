@@ -22,7 +22,7 @@ categories:
 
 事件，动画，选中，变换，loadJOSN()，toJSON() 。强大之处，不太好用几句话说清楚，部分功能如下图，建议官网体验:
 
-![](_image/15136105064056.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fp2cew4ofqj30uw0uu0xs.jpg)
 
 
 -----
