@@ -23,6 +23,7 @@ categories: [播客]
 - 并发与异步
 - 数学与编程
 
+<!-- more -->
 
 ###《Teahour.fm》
 
@@ -52,13 +53,8 @@ categories: [播客]
 - ES2015（下） - 贺师俊
 - Clojure编程语言 – Loretta
 
-### 《IT 公论》
 
-![IT 公论](https://ws2.sinaimg.cn/large/006tKfTcgy1fpp7tulyz3j3074074jrb.jpg)
-
->《IT 公论》由 IPN 出品、不鸟万如一和 Rio 主持，首播于二零一三年十一月。本节目系一种综合性之科技节目。收听对象，并不限于社会上某一阶层。凡职业部门不同，知识水准互异，而对于科技有共同兴趣者，从任何角度，收听此秀，不致味同嚼蜡，毫无所得。一切题材，即就雅俗两极之范围内，伸缩去取，尽量适用多方面之需要，以求俗不伤雅，雅不背时。科技播客，非奇技淫巧之表现也，亦非粉黑二元论争也。盖科技与吾人之关系至密至切，而欲其适合各人之需要，不悖于美之真义，则软件式款，与夫工作生活之配合，用例之转换，必有相当研究方克能之。而欲吾人乐愿研究之，则对于科技之兴趣，必先有以引起之，此《IT 公论》之滥觞也。二零一六年四月停播。
-
-[rss](https://itgonglun.com/rss)
+## 商业科技相关
 
 ###《疯投圈》
 
@@ -87,6 +83,44 @@ categories: [播客]
 
 [](http://www.lizhi.fm/rss/1728291.xml)
 
+[rss](http://yitianshijie.net/rss)
+
+
+### 字谈字畅
+
+ >《字谈字畅》是第一档用华语制作的字体排印主题播客节目，由 Eric Liu 与钱争予搭档主播。Type is Beautiful 出品。
+
+ [rss](https://www.typeisbeautiful.com/feed/typechat/)
+
+### 声东击西
+
+>我们聊技术和创新，也聊文化和电影，这里有一手的现场观察和体验，还有不定期出现的神秘嘉宾。你可以感受星战粉丝大会现场的沸腾，也能想象一下未来世界里的出行，以及美国年轻人都在关心什么新鲜事儿。
+
+[rss](http://www.etw.fm/rss)
+
+### Checked
+
+ >以科技提升效率，用效率改变生活。
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fs7jzi9l78j303k03k3yi.jpg)
+
+ [rss](http://checked.fm/feed/podcast)
+
+推荐：
+
+- 日历/待办事项/GTD
+- 访谈「也谈钱」: 你的钱是可以给你赚钱的
+- Pin 开发者——钟颖访谈
+
+### 《IT 公论》
+
+![IT 公论](https://ws2.sinaimg.cn/large/006tKfTcgy1fpp7tulyz3j3074074jrb.jpg)
+
+>《IT 公论》由 IPN 出品、不鸟万如一和 Rio 主持，首播于二零一三年十一月。本节目系一种综合性之科技节目。收听对象，并不限于社会上某一阶层。凡职业部门不同，知识水准互异，而对于科技有共同兴趣者，从任何角度，收听此秀，不致味同嚼蜡，毫无所得。一切题材，即就雅俗两极之范围内，伸缩去取，尽量适用多方面之需要，以求俗不伤雅，雅不背时。科技播客，非奇技淫巧之表现也，亦非粉黑二元论争也。盖科技与吾人之关系至密至切，而欲其适合各人之需要，不悖于美之真义，则软件式款，与夫工作生活之配合，用例之转换，必有相当研究方克能之。而欲吾人乐愿研究之，则对于科技之兴趣，必先有以引起之，此《IT 公论》之滥觞也。二零一六年四月停播。
+
+[rss](https://itgonglun.com/rss)
+
+## 看看世界
+
 ### 博物志
 
 ![博物志](https://ws3.sinaimg.cn/large/006tKfTcgy1fpp7nimt7rj3074074glh.jpg)
@@ -103,11 +137,8 @@ categories: [播客]
 
 > 一天世界，昆乱不挡。不鳥萬如一主理。IPN 出品。[《一天世界》博客](http://blog.yitianshijie.net)
 
-[rss](http://yitianshijie.net/rss)
 
-### 吴晓波频道
-
-[rss](http://www.ximalaya.com/album/269179.xml)
+## 心理学相关
 
 ### 得意忘形
 
@@ -122,43 +153,13 @@ categories: [播客]
 - 序言：「无为」与刻意、大脑的双系统、自由主义的危机与开篇絮语
 - 网球：孤独和它所创造的
 
-
-### Checked
-
- >以科技提升效率，用效率改变生活。
-![](https://ws4.sinaimg.cn/large/006tKfTcgy1fs7jzi9l78j303k03k3yi.jpg)
-
- [rss](http://checked.fm/feed/podcast)
-
-推荐：
-
-- 日历/待办事项/GTD
-- 访谈「也谈钱」: 你的钱是可以给你赚钱的
-- Pin 开发者——钟颖访谈
-
-### 太医来了
-
- >《太医来了》由 IPN 出品、由前骨科医生初洋和妇产科医生田吉顺主持，是中文互联网第一档医生谈话类播客。节目里没有老专家讲养生，只有几个医生聊聊医院里的事儿，顺便给大家做做科普。
-
- [rss](http://taiyilaile.com/rss)
-
 ### Blow Your Mind
 
 > 两个人的公路播客。
 
  [rss](http://nj.lizhi.fm/rss/14774.xml)
 
-### 字谈字畅
-
- >《字谈字畅》是第一档用华语制作的字体排印主题播客节目，由 Eric Liu 与钱争予搭档主播。Type is Beautiful 出品。
-
- [rss](https://www.typeisbeautiful.com/feed/typechat/)
-
-### 声东击西
-
->我们聊技术和创新，也聊文化和电影，这里有一手的现场观察和体验，还有不定期出现的神秘嘉宾。你可以感受星战粉丝大会现场的沸腾，也能想象一下未来世界里的出行，以及美国年轻人都在关心什么新鲜事儿。
-
-[rss](http://www.etw.fm/rss)
+## 知识型
 
 ### 狗熊有话说
 
@@ -166,11 +167,6 @@ categories: [播客]
 
 [rss](http://www.iclubkm.com/bearbigpodcast/feed/)
 
-### UX Coffee 设计咖
-
- >《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。微信公众号: uxcoffee
-
- [rss](https://rss.simplecast.com/podcasts/1897/rss)
 
 ### 罗辑思维
 
@@ -179,3 +175,21 @@ categories: [播客]
 [rss](http://podcast.taobility.com/category/logicthinking/feed/)
 
 
+## 杂项
+
+### UX Coffee 设计咖
+
+ >《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。微信公众号: uxcoffee
+
+ [rss](https://rss.simplecast.com/podcasts/1897/rss)
+
+
+### 太医来了
+
+ >《太医来了》由 IPN 出品、由前骨科医生初洋和妇产科医生田吉顺主持，是中文互联网第一档医生谈话类播客。节目里没有老专家讲养生，只有几个医生聊聊医院里的事儿，顺便给大家做做科普。
+
+ [rss](http://taiyilaile.com/rss)
+
+### 吴晓波频道
+
+[rss](http://www.ximalaya.com/album/269179.xml)

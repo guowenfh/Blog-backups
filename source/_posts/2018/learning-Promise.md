@@ -15,6 +15,8 @@ Promise 是解决 JS 异步的一种方案，相比传统的回调函数，Promi
 
 Promise 对象代表一个异步操作，有三种状态: `pending、fulfilled 或 rejected` ，状态的转变只能是 `pending -> fulfilled` 或者 `pending -> rejected` ，且**这个过程一旦发生就不可逆转**。
 
+<!-- more -->
+
 > 个人认为讲解 Promise 实际上需要分成两个部分
 > 1. 对于 Promise 构造函数的使用说明。
 > 2. Promise 原型对象上的一些方法。
