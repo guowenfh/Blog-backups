@@ -25,7 +25,8 @@ categories: [前端框架]
 - [webpack入坑之旅（五）加载vue单文件组件](//guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
 - [webpack入坑之旅（六）配合vue-router实现SPA](//guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
 
-----
+<!--more-->
+
 
 这个教程更多的是从基础开始学习，vue 与 webpack 应该要怎么结合。在真实的实际项目中，还是推荐 vue-cli。
 
