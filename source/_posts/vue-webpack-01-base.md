@@ -9,13 +9,12 @@ categories: [前端框架]
 
 这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](https://github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
 
-- [webpack入坑之旅（一）不是开始的开始](https://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
-- [webpack入坑之旅（二）loader入门](https://guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
-- [webpack入坑之旅（三）webpack.config入门](https://guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
-- [webpack入坑之旅（四）扬帆起航](https://guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
-- [webpack入坑之旅（五）加载vue单文件组件](https://guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
-- [webpack入坑之旅（六）配合vue-router实现SPA](https://guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
-
+- [webpack入坑之旅（一）不是开始的开始](//guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
+- [webpack入坑之旅（二）loader入门](//guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
+- [webpack入坑之旅（三）webpack.config入门](//guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
+- [webpack入坑之旅（四）扬帆起航](//guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
+- [webpack入坑之旅（五）加载vue单文件组件](//guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
+- [webpack入坑之旅（六）配合vue-router实现SPA](//guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
 
 ## 什么是webpack
 
@@ -25,16 +24,16 @@ Webpack 是德国开发者 Tobias Koppers 开发的模块加载器兼打包工�
 对应各种不同文件类型的资源, Webpack 有对应的模块 loader比如vue用的是`vue-loader`当然这是后话，在后面我们再来说。
 
 请看下图：
-![webpack](https://ws1.sinaimg.cn/large/82d12951gy1fewippstssj20go083wg6.jpg)
+![webpack](https://ws1.sinaimg.cn/large/006tNc79gy1ftyz6i6ca2j31fw0so77e.jpg)
 
-官网查看：[//github.com/webpack/webpack](https://github.com/webpack/webpack)
+[https://github.com/webpack/webpack](https://github.com/webpack/webpack)
 
 ## 安装
 
-前提：因为webpack是一个基于node的项目，所以首先需要确保你的电脑里面已经安装了`node.js`，以及`npm`。在这里我使用的版本是：`node：v5.8.0  ，npm：3.7.3`,若是版本问题，请更新到最新版。
-若是有出现npm安装过慢的情况，可以使用[nrm](https://github.com/Pana/nrm)这个项目来进行npm源地址的切换。
+前提：因为webpack是一个基于node的项目，所以首先需要确保你的电脑里面已经安装了`node.js`，以及`npm`。在这里我使用的版本是：`node：v8.11.2  ，npm：6.2.0`,若是版本问题，请更新到最新版。
+若是有出现npm安装过慢的情况，可以使用[nrm](https://github.com/Pana/nrm)这个项目来进行npm源地址的切换。或者使用使用淘宝出品的 `cnpm`
 
-首先我们直接进行全局的安装，运行如下命令：`npm install webpack -g`，可能需要一点时间。
+首先我们直接进行全局的安装，运行如下命令：`npm install webpack webpack-cli -g`，可能需要一点时间。
 
 安装成功后，在命令行输入`webpack -h`即可查看当前安装的版本信息。以及可以使用的指令。
 
@@ -47,9 +46,9 @@ npm init
 # 创建，直接一路回车就好，后面再来详细说里面的内容。
 # 安装 webpack 依赖
 
-npm install webpack --save-dev
+npm install webpack webpack-cli --save-dev
 # 简单的写法：-_-,缩写形式
-npm i webpack -D
+npm i webpack webpack-cli -D
 # –save：模块名将被添加到dependencies，可以简化为参数-S。
 # –save-dev: 模块名将被添加到devDependencies，可以简化为参数-D。
 
@@ -71,10 +70,10 @@ npm i webpack -D
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "webpack": "^1.12.14"
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
   }
 }
-
 ```
 既然环境都已经安装好了，那么我们就开始来用webpack进行我们的第一个打包运行程序吧！
 
@@ -88,7 +87,7 @@ npm i webpack -D
 </head>
 <body>
     <h1 id="app"></h1>
-    <script src="bundle.js"></script>
+    <script src="./dist/bundle.js"></script>
     <!-- 注意这里引入的不是我们创建的文件，而是用webpack生成的文件 -->
 </body>
 </html>
@@ -101,7 +100,16 @@ document.getElementById('app').innerHTML="这是我第一个打包成功的程�
 
 文件都已经创建成功了，那么就开始我们的打包吧！
 
-`webpack entry.js bundle.js`
+由于我们将 `webpack` 安装在了 项目目录。所以是不会向终端写入 `webpack` 命令的，这时我们可以像 npm script 中加入命令 :
+
+```js
+  "scripts": {
+    "start": "webpack entry.js --output-filename=./bundle.js --mode=development"
+  },
+```
+然后我们运行 `npm run start`,就会执行 `webpack entry.js --output-filename=./bundle.js --mode=development`。
+
+或者我们可以借用 npm 内置的执行器做到同样的事情 `npx webpack entry.js --output-filename=./bundle.js --mode=development`
 
 
 在浏览器中打开`index.html`，就能看到我们设置的文字啦！：**这是我第一个打包成功的程序**
@@ -111,7 +119,7 @@ document.getElementById('app').innerHTML="这是我第一个打包成功的程�
 
 下面我们再来增加一个文件，名为`first.js`内容如下：
 
-```js
+```javascript
 var h2= document.createElement("h2")
 h2.innerHTML="不是吧，那么快第二个打包程序啦！";
 document.body.appendChild(h2);
@@ -119,13 +127,13 @@ document.body.appendChild(h2);
 
 更改 `entry.js`:
 
-```js
+```javascript
 document.getElementById('app').innerHTML="这是我第一个打包成功的程序";
 //添加
 require("./first.js");
 ```
 
-再来进行一次重复的工作，再打包一次。`webpack entry.js bundle.js`，如果成功，打包过程会显示日志：
+再来进行一次重复的工作，再打包一次。`webpack entry.js --output-filename=./bundle.js --mode=development`，如果成功，打包过程会显示日志：
 
 ```sh
 Hash: b1cfe7ff9d75ce235dc9
@@ -142,6 +150,7 @@ bundle.js  1.82 kB       0  [emitted]  main
 刷新浏览器，可以发现我们的刚刚的代码已经生效，又有了新的文字出现。
 
 好吧，我知道这么简单的你们不屑于看，等下我们升个级。
+
 
 > 下面是参考文档，也相当于一个汇总吧，有很多我还没实践到，还是可以多看看，好文章应该贴出来
 

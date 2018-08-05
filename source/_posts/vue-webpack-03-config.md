@@ -5,12 +5,12 @@ categories: [前端框架]
 ---
 这是一系列文章，此系列所有的练习都存在了我的github仓库中[vue-webpack](https://github.com/guowenfh/vue-webpack)，在本人有了新的理解与认识之后,会对文章有不定时的更正与更新。下面是目前完成的列表：
 
-- [webpack入坑之旅（一）不是开始的开始](https://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
-- [webpack入坑之旅（二）loader入门](https://guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
-- [webpack入坑之旅（三）webpack.config入门](https://guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
-- [webpack入坑之旅（四）扬帆起航](https://guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
-- [webpack入坑之旅（五）加载vue单文件组件](https://guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
-- [webpack入坑之旅（六）配合vue-router实现SPA](https://guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
+- [webpack入坑之旅（一）不是开始的开始](//guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
+- [webpack入坑之旅（二）loader入门](//guowenfh.github.io/2016/03/24/vue-webpack-02-deploy/)
+- [webpack入坑之旅（三）webpack.config入门](//guowenfh.github.io/2016/03/24/vue-webpack-03-config/)
+- [webpack入坑之旅（四）扬帆起航](//guowenfh.github.io/2016/03/24/vue-webpack-04-custom/)
+- [webpack入坑之旅（五）加载vue单文件组件](//guowenfh.github.io/2016/03/25/vue-webpack-05-vue/)
+- [webpack入坑之旅（六）配合vue-router实现SPA](//guowenfh.github.io/2016/03/28/vue-webpack-06-router/)
 
 
 在上面我们已经尝试过了两种对于loader的使用方式，无论是在`require`的时候编写我们`loader`的前缀，还是在我们的命令行中进根据扩展名来自动绑定我们的`loader`，显然都不够自动化，在需要编译的语言继续增加的情况下，显然会是一个噩梦。
@@ -23,20 +23,31 @@ Webpack在执行的时候，除了在命令行传入参数，还可以通过指�
 所以现在我们就来新建一个`webpack.config.js`，在里面填写进下面的内容：
 
 ```js
-var Webpack = require("webpack");
+const webpack = require("webpack");
+const path = require('path')
 module.exports = {
     entry: ["./entry.js"],
     output: {
-        path: __dirname,
+        path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js"
     },
+    mode: 'development',
     module: {
-        loaders: [{
-            test: /\.css$/,
-            loader: "style!css"
-        }]
-    }
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
+    },
+    plugins: [
+        new webpack.BannerPlugin("这里是打包文件头部注释")
+    ]
 }
+
 ```
 
 我们现在仅仅需要运行:`webpack`，如果你的配置没有问题的话，可以在命令行中看到正确的输出，因为这个命令会自动在当前目录中查找`webpack.config.js`的配置文件，并按照里面定义的规则来进行执行。
@@ -69,7 +80,7 @@ var Webpack = require("webpack");//必须引入
 module:{
 },
 plugins: [
-    new Webpack.BannerPlugin("这里是打包文件头部注释！")//注意这是一个数组..
+    new webpack.BannerPlugin("这里是打包文件头部注释！")//注意这是一个数组..
 ]
 ```
 
@@ -78,12 +89,18 @@ plugins: [
 ```js
 /*! 这里是打包文件头部注释 */
 /******/ (function(modules) { // webpackBootstrap
-/******/    // The module cache
-/******/    var installedModules = {};
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
         /***  省略 ***/
         })
 ```
 最简单的插件使用方式就是这样的了，就如上面一样的，平淡无奇。
+
+[还有部分说明](./webpack.config.js.md)
 
 
 如果看到了这里，相信你对于`webpack`的最基本的了解应该就差不多了，下面正式进入实战的阶段，来看看我们的一些`loader`到底是怎么样使用的。
