@@ -5,6 +5,8 @@ categories: [前端技术,异步编程]
 
 ---
 
+![回调地狱](https://ws4.sinaimg.cn/large/0069RVTdgy1fuwvkqjzvdj30k00bnmym.jpg)
+
 > 很久没有进行过创作了，也感觉到了自己的不足。这一篇文章是对于 JavaScript 异步编程的一个 整理
 > 希望自己更多的成为一个创造者，而不是只会看，会用，还需要深入理解到原理吧。（虽然这个也很水..
 
