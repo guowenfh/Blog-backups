@@ -1,4 +1,4 @@
-title: 从一个简单的实例看 JavaScript 的异步进化历
+title: 从一个简单的实例看 JavaScript 的异步编程进化历
 date: 2018-09-03 14:32:24
 tags: [异步编程,JS,Promise,async,generator]
 categories: [前端技术,异步编程]
