@@ -8,14 +8,14 @@ subtitle: 兴趣遍地都是，专注和持之以恒才是真正稀缺的。
 description: 芝兰生于深林，不以无人而不芳。
 author: guowenfh
 language: zh-Hans
-timezone:
+? timezone
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://guowenfh.github.io
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+? permalink_defaults
 
 # Directory
 source_dir: source
@@ -25,7 +25,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+? skip_render
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -41,15 +41,14 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace:
+  ? tab_replace
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+? category_map
+? tag_map
 
 # 设置文章显示个数
-
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -82,13 +81,11 @@ theme: next
 # theme: new-next
 # theme: next-pisces
 
-
 # #百度网站统计
 # baidu_analytics: 23a157b5fe12ea1f925808de31def828
 
 # 这里是控制博客跳转的
 # blog_migration_new_url: true
-
 
 # Swiftype Search Key站内搜索
 # Swiftype_key: hgLic_uJPFsSQxKjp8sA
@@ -102,15 +99,16 @@ theme: next
 #社交网络，在主题配置，
 # Social links
 # social:
-  # github: https://github.com/guowenfh
-  # #twitter: https://twitter.com/your-user-name
-  # 微博: http://weibo.com/u/2194745681
-  # #douban: http://douban.com/people/your-user-name
-  # 知乎: http://www.zhihu.com/people/guowen921
-  # S F: http://segmentfault.com/u/guowenfh
-  # 等等
+# github: https://github.com/guowenfh
+# #twitter: https://twitter.com/your-user-name
+# 微博: http://weibo.com/u/2194745681
+# #douban: http://douban.com/people/your-user-name
+# 知乎: http://www.zhihu.com/people/guowen921
+# S F: http://segmentfault.com/u/guowenfh
+# 等等
 
 #友情链接
+# 小木 https://wxy-mu.github.io/
 # title, chinese available
 links_title: 友情链接
 # links
@@ -128,4 +126,3 @@ deploy:
   type: git
   repo: git@github.com:guowenfh/guowenfh.github.io.git
   branch: master
-
