@@ -8,12 +8,12 @@ categories: [前端技术,异步编程]
 ![回调地狱](https://ws4.sinaimg.cn/large/0069RVTdgy1fuwvkqjzvdj30k00bnmym.jpg)
 
 > 很久没有进行过创作了，也感觉到了自己的不足。这一篇文章是对于 JavaScript 异步编程的一个 整理
-> 希望自己更多的成为一个创造者，而不是只会看，会用，还需要深入理解到原理吧。（虽然这个也很水..
+> 希望自己更多的成为一个创造者，而不是只会看，会用，还需要深入理解到原理吧。
 
 例子如下：
 
-> 我们有 A, B, C, D 四个请求获取数据的函数（函数自己实现）
-> C 依赖 B 的结果，D 依赖 ABC 的结果，最终输出 D 的结果
+> 我们有 A, B, C, D 四个请求获取数据的函数（函数自己实现），
+> C 依赖 B 的结果，D 依赖 ABC 的结果，最终输出 D 的结果。
 
 <!-- more -->
 
@@ -54,11 +54,11 @@ A(function(resa) {
 ```
 
 emm...代码还是能运行，但是写法丑陋，回调地狱，如果还有请求依赖，得继续回调嵌套
-性能太差，没有考虑 a 和 b 实际上是可以并发的。
+性能太差，没有考虑 A 和 B 实际上是可以并发的。
 
 ### 例子二
 
-函数基础实现如同例子一，但是考虑 A,B 可以并发的
+函数基础实现如同例子一，但是考虑 A,B 可以并发的。
 
 ```js
 // 伪代码
@@ -115,7 +115,7 @@ B(datab => {
 });
 ```
 
-使用 计数器实现。性能没什么问题，但是 封装太差，写法恶心
+使用 计数器实现。性能没什么问题，但是 封装太差，写法恶心。
 
 ### 例子四
 
@@ -193,9 +193,9 @@ parallel(
 模仿 async.js 提炼出来了 waterfall，parallel，两个流程控制函数。还不错。
 但是写法还是麻烦，对于 A,B,C 的实现有要求。得自己考虑好每一次 callback 的值。
 
-**async.js**是我认为在目前 JavaScript callback 的终极解决方案了（没用过 fib.js..
+**async.js** 是我认为在目前 JavaScript callback 的终极解决方案了（没用过 fib.js..
 
-推荐查看 [github async.js](https://github.com/caolan/async) 源码
+推荐查看 [github async.js](https://github.com/caolan/async) 源码。
 
 waterfall 可以考虑使用函数式的形式实现：
 
@@ -231,7 +231,8 @@ Promise.all[(A(), B().then(b => C(b)))]
   });
 ```
 
-使用 Promise 来代替 之前的 callback。好评。用 Promise.all 来控制并发，使用 .then 串行请求，整体看起来非常舒服了，脱离了回调地狱
+使用 Promise 来代替 之前的 callback。好评。
+用 Promise.all 来控制并发，使用 .then 串行请求，整体看起来非常舒服了，脱离了回调地狱。
 
 ### 例子六
 
@@ -354,7 +355,7 @@ scheduler(generatorTask);
 抛弃了 thunk 函数，修改了一下 A，B，C，D。的实现以及 generator 执行函数 scheduler。 结合了 Promise 重新实现了并发和串行。
 再等等？？好麻烦啊。。然后并发好像和 generator 没什么关系吧。果然还是 Promise 大法好。
 
-关于 generator 的自动执行建议直接看 [github tj/co](https://github.com/tj/co) 的源码
+关于 generator 的自动执行建议直接看 [github tj/co](https://github.com/tj/co) 的源码。
 
 ### 例子八
 
@@ -377,7 +378,7 @@ asyncTask().then(resd => {
 ```
 
 使用 Promise 结合 async/await 的形式 ，看起来非常简洁。也不用自己写执行器了，舒服。
-但是和上面有几个版本出现了一样的问题，没有考虑并发的情况，导致性能下降
+但是和上面有几个版本出现了一样的问题，没有考虑并发的情况，导致性能下降。
 
 ### 例子九，终极方案？
 

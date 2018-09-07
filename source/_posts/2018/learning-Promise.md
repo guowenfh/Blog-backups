@@ -449,15 +449,13 @@ Promise.resolve(11)
 使用 Array.reduce 方法串行执行 Promise
 
 ```js
-const sleep = (time = 0) =>
-  new Promise(resolve => setTimeout(resolve, time))[
-    (1000, 2000, 3000, 4000)
-  ].reduce((Promise, item, index) => {
-    return Promise.then(res => {
-      console.log(index + 1);
-      return sleep(item);
-    });
-  }, Promise.resolve());
+const sleep = (time = 0) => new Promise(resolve => setTimeout(resolve, time));
+[1000, 2000, 3000, 4000].reduce((Promise, item, index) => {
+  return Promise.then(res => {
+    console.log(index + 1);
+    return sleep(item);
+  });
+}, Promise.resolve());
 // 在分别的等待时间后输出 1，2，3，4
 ```
 
