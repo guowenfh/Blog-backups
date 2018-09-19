@@ -403,6 +403,50 @@ asyncTask().then(resd => {
 使用 Promise.all 结合 async/await 的形式，考虑了并发和串行，写法简洁。
 应该算是目前的终极方案了。 async/await 作为 generator 语法糖还是非常的甜的。
 
+### 例子十 使用 RxJs
+
+```js
+import { defer, forkJoin } from "rxjs";
+import { mergeMap, map } from "rxjs/operators";
+
+function A() {
+  return fetch("https://cnodejs.org/api/v1/topics").then(res => res.json());
+}
+function B() {
+  return fetch("https://cnodejs.org/api/v1/topics").then(res => res.json());
+}
+function C() {
+  return fetch("https://cnodejs.org/api/v1/topics").then(res => res.json());
+}
+function D(...args) {
+  return fetch("https://cnodejs.org/api/v1/topics")
+    .then(res => res.json())
+    .then(res => [...args, res]);
+}
+// A, B, C, D 函数必须返回 Promise
+// 使用 defer 产生一个 Observable
+const A$ = defer(() => A());
+// pipe 类型 Promise 链中 的 then
+const BC$ = defer(() => B()).pipe(
+  // mergeMap 映射成 promise 并发出结果
+  mergeMap(resB => {
+    // 使用 map 产生新值
+    return defer(() => C(resB)).pipe(map(resC => [resB, resC]));
+  })
+);
+
+// forkJoin 类似 Promise.all 并发执行多个 Observable
+forkJoin(A$, BC$)
+  .pipe(mergeMap(([resa, [resb, resc]]) => D(resa, resb, resc)))
+  .subscribe(resd => {
+    console.log("this is D result:", resd); // <------- fnD 返回的结果
+  });
+```
+
+使用 rxjs 来构建流式的请求过程。结构还是非常清晰的，但是相对繁琐，概念也比 原生的 Promise 和 await 要多
+
+不过 rxjs 操作符巨多，掌握之后，可以做更多的事情
+
 ---
 
 结语：
