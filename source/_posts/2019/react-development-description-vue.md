@@ -8,6 +8,8 @@ categories: [react, vue]
 > 用 react 的思想 去考虑 vue 要怎么写。
 > 本文很水。而且将来感觉一定会被打脸，期待那一天到来。
 
+ <!-- more -->
+
 其实也就几块
 
 1. 你可以把 template 就看成 react 的 render 就是写法有一些不一样，看一下 vue 的指令就可以了，当然也可以直接用 render function
