@@ -1,0 +1,31 @@
+# 
+
+关于 fabric 的系列教程
+
+第一部分简介：
+
+什么是 Fabric
+    Objects
+    Canvas
+    Images
+    Path and PathGroup
+    
+    第二部分：
+    
+Animation
+Image filters
+Colors
+Gradients
+Text
+Events
+
+第三部分
+
+Groups
+Serialization
+Deserialization, SVG Parser
+Subclassing
+
+第四部分
+Free drawing
+Customization
