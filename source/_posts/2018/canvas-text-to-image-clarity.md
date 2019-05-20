@@ -54,8 +54,10 @@ categories: [前端技术]
 
 --- 
 
-2018-03-05 记录
+2018-03-05 记录 上面清晰度的问题已经解决。
 
-上面清晰度的问题已经解决，方案是: **购入了 mac 服务器** 。专门用于图片生成。
+1. 同时购入  **mac server** 与 **windows server** 用于图片生成。 （ mac 的文字显示效果与 mac 电脑的一致。（相对于 windows 来说 加黑加粗了
+2. 弃用了 phantomjs 改用 google 出品的 Puppeteer。
+3. 截图选项使用 png （即使是 quality 100 的 jpg 仍旧渲染会有问题。如果 png 文件过大， 再使用 imagemagick / GraphicsMagick 进行压缩。
 
 
