@@ -119,6 +119,12 @@ categories: [播客]
 
 [rss](https://itgonglun.com/rss)
 
+### WEB VIEW
+
+>「不囿于 WEB，不止于 VIEW」，WEB VIEW 是由王隐和敬礼主持的一档泛科技播客。节目中我们谨慎考量技术进步所带来的优缺点，提倡用「人治」的方法重新审视我们的日常生活。
+
+![](http://ww2.sinaimg.cn/large/006tNc79ly1g3hew7acxfj30e80e80tg.jpg)
+
 ## 看看世界
 
 ### 博物志
