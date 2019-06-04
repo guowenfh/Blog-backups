@@ -1,7 +1,7 @@
 title: 再谈中文字体的子集化与动态创建字体
 date: 2019-06-04 19:31:00
 tags: [字体,node,JS,webfont]
-categories: [前端技术,node, webfont]
+categories: [前端技术,node,webfont]
 ---
 
 > 其实在项目中用中文字体子集化已经很久了，在刚接受到项目时真的让用户去下载全量字体的方式也早已被废除。如今终于有时间将它整理成文。算是对这件事情的一个基本了结吧。
@@ -173,7 +173,7 @@ var glyphs = font.glyphs.glyphs // 重点（存储了所有的 字形的列表�
 先来看一下 在 `font-carrier2` 中如何通过空白字体去创建文字。具体效果可以在库中 `test/index.html` 看到。
 
 - [https://github.com/guowenfh/font-carrier2/blob/master/test/create_test.js](https://github.com/guowenfh/font-carrier2/blob/master/test/create_test.js)
-- ![createEmptyFont](./media/createEmptyFont.png)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g3p9k8zzptj30u01w0dq1.jpg)
 
 其实这个图看完。结合我们之前我们看的 `font-carrier2` 处理流程。 我们动态创建字体的思路就很明确了。
 
