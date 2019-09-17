@@ -5,13 +5,13 @@ categories: [react,前端技术]
 ---
 
 > 需求：我们现在有一个获取验证码的按钮，需要在点击后禁用，并且在按钮上显示倒计时60秒才可以进行第二次点击。
-> 本篇文章通过对这个需求的八种实现方式来讨论在  react 中的逻辑复用的进化过程
+> 本篇文章通过对这个需求的八种实现方式来讨论在 react 中的逻辑复用的进化过程
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g72u9uxyqyj30k00zl0u8.jpg)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g72uk6zdtqj30k00fxwfe.jpg)
 
-代码例子放在了 codesandbox 上。
+代码例子放在了 [codesandbox](https://codesandbox.io/s/kind-herschel-l4f9h?fontsize=14) 上。
 
-[![Edit react-loading-button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/kind-herschel-l4f9h?fontsize=14)
+ <!-- more -->
 
 ### 方案一 使用 setInterval
 

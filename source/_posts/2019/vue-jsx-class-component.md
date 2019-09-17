@@ -1,11 +1,13 @@
 title: 在 vue 中使用 jsx 与 class component 的各种姿势
-date: 2019-04-28 12:00:00
+date: 2019-09-17 21:00:00
 tags: [react, vue]
 categories: [react, vue]
 ---
 
 > 在之前我们分享过一次 [一个使用 react 的思想去使用 vue 的方式](https://blog.guowenfh.com/2019/04/28/2019/react-development-description-vue/)。
 > 随着组内很多时候为了让 view 层更加清晰，和一些复杂的逻辑处理，导致现在 vue 代码中 jsx 的代码越来越多，这里进行一个整理说明
+
+ <!-- more -->
 
 ## 如何使用 
 
