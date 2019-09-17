@@ -179,6 +179,8 @@ egg.js 是蚂蚁金服出品的一个企业级 node.js 框架。可以高效的�
 
 这里简单说一下怎么结合 puppeteer-pool 在一起使用 核心其实就是 创建 `app.js`  做初始化处理。
 
+**需要注意 结合 `egg.js` 使用时，需要手动指定 `workers` 数量为 1: `egg-scripts start --daemon --workers=1` 不然会启动 `pool.max * workers` 数量的 `Puppeteer` 实例**
+
 ```javascript
 const initPuppeteerPool = require('./util/puppeteer-pool')
 const { EventEmitter } = require('events')
@@ -227,8 +229,8 @@ class ScreenshotService extends Service {
 这里说三个 Puppeteer 使用上的坑吧：
 
 1. 可以看到第 5 点：由于我们的场景对于图片清晰度要求很高，所以发现了这个问题。（Puppeteer 导出 png 再调用 imagemagick 转成jpg ,也比直接使用 Puppeteer 导出 jpg 清晰度高（即便清晰度设置成了100 -_- !））
-2. Puppeteer 无法截图产生超过 65535 的图。（当然 imagemagick 也无法处理超过这个的图。（这个是一个挺有意思的事情。有兴趣的可以去搜索这个数看看
-3. Puppeteer@1.12.2 之后的版本 单张截图超过 6000（不确定值，但是确实会出问题，因为出现问题就没升级了）有一定概率导致 图片部分区域为空白。
+2. Puppeteer 无法截图产生超过 65535 的图。（当然 imagemagick，sharp 也无法处理超过这个的图。（这个是一个挺有意思的事情。有兴趣的可以去搜索这个数看看
+3. Puppeteer@1.12.2 之后的版本 单张截图超过 8000（4096 * 2）（不确定值，但是确实会出问题，因为出现问题就没升级了）有一定概率导致 图片部分区域为空白。
 
 ## 后续/扩展
 
