@@ -340,7 +340,7 @@ export default () => (
 
 那咋办嘛？
 
-### 方案五 试试 Hoc
+### 方案五 试试 HOC
 
 ```jsx
 import React from 'react'
@@ -431,6 +431,8 @@ export default () => (
 ```
 
 我们使用 高阶组件再次重写了整个逻辑。好像基本上需求都满足了？
+这个地方思路在于，将 onClick 或者叫做 onStart 事件暴露出来了，最终的执行，
+都是由外部组件自行决定执行时机，那么其实不管怎么搞都可以了
 
 ### 方案六 renderProps
 
