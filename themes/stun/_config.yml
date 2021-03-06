@@ -286,7 +286,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: https://ws1.sinaimg.cn/large/82d12951gy1fewv9toa2xj206y06ygnp.jpg
+    url: /images/avatar.jpg
     # If true, the avatar would be displayed in a circle.
     rounded: false
     # Opacity of avatar (value: 0 ~ 1)
