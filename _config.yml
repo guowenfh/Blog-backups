@@ -77,7 +77,7 @@ tag_generator:
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 ##主题
-theme: next
+theme: stun
 # theme: new-next
 # theme: next-pisces
 
