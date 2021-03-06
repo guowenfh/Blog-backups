@@ -293,7 +293,7 @@ author:
     opacity: 1
     # Mouse hover animation
     # Optional values: turn | shake
-    animation: turn
+    animation: shake
   # Your favorite motto.
   motto: 芝兰生于深林，不以无人而不芳。
 
@@ -689,7 +689,7 @@ canvas_ribbon:
 # Canvas-nest
 # Dependency: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   # Color of lines.
   # RGB values, use `,` to separate.
   color: "0,0,0"
