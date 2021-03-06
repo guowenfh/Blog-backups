@@ -138,11 +138,11 @@ header:
   height: 80%
   # Background image of site header.
   bg_image:
-    enable: false
+    enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: /images/header-bg.webp
   # Mask effect of the background image.
   mask:
     enable: false
@@ -374,10 +374,10 @@ heading_line: true
 
 # Reward QR Code
 reward:
-  enable: false
+  enable: true
   # Your QR code for collecting money.
-  alipay: https://ws1.sinaimg.cn/large/82d12951gy1fewv8ifdbjj20ee0eldh0.jpg
-  wechat: https://ws1.sinaimg.cn/large/82d12951gy1fewv9a4ry8j20bn0bngmo.jpg
+  alipay: /images/alipay.png
+  wechat: /images/wechat.png
 
 # ---------------------------------------------------------------
 # Post config
@@ -632,7 +632,7 @@ google_analytics:
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/
-baidu_analytics:
+baidu_analytics: 23a157b5fe12ea1f925808de31def828
 
 # Tencent analytics ID
 # See: https://v2.ta.qq.com/
