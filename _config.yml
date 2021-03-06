@@ -7,8 +7,8 @@ title: 三省吾身丶丶
 subtitle: 兴趣遍地都是，专注和持之以恒才是真正稀缺的。
 description: 芝兰生于深林，不以无人而不芳。
 author: guowenfh
-language: zh-Hans
-? timezone
+language: zh-CN
+# ? timezone
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -120,7 +120,10 @@ links:
   洋洋: https://html-js.site/
   兔耳日记: http://www.tuer.me/
   健翔: https://blog.csdn.net/qq_27680317
-
+search:
+  path: search.json
+  field: post
+  content: true
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
